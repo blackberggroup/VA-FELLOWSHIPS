@@ -1,7 +1,8 @@
 @use "uswds-core" as *;
+@use "../../variables" as *;
 
 .usa-footer {
-
+    
     .usa-footer__logo-img {
         max-width: 18rem;
     }
