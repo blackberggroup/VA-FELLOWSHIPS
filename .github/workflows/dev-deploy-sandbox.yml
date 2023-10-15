@@ -25,4 +25,3 @@ jobs:
           **/assets/sass/**
           **/uswds/img/material-icons-deprecated/**
           **/uswds/img/material-icons/*
-          **/uswds/img/usa-icons/*
