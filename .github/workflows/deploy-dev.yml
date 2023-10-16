@@ -1,5 +1,5 @@
 on: push
-name: 🚀 Deploy to Sandbox on push
+name: 🚀 Deploy to Dev on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -16,7 +16,7 @@ jobs:
         password: ${{ secrets.ftp_password }}
         port: 21
         local-dir: ./_site/
-        server-dir: innovation.bgsandbox.com/ecosystem/views/programs/fellowship/
+        server-dir: dev-innovation.bgsandbox.com/va-fellowships/
         exclude: |
           **/.DS_Store
           **/.git*
