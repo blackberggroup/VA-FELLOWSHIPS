@@ -353,7 +353,7 @@
 <!-- END USWDS Header, extended-->
       
         <main>
-            <section id="masthead" class="masthead">
+            <section id="masthead" class="masthead position-relative z-top">
     <div class="masthead__content-wrapper">
         <div class="grid-container">
             <div class="grid-row grid-gap">
@@ -364,8 +364,8 @@
                     <div class="masthead__tagline">
                         Developing Health Care Leaders of Tomorrow
                     </div>
-                    <div class="masthead__image ">
-                        <img src="assets/img/home/masthead-image.png" class="radius-lg shadow-4" alt="People huddling around a table doing project planning" />
+                    <div class="masthead__image">
+                        <img src="assets/img/home/masthead-image.webp" class="radius-lg shadow-4" alt="People huddling around a table doing project planning" />
                     </div>
                 </div>
             </div>
@@ -389,28 +389,52 @@
         <div class="block block-color-2"></div>
     </div>     
 </section>
-            <section id="application" class="application padding-top-2">
-    <div class="grid-container">
+            <section id="application" class="application">
+    <div class="grid-container position-relative">
         <div class="grid-row grid-gap">
             <div class="grid-col-12 tablet-lg:grid-col-10 tablet-lg:grid-offset-1">
-                <div class="application__container text-white radius-lg vha-bg-primary-dark padding-3 tablet:padding-4">
+                <div class="application__container position-relative text-white radius-lg vha-bg-primary-dark padding-3 tablet:padding-4 margin-top-3">
                     <div class="grid-row flex-align-center">
                         <div class="grid-col-12 tablet-lg:grid-col-9">
                             <h3 class="margin-top-0">Join the VHA Innovation Ecosystem Fellowship Program</h3>
                             <p">Embrace the opportunity to empower your innovative spirit, shape the future of healthcare, and make a lasting impact within the VA community.</p>
                         </div>
                         <div class="grid-col-12 tablet-lg:grid-col-3">
-                            <div class="display-flex flex-column flex-align-end">
+                            <div class="application__button">
                                 <a href="fellowship-application/" class="usa-button usa-button--outline usa-button--inverse">Apply Today!</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>         
+        </div>    
+        <div class="application__svg-bg position-absolute">
+            <svg viewBox="0 0 1059 830" preserveAspectRatio="xMidYMax meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.36" filter="url(#filter0_f_173_161)">
+                <path d="M190 374.73L445.359 190L630.088 445.359L374.73 630.088L190 374.73Z" fill="#E43D97"/>
+                <path d="M428.004 384.086L683.362 199.356L868.092 454.714L612.734 639.444L428.004 384.086Z" fill="#8B2684"/>
+                </g>
+                <defs>
+                <filter id="filter0_f_173_161" x="0" y="0" width="1058.09" height="829.444" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feGaussianBlur stdDeviation="95" result="effect1_foregroundBlur_173_161"/>
+                </filter>
+                </defs>
+            </svg>  
+        </div>    
     </div>
 </section>
-            
+            <section id="our-mission" class="our-mission mobile:padding-y-8 tablet:padding-y-10 desktop-lg:padding-y-15">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="grid-col-12 tablet-lg:grid-col-10 tablet-lg:grid-offset-1 text-center">
+                <h1>Our Mission</h1>
+                <p>VHA Innovation Ecosystem Fellowships empower Veterans Health Administration employees through strategic guidance and relationship development to become change agents and catalytic leaders capable of championing solutions that will improve healthcare for Veterans.</p>
+            </div>
+        </div>
+    </div>
+</section>
         </main>
 
         <!-- USDWS Footer, medium custom -->
