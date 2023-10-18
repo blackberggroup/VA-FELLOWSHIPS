@@ -2,7 +2,12 @@
 @use "../../variables" as *;
 
 .vha-button {
-    
+    &--primary {
+        background-color: #{color("violet-warm-60v")};
+        &:hover {
+            background-color: #{color("violet-warm-70v")};
+        }
+    }
 }
 
 .vha-button {
