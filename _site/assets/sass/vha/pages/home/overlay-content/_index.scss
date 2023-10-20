@@ -2,10 +2,12 @@
 @use "../../../variables" as *;
 
 .overlay-content {
+
     &__wrapper {
+        z-index: 5;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        background-color: #F8F0F9;
+        // background-color: #F8F0F9;
 
         @include at-media(tablet) {
             border-bottom-left-radius: .5rem;
@@ -22,12 +24,27 @@
             top: 50%;
             transform: translateY(-50%);
         }        
+
+        &--right {
+
+            @include at-media(tablet) {
+                position: absolute;
+                background: none;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+            }            
+        }
     }
 
     &__image {
-        background-color: #F8F0F9;
+        // background-color: #F8F0F9;
         border-bottom-left-radius: .5rem;
         border-bottom-right-radius: .5rem;
+
+        img {
+            display: block;
+        }
 
         @include at-media(tablet) {
             position: absolute;
@@ -35,5 +52,107 @@
             top: 50%;
             transform: translateY(-50%);
         }        
+    }
+
+    &__logo-stroke {
+        z-index: -1;
+        height: 80%;
+        width: 80%;
+
+        &.logo-stroke-1 {
+            top: -30px;
+            left: -20px;
+        }
+
+        &.logo-stroke-2 {
+            top: -20px;
+            left: -50px;
+        } 
+    }    
+
+
+    @include at-media(mobile) {
+        &__logo-stroke { 
+            height: 80%;
+            width: 80%;
+
+            &.logo-stroke-1 {
+                top: -30px;
+                left: -20px;
+            }
+
+            &.logo-stroke-2 {
+                top: -20px;
+                left: -50px;
+            }            
+        }        
+    }
+
+    @include at-media(mobile-lg) {
+        &__logo-stroke { 
+            height: 50%;
+            width: 50%;
+
+            &.logo-stroke-1 {
+                top: -50px;
+                left: -20px;
+            }
+
+            &.logo-stroke-2 {
+                top: -10px;
+                left: -50px;
+            }            
+        }        
+    }    
+
+    @include at-media(tablet-lg) {
+        &__logo-stroke { 
+            height: 478px;
+            width: 471px;
+
+            &.logo-stroke-1 {
+                top: -60px;
+                left: -30px;
+            }
+
+            &.logo-stroke-2 {
+                top: -30px;
+                left: -70px;
+            }            
+        }        
+    }
+
+    @include at-media(desktop) {
+        &__logo-stroke { 
+            height: 480px;
+            width: 510px;
+
+            &.logo-stroke-1 {
+                top: -60px;
+                left: -50px;
+            }
+
+            &.logo-stroke-2 {
+                top: -30px;
+                left: -80px;
+            }            
+        }
+    }
+  
+    @include at-media(desktop-lg) {
+        &__logo-stroke { 
+            height: 570px;
+            width: 566px;
+
+            &.logo-stroke-1 {
+                top: -80px;
+                left: -10px;
+            }
+
+            &.logo-stroke-2 {
+                top: -30px;
+                left: -80px;
+            }            
+        }
     }
 }
