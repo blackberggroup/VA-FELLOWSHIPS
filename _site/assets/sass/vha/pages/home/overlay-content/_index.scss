@@ -1,0 +1,39 @@
+@use "uswds-core" as *;
+@use "../../../variables" as *;
+
+.overlay-content {
+    &__wrapper {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-color: #F8F0F9;
+
+        @include at-media(tablet) {
+            border-bottom-left-radius: .5rem;
+            border-bottom-right-radius: .5rem;
+        }        
+    }
+
+    &__image-column {
+        position: relative;
+
+        @include at-media(tablet) {
+            position: absolute;
+            background: none;
+            top: 50%;
+            transform: translateY(-50%);
+        }        
+    }
+
+    &__image {
+        background-color: #F8F0F9;
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+
+        @include at-media(tablet) {
+            position: absolute;
+            background: none;
+            top: 50%;
+            transform: translateY(-50%);
+        }        
+    }
+}
