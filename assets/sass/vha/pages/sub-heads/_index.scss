@@ -1,0 +1,16 @@
+@use "uswds-core" as *;
+
+.masthead-sub {
+    background: linear-gradient(235deg,#93348c,#fd4496,#93348c);
+    background-size: 600% 600%;
+    position: relative;
+    
+    -webkit-animation: GradientRotation 40s ease infinite;
+    -moz-animation: GradientRotation 40s ease infinite;
+    animation: GradientRotation 40s ease infinite;
+
+    @include at-media(mobile) {
+        height: 250px;
+    }
+
+}
