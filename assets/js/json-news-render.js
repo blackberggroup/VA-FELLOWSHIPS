@@ -174,7 +174,7 @@ var newsData = {
             "title": "Innovation Revolutionary: Priya Joshi",
             "url": "https://news.va.gov/109225/revolutionary-inclusion-equity-kidney-disease/",
             "description": "Priya Joshi has been working on addressing a new biomarker for more equity in treating kidney disease."
-        }      
+        }
     ]
 
 }

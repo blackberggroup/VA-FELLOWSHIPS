@@ -78,19 +78,27 @@ section#page--bios {
         > div {
             border-radius: 8px;
             background: #f8f0f9;
-            margin-top: 28%;
-            padding: 1% 6% 2% 6%;
+            position: absolute;
+            bottom: 11%;
+            padding: 1% 6% 2%;
+            max-width: 85%;
         }
 
         @media screen and (max-width: 1400px) and (min-width: 1024px) {
             > div {
+                position: relative;
                 margin-top: 25%;
+                max-width: none;
+                bottom: auto;
             }
         }
 
         @media screen and (max-width: 1023px) {
             > div {
+                position: relative;
                 margin: 10% 0;
+                max-width: none;
+                bottom: auto;
             }
         }
     }
@@ -98,7 +106,7 @@ section#page--bios {
 }
 
 section#page--news {
-    
+
     background-color: #F8F0F9;
 
     a {
