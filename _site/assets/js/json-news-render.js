@@ -192,7 +192,7 @@ for (var i = 0; i < newsJsonData.length; i++) {
     if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 ) {
         newsPageData.data.push(newsJsonData[i]); 
         newsItemCount = newsPageData.data.length;
-        //console.log(newsPageData.data.length);
+        console.log(newsPageData.data.length);
     } 
 }
 
@@ -200,7 +200,11 @@ var count1;
 var count2;
 var count3;
 
-if (newsItemCount == 1) {
+if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
+
+    $('#page--news').hide();
+
+} else if (newsItemCount == 1) {
 
     newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='grid-col-12 tablet:grid-col-3 outer-div'>" + "<div class='usa-card__container'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>" + "</div>")); 
 

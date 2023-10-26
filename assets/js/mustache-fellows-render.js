@@ -2,7 +2,7 @@
 let candisView = {
     id: "candis-connell",
     fellow_type: "sif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/CandisConnell.jpg",
     alt: "Candis Connell, Psy.D.",
     bio_name: "Candis Connell, Psy.D.",
@@ -18,7 +18,7 @@ let candisView = {
 let jacquelynView = {
     id: "jacquelyn-paykel",
     fellow_type: "sif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/JacquelynPaykel.jpg",
     alt: "Jacquelyn Paykel, M.D., M.B.A.",
     bio_name: "Jacquelyn Paykel, M.D., M.B.A.",
@@ -34,7 +34,7 @@ let jacquelynView = {
 let melissaView = {
     id: "melissa-tran",
     fellow_type: "sif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/MelissaTran.jpg",
     alt: "Melissa Tran, PMH-C",
     bio_name: "Melissa Tran, PMH-C",
@@ -51,7 +51,7 @@ let melissaView = {
 let aksharView = {
     id: "akshar-abbott",
     fellow_type: "eif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/AksharAbbott.jpg",
     alt: "Akshar Abbott, M.D.",
     bio_name: "Akshar Abbott, M.D.",
@@ -68,7 +68,7 @@ let aksharView = {
 let taylorView = {
     id: "taylor-hooker",
     fellow_type: "eif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/TaylorHooker.jpg",
     alt: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     bio_name: "Taylor Hooker, M.S., CTRS, NBC-HWC",
@@ -85,7 +85,7 @@ let taylorView = {
 let stacyView = {
     id: "stacy-lewis",
     fellow_type: "eif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/StaceyLewis.jpg",
     alt: "Stacey Lewis, BSHIM, LSSBB",
     bio_name: "Stacey Lewis, BSHIM, LSSBB",
@@ -102,11 +102,11 @@ let stacyView = {
 let priyaView = {
     id: "priya-joshi",
     fellow_type: "eif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/priyajoshi.jpg",
     alt: "Priya Joshi, MD",
     bio_name: "Priya Joshi, MD",
-    title: "2022, 2023 Entrepreneur in Residence",
+    title: "2022, 2023 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
     job_description: "",
@@ -174,7 +174,7 @@ let loriView = {
     img: "../assets/img/fellows/lori_murphy.jpg",
     alt: "Lori Murphy, MSW, LISW-S",
     bio_name: "Lori Murphy, MSW, LISW-S",
-    title: "2024 Entrepreneur in Residence",
+    title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
     job_description: "",
