@@ -130,75 +130,44 @@ let kevinView = {
     office_title: "Clinical Neuropsychologist",
     office_location: "Northern California Health Care System",
     project: "Virtual Rehabilitation Game Development, Testing, and Improvement",
-    bio: "Kevin Carroll is a Clinical Neuropsychologist within the Northern California Health Care System, specializing in helping patients recover from complex neurological injuries. Dr. Carroll completed both his internship and residency at VA facilities, completing his dissertation on amnesia at VA Boston Health Care. After receiving funding support from VISN 21 and their Innovator Awards in 2021 and 2023, Dr. Caroll completed a virtual rehabilitation game. The game uses a 3D depth camera to integrate patients into a custom-made video game for rehabilitation. As an Entrepreneur in Residence, Dr. Carroll will be identifying therapists and Veteran patients to test and improve the existing product, with a goal to be used in acute, outpatient, and home settings moving forward."
+    bio: "Kevin Carroll is a Clinical Neuropsychologist within the Northern California Health Care System, specializing in helping patients recover from complex neurological injuries. Dr. Carroll completed both his internship and residency at VA facilities, completing his dissertation on amnesia at VA Boston Health Care. After receiving funding support from VISN 21 and their Innovator Awards in 2021 and 2023, Dr. Caroll completed a virtual rehabilitation game. The game uses a 3D depth camera to integrate patients into a custom-made video game for rehabilitation.",
+    bio2: "As an Entrepreneur in Residence, Dr. Carroll will be identifying therapists and Veteran patients to test and improve the existing product, with a goal to be used in acute, outpatient, and home settings moving forward."
 };
 
-let nicholView = {
-    id: "nichol-salvo",
-    fellow_type: "sif",
-    fellow_status: "current",
-    img: "../assets/img/fellows/nichol_salvo.jpg",
-    alt: "Nichol Salvo, DPM",
-    bio_name: "Nichol Salvo, DPM",
-    title: "2024 Senior Innovation Fellow",
-    job: "",
-    job2: "",
-    job_description: "",
-    office_title: "Chief of Podiatry, Program Director, Limb Preservation",
-    office_location: "Atlanta VA Health Care System",
-    project: "High-Risk Limb Preservation Program",
-    bio: "Dr. Nichol Salvo is the Chief of Podiatry and Limb Preservation Program Director at the Atlanta VA Health Care System. She additionally serves as a faculty member in the PMSR/RRA Podiatry Residency Program at the Atlanta VA. Additionally, as Director of the High-Risk Eye and Limb Preservation Program (HELPP), she works with the VISN 7 Clinical Resource Hub, which provides eye exams, foot exams, and basic foot care services for Veteran patients at increased risk for amputation and blindness. She is recognized as a leader and coalition builder to provide easier access to these services for our nation's Veterans. As a Senior Innovation Fellow, Dr. Salvo's mission is to provide basic foot care to patients at increased risk for amputation, improve access and timeliness of care, and prevent amputation in Veterans, establishing a model of care that can be used nationally across VA. This is to be accomplished by developing a permanent program using telehealth and tele-supervision, which allows podiatrists to serve more patients than in traditional face-to-face clinical settings."
-};
-
-let ronaView = {
-    id: "nichol-salvo",
-    fellow_type: "sif",
-    fellow_status: "current",
-    img: "../assets/img/fellows/rona_relova.jpg",
-    alt: "Rona Relova, MD",
-    bio_name: "Rona Relova, MD",
-    title: "2024 Senior Innovation Fellow",
-    job: "",
-    job2: "",
-    job_description: "",
-    office_title: "Research Health Scientist",
-    office_location: "VA Palo Alto Healthcare Systems",
-    project: "Establishing a Foundational Roadmap to Optimize a Pharmacogenomics (PGx) Clinical Workflow, a Novel Clinical Program to Improve Drug Response Outcomes",
-    bio: "Dr. Rona Relova is a Research Health Scientist and Principal Investigator Administrator at VA Palo Alto, where she supervises all aspects of the research programs within the Precision Health Service. Working with research teams, pharmacists, lab and nurse managers, and others, Dr. Relova also directs Veteran-facing operations and cohort development for the VA Genomics Medicine Program (Million Veteran Program) and the NIH Precision Medicine Initiative (All of Us Research Program). Her work in translational research takes scientific discoveries in the clinic and transforms those findings into new treatments or approaches in medical care that improve Veteran health. As a Senior Innovation Fellow, Dr. Relova will be expanding the Pharmacogenomics (PGx) Initiative, a clinical program that enables the use of a Veteran's pharmacogenomic profile to assist with medication management. Pharmacogenetics is the study of how an individual's genetic make-up affects one's response to different medications. Knowledge of a patient's genetic profile may help providers determine an appropriate drug or dose. By utilizing PGx, clinicians are guided in personalized prescribing of medications to improve efficacy or prevent side effects."
-};
-
-let loriView = {
-    id: "lori-murphy",
+let elizabethView = {
+    id: "elizabeth-dinges",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/lori_murphy.jpg",
-    alt: "Lori Murphy, MSW, LISW-S",
-    bio_name: "Lori Murphy, MSW, LISW-S",
+    img: "../assets/img/fellows/elizabeth_dinges.jpg",
+    alt: "Elizabeth Dinges, PharmD",
+    bio_name: "Elizabeth Dinges, PharmD",
     title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
     job_description: "",
-    office_title: "Caregiver Support Program Senior Social Worker",
-    office_location: "Central Ohio VA Healthcare System",
-    project: "Compassionate Contact Corps",
-    bio: "Lori Murphy is the Caregiver Support Program Senior Social Worker at the Central Ohio VA Healthcare System, and has led the Compassionate Contact Corps from 2020, expanding this new approach to combatting Veteran loneliness to over 70 VA facilities within 3 years, with 450 program volunteers serving over 8,300 hours in Fiscal Year 2023. Recognized as a subject matter expert on loneliness and social connection within VA, Ms. Murphy was invited to join a coalition of federal government offices, including the Department of Health and Human Services and the Office of the Surgeon General, to coordinate the U.S. governments efforts on combatting loneliness. As part of her fellowship year, Ms. Murphy will be representing VA as a health care industry leader in addressing loneliness and streamlining and expanding the Compassionate Contact Corps through a technology partnership. Her goal is to modernize, streamline, and expand Compassionate Contact Corps to reach more Veterans and improve the user experience."
+    office_title: "Clinical Pharmacist Practitioner, Harm Reduction Coordinator",
+    office_location: "VA Illiana Healthcare System",
+    project: "Incorporating Veterans with Lives/Living Experience to Improve VA Delivery of Harm Reduction Supplies and Services",
+    bio: "Dr. Elizabeth Dinges is a Clinical Pharmacist and Harm Reduction Coordinator at the VA Illiana Healthcare System and has been serving Veterans within VA since 2007. Dr. Dinges helped pilot VA's first syringe program, in 2017, which was recognized by the VHA Shark Tank Competition. To date, there are over 15 VA facilities who now have safe syringe programs due to her work. Dr. Dinges is viewed as an expert on harm reduction, both within and outside of VA, and has given numerous presentations on improving the delivery of harm reduction services to patients.",
+    bio2: "Dr. Dinges will be spending her Entrepreneur in Residence Fellowship growing harm reduction offerings and delivery within VA and have it continue to be an exemplar to other federal and health care agencies to follow. Dr. Dinges will be working to add infectious disease and addiction treatment to harm reduction offerings, leaning on her current experience as Harm Reduction Coordinator. Dr. Dinges is partnering on this project with fellow 2024 Entrepreneur in Residence Fellow Dr. Minh Ho."
 };
 
-let maryView = {
-    id: "mary-julius",
-    fellow_type: "sif",
+let jayView = {
+    id: "jay-gorman",
+    fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/mary_julius.jpg",
-    alt: "Mary Julius, RDN, LD, CDCES",
-    bio_name: "Mary Julius, RDN, LD, CDCES",
-    title: "2024 Senior Innovation Fellow",
+    img: "../assets/img/fellows/jay_gorman.jpg",
+    alt: "Jay Gorman, PhD",
+    bio_name: "Jay Gorman, PhD",
+    title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
     job_description: "",
-    office_title: "Quality Manager, National VA-DOD Virtual Diabetes Self-Management Education Program, Program Coordinator, Diabetes Self-Management Education and Support",
-    office_location: "Northeast Ohio VA Medical Center",
-    project: "Diabetes Technology Expansion of the VA-DOD Virtual Diabetes Self-Management Education Program",
-    bio: "As Quality Manager for the National VA-DOD Virtual Diabetes Self-Management Education Program, Mary Julius is responsible for program implementation, dissemination, review, outcome reporting, and evaluation of all phases of the national diabetes self-management training program. Ms. Julius is an expert in diabetes research and care, having brought the first Continuous Glucose Monitors to VA in 2013. Since then, she has been the recipient of a Joint Executive Fund to pilot a VA-DOD Diabetes Self-Management Education Support Program, training health care professionals on how to best support and educate patients and one another on diabetes care. She has been instrumental in growing the program to a combined 27 successful locations, with 39 locations in process. As a Senior Innovation Fellow, Ms. Julius is working to expand the program curriculum to include continuous glucose monitoring, engage experts within and outside of VA, expand the program to multiple states, and incorporate a whole health approach to diabetes self-care and management."
+    office_title: "MIRREC Clinical Research Investigator, Director, Social Reintegration Research Program",
+    office_location: "VA Bedford Healthcare System",
+    project: "Veterans Socials: Expanding Social Support in the Community",
+    bio: "Dr. Jay Gorman is a clinical research psychologist in the VISN 1 New England Mental Illness Research, Education, and Clinical (MIRREC) Center and Director of the Social Reintegration Research Program at the VA Bedford Healthcare System. He also serves as an Assistant Professor at the Boston University School of Medicine and on several treatment related committees within and outside of VA. Dr. Gorman received seed funding through the VHA Shark Tank Competition to boost community reintegration for Veterans seeking independent living. Since then, Dr. Gorman has continued to develop and improve social reintegration programs and offerings for Veterans.",
+    bio2: "As an Entrepreneur in Residence, Dr. Gorman will be spreading awareness of the need for increased social reintegration services and programs across VA facilities and identifying new facilities to spread his programs to. He will be creating a multidisciplinary stakeholder collaboration plan, disseminating Veterans Social guidance to external VA collaborators, and decreasing loneliness and increasing social support systems for Veterans across the U.S."
 };
 
 let minhView = {
@@ -218,42 +187,80 @@ let minhView = {
     bio: "Dr. Minh Ho is the Acting Chief of Infectious Disease, and an Epidemiologist at Orlando VA. Dr. Ho also has appointments as the Orlando VA Internal Medicine Clerkship Site Director and an Associate Professor of Medicine at the University of Central Florida College of Medicine and University of South Florida. Dr. Ho contributed to the implementation of Syringe Service Programs in Orlando and was a Seed and Spread investee through The Innovators Network Spark-Seed-Spread program, spreading best practices to VA facilities in both Denver and Baltimore. Dr. Ho has also worked to connect Veterans with crucial resources in supportive environments through Stand Down events. Dr. Ho is partnering with fellow 2024 Entrepreneur in Residence Dr. Elizabeth Dinges to spread harm reduction supplies and services to more VA facilities while ensuring Veterans who use drugs are incorporated into VA care models and decisions. His work will continue to make an impact on marginalized Veteran populations, elevating VA as a national leader in harm reduction in health care settings."
 };
 
-let jayView = {
-    id: "jay-gorman",
-    fellow_type: "eif",
+let maryView = {
+    id: "mary-julius",
+    fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/jay_gorman.jpg",
-    alt: "Jay Gorman, PhD",
-    bio_name: "Jay Gorman, PhD",
-    title: "2024 Entrepreneur in Residence Fellow",
-    job: "",
+    img: "../assets/img/fellows/mary_julius.jpg",
+    alt: "Mary Julius, RDN, LD, CDCES",
+    bio_name: "Mary Julius, RDN, LD, CDCES",
+    title: "2024 Senior Innovation Fellow",
+    job: "Quality Manager, National VA-DOD Virtual Diabetes Self-Management Education Program",
     job2: "",
     job_description: "",
-    office_title: "MIRREC Clinical Research Investigator, Director, Social Reintegration Research Program",
-    office_location: "VA Bedford Healthcare System",
-    project: "Veterans Socials: Expanding Social Support in the Community",
-    bio: "Dr. Jay Gorman is a clinical research psychologist in the VISN 1 New England Mental Illness Research, Education, and Clinical (MIRREC) Center and Director of the Social Reintegration Research Program at the VA Bedford Healthcare System. He also serves as an Assistant Professor at the Boston University School of Medicine and on several treatment related committees within and outside of VA. Dr. Gorman received seed funding through the VHA Shark Tank Competition to boost community reintegration for Veterans seeking independent living. Since then, Dr. Gorman has continued to develop and improve social reintegration programs and offerings for Veterans. As an Entrepreneur in Residence, Dr. Gorman will be spreading awareness of the need for increased social reintegration services and programs across VA facilities and identifying new facilities to spread his programs to. He will be creating a multidisciplinary stakeholder collaboration plan, disseminating Veterans Social guidance to external VA collaborators, and decreasing loneliness and increasing social support systems for Veterans across the U.S."
+    office_title: "Program Coordinator, Diabetes Self-Management Education and Support",
+    office_location: "Northeast Ohio VA Medical Center",
+    project: "Diabetes Technology Expansion of the VA-DOD Virtual Diabetes Self-Management Education Program",
+    bio: "As Quality Manager for the National VA-DOD Virtual Diabetes Self-Management Education Program, Mary Julius is responsible for program implementation, dissemination, review, outcome reporting, and evaluation of all phases of the national diabetes self-management training program. Ms. Julius is an expert in diabetes research and care, having brought the first Continuous Glucose Monitors to VA in 2013. Since then, she has been the recipient of a Joint Executive Fund to pilot a VA-DOD Diabetes Self-Management Education Support Program, training health care professionals on how to best support and educate patients and one another on diabetes care. She has been instrumental in growing the program to a combined 27 successful locations, with 39 locations in process.",
+    bio2: "As a Senior Innovation Fellow, Ms. Julius is working to expand the program curriculum to include continuous glucose monitoring, engage experts within and outside of VA, expand the program to multiple states, and incorporate a whole health approach to diabetes self-care and management."
 };
 
-let elizabethView = {
-    id: "elizabeth-dinges",
+let loriView = {
+    id: "lori-murphy",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/elizabeth_dinges.jpg",
-    alt: "Elizabeth Dinges, PharmD",
-    bio_name: "Elizabeth Dinges, PharmD",
+    img: "../assets/img/fellows/lori_murphy.jpg",
+    alt: "Lori Murphy, MSW, LISW-S",
+    bio_name: "Lori Murphy, MSW, LISW-S",
     title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
     job_description: "",
-    office_title: "Clinical Pharmacist Practitioner, Harm Reduction Coordinator",
-    office_location: "VA Illiana Healthcare System",
-    project: "Incorporating Veterans with Lives/Living Experience to Improve VA Delivery of Harm Reduction Supplies and Services",
-    bio: "Dr. Elizabeth Dinges is a Clinical Pharmacist and Harm Reduction Coordinator at the VA Illiana Healthcare System and has been serving Veterans within VA since 2007. Dr. Dinges helped pilot VA's first syringe program, in 2017, which was recognized by the VHA Shark Tank Competition. To date, there are over 15 VA facilities who now have safe syringe programs due to her work. Dr. Dinges is viewed as an expert on harm reduction, both within and outside of VA, and has given numerous presentations on improving the delivery of harm reduction services to patients. Dr. Dinges will be spending her Entrepreneur in Residence Fellowship growing harm reduction offerings and delivery within VA and have it continue to be an exemplar to other federal and health care agencies to follow. Dr. Dinges will be working to add infectious disease and addiction treatment to harm reduction offerings, leaning on her current experience as Harm Reduction Coordinator. Dr. Dinges is partnering on this project with fellow 2024 Entrepreneur in Residence Fellow Dr. Minh Ho."
+    office_title: "Caregiver Support Program Senior Social Worker",
+    office_location: "Central Ohio VA Healthcare System",
+    project: "Compassionate Contact Corps",
+    bio: "Lori Murphy is the Caregiver Support Program Senior Social Worker at the Central Ohio VA Healthcare System, and has led the Compassionate Contact Corps from 2020, expanding this new approach to combatting Veteran loneliness to over 70 VA facilities within 3 years, with 450 program volunteers serving over 8,300 hours in Fiscal Year 2023. Recognized as a subject matter expert on loneliness and social connection within VA, Ms. Murphy was invited to join a coalition of federal government offices, including the Department of Health and Human Services and the Office of the Surgeon General, to coordinate the U.S. governments efforts on combatting loneliness.",
+    bio2: "As part of her fellowship year, Ms. Murphy will be representing VA as a health care industry leader in addressing loneliness and streamlining and expanding the Compassionate Contact Corps through a technology partnership. Her goal is to modernize, streamline, and expand Compassionate Contact Corps to reach more Veterans and improve the user experience."
 };
-  
+
+let ronaView = {
+    id: "rona-relova",
+    fellow_type: "sif",
+    fellow_status: "current",
+    img: "../assets/img/fellows/rona_relova.jpg",
+    alt: "Rona Relova, MD",
+    bio_name: "Rona Relova, MD",
+    title: "2024 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Research Health Scientist",
+    office_location: "VA Palo Alto Healthcare Systems",
+    project: "Establishing a Foundational Roadmap to Optimize a Pharmacogenomics (PGx) Clinical Workflow, a Novel Clinical Program to Improve Drug Response Outcomes",
+    bio: "Dr. Rona Relova is a Research Health Scientist and Principal Investigator Administrator at VA Palo Alto, where she supervises all aspects of the research programs within the Precision Health Service. Working with research teams, pharmacists, lab and nurse managers, and others, Dr. Relova also directs Veteran-facing operations and cohort development for the VA Genomics Medicine Program (Million Veteran Program) and the NIH Precision Medicine Initiative (All of Us Research Program). Her work in translational research takes scientific discoveries in the clinic and transforms those findings into new treatments or approaches in medical care that improve Veteran health.",
+    bio2: "As a Senior Innovation Fellow, Dr. Relova will be expanding the Pharmacogenomics (PGx) Initiative, a clinical program that enables the use of a Veteran's pharmacogenomic profile to assist with medication management. Pharmacogenetics is the study of how an individual's genetic make-up affects one's response to different medications. Knowledge of a patient's genetic profile may help providers determine an appropriate drug or dose. By utilizing PGx, clinicians are guided in personalized prescribing of medications to improve efficacy or prevent side effects."
+};
+
+let nicholView = {
+    id: "nichol-salvo",
+    fellow_type: "sif",
+    fellow_status: "current",
+    img: "../assets/img/fellows/nichol_salvo.jpg",
+    alt: "Nichol Salvo, DPM",
+    bio_name: "Nichol Salvo, DPM",
+    title: "2024 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Chief of Podiatry, Program Director, Limb Preservation",
+    office_location: "Atlanta VA Health Care System",
+    project: "High-Risk Limb Preservation Program",
+    bio: "Dr. Nichol Salvo is the Chief of Podiatry and Limb Preservation Program Director at the Atlanta VA Health Care System. She additionally serves as a faculty member in the PMSR/RRA Podiatry Residency Program at the Atlanta VA. Additionally, as Director of the High-Risk Eye and Limb Preservation Program (HELPP), she works with the VISN 7 Clinical Resource Hub, which provides eye exams, foot exams, and basic foot care services for Veteran patients at increased risk for amputation and blindness. She is recognized as a leader and coalition builder to provide easier access to these services for our nation's Veterans. As a Senior Innovation Fellow, Dr. Salvo's mission is to provide basic foot care to patients at increased risk for amputation, improve access and timeliness of care, and prevent amputation in Veterans, establishing a model of care that can be used nationally across VA. This is to be accomplished by developing a permanent program using telehealth and tele-supervision, which allows podiatrists to serve more patients than in traditional face-to-face clinical settings."
+};
+
+
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, nicholView, ronaView, loriView, maryView, minhView, jayView, elizabethView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView);
 
 var tab;
 var img;
@@ -267,6 +274,7 @@ var office_title;
 var office_location;
 var project;
 var bio;
+var bio2;
 
 for (var i = 0; i < fellowsArray.length; i++) {
     var userIndex = fellowsArray[i].id;
@@ -286,6 +294,7 @@ for (var i = 0; i < fellowsArray.length; i++) {
         office_location = Mustache.render("{{office_location}}", objectView);
         project = Mustache.render("{{project}}", objectView);
         bio = Mustache.render("{{{bio}}}", objectView);
+        bio2 = Mustache.render("{{{bio2}}}", objectView);
 
     }
 }
@@ -304,6 +313,7 @@ $('.bio-card-attributes > p span.office_title').text(office_title);
 $('.bio-card-attributes > p span.office_location').text(office_location);
 $('.bio-card-description p.project').text(project);
 $('#bio-card-about p.bio').text(bio);
+$('#bio-card-about p.bio2').text(bio2);
 
 
 // Render dynamic owl carousel for CURRENT fellows
