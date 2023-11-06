@@ -3,7 +3,7 @@ let candisView = {
     id: "candis-connell",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/CandisConnell.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/home-img/CandisConnell.jpg",
     alt: "Candis Connell, Psy.D.",
     bio_name: "Candis Connell, Psy.D.",
     title: "2023 Senior Innovation Fellow",
@@ -19,7 +19,7 @@ let jacquelynView = {
     id: "jacquelyn-paykel",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/JacquelynPaykel.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/JacquelynPaykel.jpg",
     alt: "Jacquelyn Paykel, M.D., M.B.A.",
     bio_name: "Jacquelyn Paykel, M.D., M.B.A.",
     title: "2023 Senior Innovation Fellow",
@@ -35,7 +35,7 @@ let melissaView = {
     id: "melissa-tran",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/MelissaTran.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/home-img/MelissaTran.jpg",
     alt: "Melissa Tran, PMH-C",
     bio_name: "Melissa Tran, PMH-C",
     title: "2023 Senior Innovation Fellow",
@@ -52,7 +52,7 @@ let aksharView = {
     id: "akshar-abbott",
     fellow_type: "eif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/AksharAbbott.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/AksharAbbott.jpg",
     alt: "Akshar Abbott, M.D.",
     bio_name: "Akshar Abbott, M.D.",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -69,7 +69,7 @@ let taylorView = {
     id: "taylor-hooker",
     fellow_type: "eif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/TaylorHooker.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/TaylorHooker.jpg",
     alt: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     bio_name: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -86,7 +86,7 @@ let stacyView = {
     id: "stacy-lewis",
     fellow_type: "eif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/StaceyLewis.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/StaceyLewis.jpg",
     alt: "Stacey Lewis, BSHIM, LSSBB",
     bio_name: "Stacey Lewis, BSHIM, LSSBB",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -103,7 +103,7 @@ let priyaView = {
     id: "priya-joshi",
     fellow_type: "eif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/priyajoshi.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/priyajoshi.jpg",
     alt: "Priya Joshi, MD",
     bio_name: "Priya Joshi, MD",
     title: "2022, 2023 Entrepreneur in Residence Fellow",
@@ -120,7 +120,8 @@ let kevinView = {
     id: "kevin-carroll",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/kevin_carroll.jpg",
+    img: "../assets/img/fellows/home-img/kevin_carroll.jpg",
+    profileImg: "../assets/img/fellows/profile-img/kevin_carroll-sq.jpg",
     alt: "Kevin Carroll, PhD",
     bio_name: "Kevin Carroll, PhD",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -138,7 +139,8 @@ let elizabethView = {
     id: "elizabeth-dinges",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/elizabeth_dinges.jpg",
+    img: "../assets/img/fellows/home-img/elizabeth_dinges.jpg",
+    profileImg: "../assets/img/fellows/profile-img/elizabeth_dinges-sq.jpg",
     alt: "Elizabeth Dinges, PharmD",
     bio_name: "Elizabeth Dinges, PharmD",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -156,7 +158,8 @@ let jayView = {
     id: "jay-gorman",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/jay_gorman.jpg",
+    img: "../assets/img/fellows/home-img/jay_gorman.jpg",
+    profileImg: "../assets/img/fellows/profile-img/jay_gorman-sq.jpg",
     alt: "Jay Gorman, PhD",
     bio_name: "Jay Gorman, PhD",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -174,7 +177,8 @@ let minhView = {
     id: "minh-ho",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/minh_ho.jpg",
+    img: "../assets/img/fellows/home-img/minh_ho.jpg",
+    profileImg: "../assets/img/fellows/profile-img/minh_ho-sq.jpg",
     alt: "Minh Ho, DO",
     bio_name: "Minh Ho, DO",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -191,7 +195,8 @@ let maryView = {
     id: "mary-julius",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/mary_julius.jpg",
+    img: "../assets/img/fellows/home-img/mary_julius.jpg",
+    profileImg: "../assets/img/fellows/profile-img/mary_julius-sq.jpg",
     alt: "Mary Julius, RDN, LD, CDCES",
     bio_name: "Mary Julius, RDN, LD, CDCES",
     title: "2024 Senior Innovation Fellow",
@@ -209,7 +214,8 @@ let loriView = {
     id: "lori-murphy",
     fellow_type: "eif",
     fellow_status: "current",
-    img: "../assets/img/fellows/lori_murphy.jpg",
+    img: "../assets/img/fellows/home-img/lori_murphy.jpg",
+    profileImg: "../assets/img/fellows/profile-img/lori_murphy-sq.jpg",
     alt: "Lori Murphy, MSW, LISW-S",
     bio_name: "Lori Murphy, MSW, LISW-S",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -227,7 +233,8 @@ let ronaView = {
     id: "rona-relova",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/rona_relova.jpg",
+    img: "../assets/img/fellows/home-img/rona_relova.jpg",
+    profileImg: "../assets/img/fellows/profile-img/rona_relova-sq.jpg",
     alt: "Rona Relova, MD",
     bio_name: "Rona Relova, MD",
     title: "2024 Senior Innovation Fellow",
@@ -245,7 +252,8 @@ let nicholView = {
     id: "nichol-salvo",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/nichol_salvo.jpg",
+    img: "../assets/img/fellows/home-img/nichol_salvo.jpg",
+    profileImg: "../assets/img/fellows/profile-img/nichol_salvo-sq.jpg",
     alt: "Nichol Salvo, DPM",
     bio_name: "Nichol Salvo, DPM",
     title: "2024 Senior Innovation Fellow",
@@ -264,6 +272,7 @@ var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView,
 
 var tab;
 var img;
+var profileImg;
 var alt;
 var bio_name;
 var title;
@@ -284,6 +293,7 @@ for (var i = 0; i < fellowsArray.length; i++) {
 
         tab = Mustache.render("{{bio_name}}", objectView);
         img = Mustache.render("{{{img}}}", objectView);
+        profileImg = Mustache.render("{{{profileImg}}}", objectView);
         alt = Mustache.render("{{alt}}", objectView);
         bio_name = Mustache.render("{{bio_name}}", objectView);
         title = Mustache.render("{{title}}", objectView);
@@ -302,7 +312,7 @@ for (var i = 0; i < fellowsArray.length; i++) {
 
 // Append json data to html elements
 $('head title').text(tab);
-$('.bio-card-img > img').attr("src", img);
+$('.bio-card-img > img').attr("src", profileImg);
 $('.bio-card-img > img').attr("alt", alt);
 $('.bio-card-attributes > h1').text(bio_name);
 $('.bio-card-attributes > h3').text(title);
