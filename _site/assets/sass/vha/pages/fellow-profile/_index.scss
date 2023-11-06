@@ -2,6 +2,10 @@ section#page--bios {
 
     margin-top: -150px;
 
+    .bio-card-attributes {
+        padding-left: 25px;
+    }
+
     @media screen and (max-width: 767px) {
         margin-top: -200px;
     }
