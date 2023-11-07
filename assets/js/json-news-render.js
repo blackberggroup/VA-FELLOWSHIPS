@@ -174,6 +174,132 @@ var newsData = {
             "title": "Innovation Revolutionary: Priya Joshi",
             "url": "https://news.va.gov/109225/revolutionary-inclusion-equity-kidney-disease/",
             "description": "Priya Joshi has been working on addressing a new biomarker for more equity in treating kidney disease."
+        },
+        {
+            "id1": "elizabeth-dinges",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-ho-dinges-syringe-211217.jpg",
+            "title": "Veterans turn a corner with new VA Syringe Services Program",
+            "url": "https://news.va.gov/98405/veterans-turn-a-corner-with-new-va-syringe-services-program/",
+            "description": "VA is working on bringing critical harm reduction practices - which are designed to lessen the negative consequences of drug use - to our medical centers. Harm reduction includes SSPs. These programs, where legally allowed, provide clean syringes and equipment to people who inject drugs."
+        },
+        {
+            "id1": "elizabeth-dinges",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-dinges-stigma-221208.jpg",
+            "title": "VA Syringe Services Program Attacks Stigma; Helps Veterans Get to Other Services",
+            "url": "https://vermilioncountyfirst.com/2022/12/08/va-syringe-services-program-attacks-stigma-helps-veterans-get-to-other-services/",
+            "description": "A program now available at the Veterans Administration Medical Center in Danville is also available around the state; at VA Illiana Health Care out patient centers in Springfield, Bloomington, Peoria, Mattoon, and Decatur - the Safe Syringe Program."
+        },
+        {
+            "id1": "elizabeth-dinges",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-dinges-sterile-syringes-220131.jpg",
+            "title": "Innovation Revolutionary: Keeping Veterans safe with sterile syringes",
+            "url": "https://news.va.gov/99513/innovation-revolutionary-keeping-veterans-safe-with-sterile-syringes/",
+            "description": "Beth Dinges believes in questioning rules that restrict access that make it more difficult for vulnerable populations to access VA care and resources."
+        },
+        {
+            "id1": "elizabeth-dinges",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-dinges-ssp-220830.jpg",
+            "title": "Any positive change: VA saving lives with syringe service program",
+            "url": "https://www.va.gov/illiana-health-care/stories/any-positive-change-va-saving-lives-with-syringe-service-program/",
+            "description": "VA is helping Veterans access tools to reduce their risks associated with drug use through syringe service programs (SSPs), an initiative first implemented within VA by staff at VA Illiana."
+        },
+        {
+            "id1": "jay-gorman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-gorman-voices-221215.jpg",
+            "title": "VOICES Veterans Socials: Where the Veteran community meets",
+            "url": "https://news.va.gov/113490/voices-socials-where-veteran-community-meets/",
+            "description": "<a style='color: rgba(173, 0, 0, 0.82); font-style: italic' href='https://www.mentalhealth.va.gov/socials/index.asp'>VOICES Veterans Socials</a> are weekly 90-minute community gatherings that bring Veterans, their families, caregivers, survivors, or other supporters together in public spaces."
+        },
+        {
+            "id1": "jay-gorman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-gorman-virtual-coffee-221215.jpg",
+            "title": "Peer specialist Veterans connect over virtual coffee",
+            "url": "https://news.va.gov/78613/peer-specialists-veterans-connect-virtual-coffee/",
+            "description": "With the COVID-19 pandemic preventing many Veterans from leaving home and impacting their ability to see a VA clinician for face-to-face care, the VA New England Healthcare System has relied on its 80 Veteran peer specialists to ensure Veterans stay connected."
+        },
+        {
+            "id1": "minh-ho",
+            "img": "https://innovation.bgsandbox.com/ecosystem/assets/images/IE/news-events/fellowship-ho-dinges-syringe-211217.jpg",
+            "title": "Veterans turn a corner with new VA Syringe Services Program",
+            "url": "https://news.va.gov/98405/veterans-turn-a-corner-with-new-va-syringe-services-program/",
+            "description": "VA is working on bringing critical harm reduction practices - which are designed to lessen the negative consequences of drug use - to our medical centers. Harm reduction includes SSPs. These programs, where legally allowed, provide clean syringes and equipment to people who inject drugs."
+        },
+        {
+            "id1": "mary-julius",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-julius-pope-191105.jpg",
+            "title": "VA Dietitian: How I met the Pope",
+            "url": "https://news.va.gov/67873/va-dietitian-met-pope-diabetes/",
+            "description": "As I opened my eyes, I noticed a team of paramedics standing over me. Then I heard a loud shout, \"She is awake.\" There was an IV in my right arm and Pope Paul VI was seated next to me."
+        },
+        {
+            "id1": "mary-julius",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-julius-low-blood-sugar-200403.jpg",
+            "title": "Low blood sugar: Helping Veterans with easy, at-home tools",
+            "url": "https://news.va.gov/73056/low-blood-sugar-helping-veterans-easy-home-tools/",
+            "description": "When thinking about likely reasons for rushing to the emergency department (ED), severe low blood sugar may not come to mind. The data tells a different story. Low-blood sugar, or hypoglycemia, episodes are among the top three most common drug-related events that send Veterans to an ED."
+        },
+        {
+            "id1": "mary-julius",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-julius-btbattle-191105.jpg",
+            "title": "Borne the Battle #175: Benefits Breakdown: Diabetes Education, Programs",
+            "url": "https://news.va.gov/69268/borne-battle-175-benefits-breakdown-diabetes-education-programs/",
+            "description": "Mary Julius, a program manager for the diabetes self-management education and training at Louis Stokes Cleveland VA Medical Center, wants to help educate Veterans and their families about how to self-manage diabetes."
+        },
+        {
+            "id1": "mary-julius",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-julius-foodpantry-200615.jpg",
+            "title": "Food pantries at VA facilities support Veteran whole health",
+            "url": "https://news.va.gov/75887/food-pantries-va-facilities-support-veteran-whole-health/",
+            "description": "Food pantries are cropping up at various VA medical centers across the country. VA providers screen patients during clinical assessments for signs of food insecurity. If Veterans are in need, food pantries supply them with a week's worth of groceries before they leave the medical center."
+        },
+        {
+            "id1": "lori-murphy",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-murphy-soc-prescribing-220329.jpg",
+            "title": "Social Prescribing in The USA: On the Rise?",
+            "url": "https://visiblenetworklabs.com/2022/03/29/social-prescribing-in-the-usa/",
+            "description": "Social prescribing is born from the understanding that not all ailments or factors impacting an individual's health can be addressed through traditional medicine, or in the brief amount of time an individual is actually in a doctor's office."
+        },
+        {
+            "id1": "lori-murphy",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-murphy-isolated-vets-231027.jpg",
+            "title": "Program seeks volunteers to aid isolated Veterans",
+            "url": "https://www.clintonvillespotlight.com/articles/program-seeks-volunteers-to-aid-isolated-veterans/",
+            "description": "While it is not a clinical or medical diagnosis, loneliness is extremely detrimental to one's health. Loneliness has a significant effect on depression and is associated with a 40 percent increased risk of dementia, according to information from the Veterans Administration."
+        },
+        {
+            "id1": "lori-murphy",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-murphy-lonely-vets-220103.jpg",
+            "title": "Volunteers Address Veteran Loneliness in Columbus",
+            "url": "https://www.va.gov/central-ohio-health-care/stories/volunteers-address-veteran-loneliness-in-columbus/",
+            "description": "Central Ohio Veterans and volunteers are connecting and establishing relationships despite distance, isolation and immobility. These connections are made possible through Compassionate Contact Corps (CCC), a nationally-recognized VA program that that connects Veterans with trained volunteers for weekly phone calls."
+        },
+        {
+            "id1": "lori-murphy",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-murphy-connections-210428.jpg",
+            "title": "Doctors Harness the Power of Human Connections",
+            "url": "https://www.nytimes.com/2021/04/28/health/social-medicine-programs.html",
+            "description": "Social medicine programs, which often encourage patients to engage with other people, can help address dementia, isolation and more."
+        },
+        {
+            "id1": "lori-murphy",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-murphy-ccc-230519.jpg",
+            "title": "Compassionate Contact Corps addresses Veteran loneliness",
+            "url": "https://news.va.gov/119962/compassionate-care-corps-addresses-loneliness/",
+            "description": "Loneliness has been described recently as a social epidemic affecting half of U.S. adults. While the reasons for this epidemic are varied and complex, the consequence of loneliness is clear: Research shows loneliness puts people at higher risk for heart disease, dementia, depression and even premature death."
+        },
+        {
+            "id1": "nichol-salvo",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-salvo-apma-150519.jpg",
+            "title": "APMA Testifies Before House VA Subcommittee on Health",
+            "url": "https://www.apma.org/News/NewsDetail.cfm?ItemNumber=17135",
+            "description": "APMA Director of Young Physicians' Programs Nichol Salvo, DPM, testified on behalf of APMA before the US House Veterans Affairs Committee, focusing on how disparity within the VA hinders recruitment and retention of podiatrists."
+        },
+        {
+            "id1": "nichol-salvo",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-salvo-podiatrymgmt-2211.jpg",
+            "title": "VA's Use of Telemedicine Services During the Pandemic",
+            "url": "https://podiatrym.com/pdf/2022/11/Salvo1122Web.pdf",
+            "description": "The pandemic hit the healthcare industry, particularly patient access to care, in a way that most podiatrists never anticipated."
         }
     ]
 
@@ -216,8 +342,8 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
     newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
     count1 = 1;
-    count2 = newsItemCount;
-    count3 = newsItemCount;
+    count2 = 4;
+    count3 = 4;
     shouldLoop = false
 
     $('.owl-carousel.profile--fellows').owlCarousel({
@@ -238,6 +364,8 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
             }
         }
     });
+
+    $(".owl-stage div.cloned.active").css("visibility", "hidden");
 
 } else {
 
