@@ -1,0 +1,56 @@
+#new-senior-innovation-fellows {
+
+    @media (min-width: 64em) { 
+        .new-fellows-wrapper {
+            padding: 0 10%;
+        }
+    }
+    
+    .new-fellow-container {
+        position: relative;
+    }
+    
+    .new-fellow-container img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    
+    .new-fellow-container h3 {
+        position: absolute;
+        left: 50%;
+        padding: 3% 0;
+        transform: translate(-50%,-50%);
+        white-space: nowrap;
+        width: 100%;
+        background: linear-gradient(transparent, black);
+        border-radius: 0 0 8px 8px;
+        bottom: -55px;
+    }
+
+    @media (max-width: 880px) { 
+        .overlay-content__logo-stroke { 
+            display: none; 
+        }
+
+        .new-fellow-container h3 {
+            bottom: -70px;
+        }
+
+        .new-fellow-container {
+            margin-bottom: 5%;
+        }
+    }
+
+    @media (max-width: 760px) { 
+        .new-fellow-container h3 {
+            bottom: -65px;
+        }
+    }
+
+    @media (max-width: 500px) { 
+        .new-fellow-container h3 {
+            bottom: -60px;
+        }
+    }
+
+}

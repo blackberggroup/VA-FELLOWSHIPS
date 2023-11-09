@@ -10,7 +10,128 @@
     animation: GradientRotation 40s ease infinite;
 
     @include at-media(mobile) {
-        height: 250px;
+        // padding-top: 78%;
+        // height: 81vw;
+        height: 46vw; // 179px;
+        margin-bottom: 16%;
+        .masthead__logo {
+            display: none;
+        }
+        .masthead-sub__wordmark {
+            text-align: center;
+        }
     }
 
+    @include at-media(mobile-lg) {
+        // padding-top: 78%;
+        height: 46vw;
+        margin-bottom: 16%;
+        .masthead__logo {
+            display: none;
+        }
+        .masthead-sub__wordmark {
+            text-align: center;
+        }
+    }
+
+    @include at-media(tablet) {
+        // padding-top: 70%;
+        height: 35vw;
+        margin-bottom: 14%;
+        .masthead__logo {
+            display: none;
+        }
+        .masthead-sub__wordmark {
+            text-align: center;
+        }
+    }
+
+    @include at-media(tablet-lg) {
+        // padding-top: 59%;
+        height: 35vw;
+        margin-bottom: 10%;
+        .masthead__logo {
+            display: contents;
+        }
+        .masthead-sub__wordmark {
+            text-align: right;
+        }
+    }
+
+    @include at-media(desktop) {
+        // padding-top: 55%;
+        height: 29vw;
+        margin-bottom: 9%;
+        .masthead__logo {
+            display: contents;
+        }
+        .masthead-sub__wordmark {
+            text-align: right;
+        }
+    }    
+
+    @include at-media(desktop-lg) {
+        // padding-top: 54%;
+        height: 22vw;
+        margin-bottom: 8%;
+        .masthead__logo {
+            display: contents;
+        }
+        .masthead-sub__wordmark {
+            text-align: right;
+        }
+    }
+
+    @include at-media(widescreen) {
+        // height: 730px;
+        height: 15.64vw;
+        padding-top: 0;
+        margin-bottom: 120px;
+        .masthead__logo {
+            display: contents;
+        }
+        .masthead-sub__wordmark {
+            text-align: right;
+        }
+    }
+
+    &__content-wrapper {
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100%;
+        padding-top: 48px;
+        z-index: 10;
+    }
+
+    &__logo {
+        margin-bottom: 1.5rem;
+
+        img {
+            height: 78px;
+            
+            @include at-media(tablet) {
+                height: 80px;
+            }
+            
+        }
+
+    }
+
+    &__wordmark h1 {
+        // font-size: clamp(2rem, 1.7391rem + 0.8696vw, 2.5rem) !important;
+        // font-size: clamp(2rem, 0.6383rem + 2.1277vw, 2.5rem);
+        // font-size: calc(32px + (40 - 32) * ((100vw - 320px) / (1600 - 320)));
+        margin-bottom: .5em;
+        color: #fff;
+    }
+
+    &__tagline {
+    //    font-size: 1.375em;
+    //    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1600 - 320)));
+       margin-bottom: 48px;
+       color: #fff;
+     }
+
 }
+
