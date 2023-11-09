@@ -93,3 +93,43 @@
     }
 
 }
+
+.alumni-sif.masthead .masthead__content-wrapper {
+    padding-top: 0; 
+}
+
+
+.alumni-sif.masthead {
+    height: 980px !important;
+    margin-bottom: 0;
+}
+
+@media (max-width: 999px) { 
+    .alumni-sif.masthead {
+        height: 900px !important;
+        margin-bottom: 0;
+    }
+}
+
+.alumni-senior--fellows {
+
+    .usa-card__container {
+        border-color: none;
+        border-style: none;
+    }
+
+    .owl-nav button {
+        background: transparent !important;
+        border: 2px solid #E6E6E6 !important;
+        padding: 10px 10px 6px;
+        margin: 32px 12px;
+        border-radius: 4px;
+    }
+
+}
+
+
+
+
+
+
