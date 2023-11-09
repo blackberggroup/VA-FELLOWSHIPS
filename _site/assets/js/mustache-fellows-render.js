@@ -3,7 +3,7 @@ let candisView = {
     id: "candis-connell",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/home-img/CandisConnell.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/CandisConnell.jpg",
     alt: "Candis Connell, Psy.D.",
     bio_name: "Candis Connell, Psy.D.",
     title: "2023 Senior Innovation Fellow",
@@ -19,7 +19,7 @@ let jacquelynView = {
     id: "jacquelyn-paykel",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/JacquelynPaykel.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/JacquelynPaykel.jpg",
     alt: "Jacquelyn Paykel, M.D., M.B.A.",
     bio_name: "Jacquelyn Paykel, M.D., M.B.A.",
     title: "2023 Senior Innovation Fellow",
@@ -35,7 +35,7 @@ let melissaView = {
     id: "melissa-tran",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/home-img/MelissaTran.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/MelissaTran.jpg",
     alt: "Melissa Tran, PMH-C",
     bio_name: "Melissa Tran, PMH-C",
     title: "2023 Senior Innovation Fellow",
@@ -45,7 +45,8 @@ let melissaView = {
     office_title: "National Lead",
     office_location: "Orlando VA Healthcare System",
     project: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)",
-    bio: "Melissa Tran is a Marriage and Family Therapist and the Military Sexual Trauma Coordinator at Orlando VA Healthcare System. She leads the Perinatal Reproductive Education Planning and Resources (PREPARe) service, which has garnered national recognition through the achievement of the 2021 Dr. Robert L Jesse Award for Innovation. Ms. Tran is also an instructor for Nova Southeastern Kiran C Patel and University of Central Florida Colleges of Medicine and supports the diversity, equity, and inclusion team at OVAHCS. Perinatal Reproductive Education Planning and Resources (PREPARe) is a multidisciplinary approach to meet the needs of our perinatal Veterans. The innovation was developed due to a lack of comprehensive and easily accessible perinatal services available to Veterans. Services are scattered between VA, Community Care or not available at all. Veterans must pay out of pocket and request reimbursement for such services as lactation counseling covered under the Maternity Care benefit. PREPARe is a one stop shop wraparound approach where services typically offered in the community are now offered by trained VA specialists. These services include whole health, mental health, nutrition, physical therapy, women's health, chaplain care, and more."
+    bio: "Melissa Tran is a Marriage and Family Therapist and the Military Sexual Trauma Coordinator at Orlando VA Healthcare System. She leads the Perinatal Reproductive Education Planning and Resources (PREPARe) service, which has garnered national recognition through the achievement of the 2021 Dr. Robert L Jesse Award for Innovation. Ms. Tran is also an instructor for Nova Southeastern Kiran C Patel and University of Central Florida Colleges of Medicine and supports the diversity, equity, and inclusion team at OVAHCS.",
+    bio2: "Perinatal Reproductive Education Planning and Resources (PREPARe) is a multidisciplinary approach to meet the needs of our perinatal Veterans. The innovation was developed due to a lack of comprehensive and easily accessible perinatal services available to Veterans. Services are scattered between VA, Community Care or not available at all. Veterans must pay out of pocket and request reimbursement for such services as lactation counseling covered under the Maternity Care benefit. PREPARe is a one stop shop wraparound approach where services typically offered in the community are now offered by trained VA specialists. These services include whole health, mental health, nutrition, physical therapy, women's health, chaplain care, and more."
 };
 
 let aksharView = {
@@ -347,6 +348,26 @@ currentData.data.push(newCurrentFellowsArray);
 
 currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + current.img + "'alt='" + current.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + current.alt + "</h3>" + "<h4 class='margin-y-0'>" + current.title + "</h4>" + "<p class='job'>" + current.job + "</p>" + "<p class='job_description'>" + current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location + "</p>" + "</div>" + "</a>" + "</div>")); 
 
+
+
+// Render dynamic owl carousel for ALUMNI fellows
+var alumniFellowsArray = fellowsArray;
+var newAlumniFellowsArray = [];
+
+for (var i = 0; i < alumniFellowsArray.length; i++) {
+    if (alumniFellowsArray[i].fellow_status == "alumni") {
+        newAlumniFellowsArray.push(alumniFellowsArray[i]);
+        // console.log(newAlumniFellowsArray);
+    } 
+}
+
+var alumniData = {
+    data: []
+};
+
+alumniData.data.push(newAlumniFellowsArray);  
+
+alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
 
