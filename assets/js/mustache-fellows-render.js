@@ -287,6 +287,24 @@ let bethView = {
     bio: "Dr. Beth Ripley oversees strategic operations to advance innovation across VHA. She is a leader in the expansion of 3D Printing (3DP) technology capabilities and serves as the Enterprise Lead for the VHA 3D Printing Network Initiative, Director for VA Ventures and serves on the VHA Advanced Manufacturing Advisory Committee. Dr. Ripley collaborates with talented and diverse staff throughout VA, experts across federal agencies, and industry partners to improve the delivery of personalized healthcare solutions for Veterans through 3DP. Dr. Ripley is a staff radiologist at the Seattle Division of the VA Puget Sound Health Care System and an Assistant Professor of Radiology at the University of Washington School of Medicine. She received her Bachelor's Degree in Art History from Stanford University as well as her M.D. and Ph.D. in Neurosciences from University of California, San Diego School of Medicine. She completed radiology residency training and a cardiovascular imaging fellowship at Brigham and Women's Hospital, Harvard Medical School, and a body imaging fellowship at the University of Washington."
 };
 
+let amandaView = {
+    id: "amanda-lienau",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/amandalienau.jpg",
+    profileImg: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/amandalienau.jpg",
+    alt: "Amanda Lienau, Ph.D",
+    bio_name: "Amanda Lienau, Ph.D",
+    title: "2020 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Director of Data and Analytics Innovation",
+    office_location: "VHA Office of Healthcare Innovation and Learning",
+    project: "Democratizing Data / Arches",
+    bio: "Dr. Amanda Lienau is the Director of Data and Analytics Innovation with the VHA Innovation Ecosystem. She has lead dozens of small scale and large-scale innovation initiatives with a primary focus of increasing meaningful use of information to increase access to care, improve equitable outcomes and improve quality of life. Prior to that time, she was the Senior Innovation Fellow working on a project to democratize data and the Innovation Specialist at the VA St. Louis Health Care System. She has also held leadership roles in implementing programs for prevention, integrative and complimentary care and health behavior change at VA. She has extensive experience and training in facilitation and advancing learning in adults. Dr. Lienau has a Ph.D. in Counseling Psychology from The Ohio State University."
+};
+
 let michaelView = {
     id: "michael-amendola",
     fellow_type: "sif",
@@ -306,11 +324,65 @@ let michaelView = {
     bio2: "Dr. Michael Amendola received his medical degree at the Virginia Commonwealth University School of Medicine (VCU-SOM) in Richmond, Virginia. He completed his general surgery internship and residency at Virginia Commonwealth University Health System (VCUHS) in 2007. He also completed a Vascular Surgery fellowship at VCUHS in 2009. He is a fellow of the American College of Surgeons and the Society of Vascular Surgery. In 2021 he was inducted into the American College of Surgeons Academy of Master Surgeon Educators. Dr. Amendola is board certified by the American Board of Surgery in both general and vascular surgery. He maintains privileges at Central Virginia VA Health Care System in Richmond, Virginia and is Professor of Surgery at VCU-SOM. He completed his Master's Degree in Medical Education at John Hopkins School of Education in Baltimore, Maryland in 2019."
 };
 
+let arashView = {
+    id: "arash-harzand",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/ArashHarzand.jpg",
+    profileImg: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/ArashHarzand.jpg",
+    alt: "Arash Harzand, M.D., M.B.A., FAAC",
+    bio_name: "Arash Harzand, M.D., M.B.A., FAAC",
+    title: "2021 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Director of Digital Cardiology",
+    office_location: "Atlanta VA Medical Center",
+    project: "Digital Health Platform",
+    bio: "Dr. Arash Harzand is the Director of Digital Cardiology at Atlanta VA Medical Center and an Assistant Professor of Medicine at Emory University where he focuses on integrating Veteran-facing technologies – including video-to-home, wearable devices and remote monitoring – into new-care pathways for heart and vascular disease that are expanding Veteran access to cardiology services. As a Senior Innovation Fellow, Dr. Harzand led the development of an enterprise innovation strategy for digital health and the design of a Digital Health Platform with the goal of delivering high-value care using early-stage digital health solutions for Veterans and VA clinicians, staff and leadership."
+};
 
+let danielleView = {
+    id: "danielle-krakora",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/DanielleKrakora.jpg",
+    profileImg: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/DanielleKrakora.jpg",
+    alt: "Danielle Krakora",
+    bio_name: "Danielle Krakora",
+    title: "2021 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "",
+    office_location: "",
+    project: "Makeathon Model for Building Community",
+    bio: "Danielle Krakora loves change and embraces new technology as a mechanism for continuous improvement. She believes in putting the end user at the center of every project and that there is no such thing as a perfect design. Instead, she believes that projects are dynamic and needs are ever changing and require iteration to get to the next version of success.",
+    bio2: "Throughout her fellowship year, Krakora focused on creating a Makeathon Model for Building Community Partnerships to increase opportunities for external and academic institutions to collaborate with VA employees and provide subject matter expertise in support of specialized Veteran solutions. The Makeathon model sought to expand VHA’s collaborations with industry and academia across the country to promote a user centered design approach in solving Veteran challenges through design competitions and socializing solutions. Through her project, Krakora refined internal VA processes and develop a replicable and transferable framework for future innovation events."
+};
+
+let coryView = {
+    id: "cory-fominaya",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/CoryFominaya.jpg",
+    profileImg: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/CoryFominaya.jpg",
+    alt: "Cory Fominaya, Pharm.D.",
+    bio_name: "Cory Fominaya, Pharm.D.",
+    title: "2022 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "National Program Manager for Health Solutions, VHA Patient Care Services",
+    office_location: "Hines VA Medical Center",
+    project: "Machine Learning Decision Support",
+    bio: "Dr. Cory Fominaya is National Program Manager for Health Solutions, Population Health focusing on informatics solutions. His interests are in the intersection of clinical informatics, statistics/mathematics and outcomes research. As a Senior Innovation Fellow, he worked on creating Machine Learning Decision Support (MLDS). MLDS aims to design efficient cloud architecture and productionizing a decision support service utilizing machine learning models to improve Veterans clinical benefits adjudication.",
+    bio2: "Supported by Office of Healthcare Innovation and Learning, the program has undergone four key pilots from proof of concept to autonomous intervention across VISN 9, while coordinating with key stakeholders including Office of Finance Revenue Operations, Pharmacy Benefits Management, Members Services Health Resource Center, and Veterans Benefits Office of Business Oversight Program Integrity Office. The foundational work was completed and was submitted to the Diffusion of Excellence Shark Tank Competition in 2016. An early application was scripted to create interactions between the clinicians and the program was deployed to seven sites. During the next phase, the program was permitted to perform autonomous interventions at multiple medical centers. Presently, the focus is shifting to codifying machine learning support systems for an enterprise solution capitalizing on integration within the electronic health records using a lightweight human in the loop user interface. The program will provide support for medical centers and administrative staff enhancing impartiality and justice for Veterans, third party payers, and VA Medical Centers."
+};
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, michaelView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
 
 var tab;
 var img;

@@ -56,7 +56,25 @@
         }
     }
 
+    @media (min-width: 768px) {
+        .hide-at-lg {
+            display: none;
+        }
+    }
+
 }
+
+
+// =====================================================
+// SIF
+// =====================================================
+
+@media (max-width: 1023px) { 
+    #senior-innovation-fellows .overlay-content__logo-stroke  {
+        display: none !important;
+    }
+}
+
 
 // =====================================================
 // Alumni SIF
@@ -100,7 +118,7 @@
 
 
 .alumni-sif.masthead {
-    height: 980px !important;
+    height: 950px !important;
     margin-bottom: 0;
 }
 
@@ -127,6 +145,21 @@
     }
 
 }
+
+@media (min-width: 768px) { 
+    .senior-innovation-fellows-collage img {
+        width: 75%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 767px) { 
+    .senior-innovation-fellows-collage img {
+        margin-bottom: 25%;
+    }
+}
+
+
 
 
 
