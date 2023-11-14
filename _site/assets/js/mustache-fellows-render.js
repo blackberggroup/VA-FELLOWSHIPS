@@ -486,7 +486,6 @@ currentData.data.push(newCurrentFellowsArray);
 currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + current.img + "'alt='" + current.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + current.alt + "</h3>" + "<h4 class='margin-y-0'>" + current.title + "</h4>" + "<p class='job'>" + current.job + "</p>" + "<p class='job_description'>" + current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
-
 // Render dynamic owl carousel for ALUMNI fellows
 var alumniFellowsArray = fellowsArray;
 var newAlumniFellowsArray = [];
@@ -504,7 +503,7 @@ var alumniData = {
 
 alumniData.data.push(newAlumniFellowsArray);  
 
-alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "</div>" + "</a>" + "</div>")); 
+alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "</div>" + "</a>" + "</div>"));
 
 
 
