@@ -1,0 +1,133 @@
+section#page--bios {
+
+    margin-top: -150px;
+
+    .bio-card-attributes {
+        padding-left: 25px;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-top: -200px;
+    }
+
+    .bio-card {
+        z-index: 1;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,.15);
+        background: #fff;
+        color: #1B1B1B;
+        border-radius: 8px;
+    }
+
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+        .bio-card {
+            padding: 0 4%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .bio-card {
+            padding: 0 6%;
+        }
+    }
+
+    .bio-name {
+        margin-top: 7%;
+    }
+
+    @media screen and (max-width: 1023px) {
+        .bio-name {
+            margin-top: 0;
+        }
+    }
+    
+    .bio-card-img img {
+        width: 17em;
+        height: 17em;
+        border-radius: 50%;
+        margin: 8% 8% 8% 12%;
+    }
+
+    @media screen and (max-width: 1023px) {
+        .bio-card-img {
+            text-align: center;
+        }
+
+        .bio-card-img img {
+            width: 52vw;
+            height: 52vw;
+            margin: 10% 0;
+        }
+    }
+
+    @media screen and (min-width: 1024px) and (max-width: 1200px) {
+        .bio-card-img img {
+            width: 20vw;
+            height: 20vw;
+        }
+    }
+    
+    .bio-card-attributes {
+        text-align: left;
+    }
+    
+    .bio-card-description {
+        text-align: left;
+        color: #8A2583;
+        padding: 0 2%;
+
+        @media screen and (max-width: 1023px) {
+            padding: 0;
+        }
+    
+        > div {
+            border-radius: 8px;
+            background: #f8f0f9;
+            position: absolute;
+            bottom: 11%;
+            padding: 1% 6% 2%;
+            max-width: 85%;
+        }
+
+        @media screen and (max-width: 1400px) and (min-width: 1024px) {
+            > div {
+                position: relative;
+                margin-top: 25%;
+                max-width: none;
+                bottom: auto;
+            }
+        }
+
+        @media screen and (max-width: 1023px) {
+            > div {
+                position: relative;
+                margin: 10% 0;
+                max-width: none;
+                bottom: auto;
+            }
+        }
+    }
+
+}
+
+section#page--news {
+
+    background-color: #F8F0F9;
+
+    a {
+        text-decoration: none !important;
+        color: #1B1B1B;
+    }
+
+    .usa-card__body {
+        text-align: left !important;
+        padding-top: 7%;
+    }
+
+    h4 {
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+

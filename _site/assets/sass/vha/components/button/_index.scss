@@ -1,4 +1,14 @@
 @use "uswds-core" as *;
+@use "../../variables" as *;
+
+.vha-button {
+    &--primary {
+        background-color: #{color("violet-warm-60v")};
+        &:hover {
+            background-color: #{color("violet-warm-70v")};
+        }
+    }
+}
 
 .vha-button {
     &.usa-button--outline.usa-button--inverse {

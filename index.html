@@ -4,23 +4,36 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <title>VA Website Template</title>
+  <meta name="description" content="VHA Innovation Ecosystem Team is the catalyst and driving force that enables the discovery and spread of health care innovations within the Veterans Health Administration">
+  
+  <title>VHA Innovation Ecosystem Fellowships</title>
 
-  <meta property="og:title" content="((TITLE))">
-  <meta property="og:url" content="((URL))">
-  <meta property="og:description" content="((DESCRIPTION))">
+  <meta property="og:title" content="VHA Innovation Ecosystem Fellowships">
+  <meta property="og:url" content="https://www.innovation.va.gov/ecosystem/views/programs/fellowship/">
+  <meta property="og:description" content="VHA Innovation Ecosystem Team is the catalyst and driving force that enables the discovery and spread of health care innovations within the Veterans Health Administration">
   <meta property="og:type" content="website">
   <meta property="og:image" content="((OG:IMAGE URL))">
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+  <noscript>
+      <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+          type="text/css"
+      />
+  </noscript>
+
   <link rel="stylesheet" href="assets/css/styles.css">
   
   <link id="favicon" rel="shortcut icon" href="assets/img/favicon.ico">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-  <script src="assets/uswds/js/uswds-init.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="assets/uswds/js/uswds-init.min.js" async></script>
 
   <body>
 
@@ -29,7 +42,13 @@
       {% include "header.html" %}
       
         <main>
-            <div style="height: 200px;"></div>
+            {% include "home/masthead.html" %}
+            {% include "home/application.html" %}
+            {% include "home/our-mission.html" %}
+            {% include "home/senior-innovation-fellowship.html" %}
+            {% include "home/entrepreneur-fellowship.html" %}
+            {% include "home/mit-catalyst-fellowship.html" %}
+            {% include "home/current-fellows.html" %}
         </main>
 
         {% include "footer.html" %}
@@ -38,8 +57,11 @@
     <!-- SITE WRAPPER - END -->
 
     <script src="assets/uswds/js/uswds.min.js"></script>
-    <script src="assets/js/vendors/lazy/jquery.lazy.min.js"></script>
+    <script src="assets/js/vendors/lazy/jquery.lazy.min.js"></script> 
+    <script src="https://unpkg.com/mustache@latest"></script>
+    <script src="assets/js/mustache-fellows-render.js"></script>
+    <script src="assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="assets/js/functions.js"></script>
-
+        
   </body>
 </html>
