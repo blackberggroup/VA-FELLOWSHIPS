@@ -448,6 +448,24 @@ $('#bio-card-about p.bio').text(bio);
 $('#bio-card-about p.bio2').text(bio2);
 
 
+if ($(".office_title").text() == ',') {
+    $(".office_title").remove();
+}
+
+$(".bio-card-attributes p span:empty").remove();
+$(".bio-card-attributes p:empty").remove();
+
+if ($(".bio-card-attributes > p.margin-top-0").text() == ' ') {
+    $(".bio-card-attributes > p.margin-top-0").remove();
+}
+
+if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
+    $(".bio-card-attributes > p.margin-bottom-0").remove();
+}
+
+$("#bio-card-about p:empty").remove();
+
+
 // Render dynamic owl carousel for CURRENT fellows
 var currentFellowsArray = fellowsArray;
 var newCurrentFellowsArray = [];
