@@ -64,17 +64,25 @@
 
 }
 
-
 // =====================================================
 // SIF
 // =====================================================
+
+.masthead-sub.sif {
+    height: 250px !important;
+}
+
+@media (max-width: 767px) { 
+    .masthead-sub.sif {
+        height: 50vw !important;
+    }
+}
 
 @media (max-width: 1023px) { 
     #senior-innovation-fellows .overlay-content__logo-stroke  {
         display: none !important;
     }
 }
-
 
 // =====================================================
 // Alumni SIF

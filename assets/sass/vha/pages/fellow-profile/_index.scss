@@ -1,10 +1,16 @@
+@media (min-width: 87.5em) {
+    .masthead-sub {
+        height: 250px !important;
+    }
+}
+
 section#page--bios {
 
-    margin-top: -150px;
+    margin-top: -275px;
 
     .bio-card-attributes {
         padding-left: 25px;
-    }
+    }   
 
     @media screen and (max-width: 767px) {
         margin-top: -200px;
