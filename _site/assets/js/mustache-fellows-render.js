@@ -55,9 +55,9 @@ let melissaView = {
 
 let aksharView = {
     id: "akshar-abbott",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/AksharAbbott.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/AksharAbbott.jpg",
     profileImg: "../assets/img/fellows/profile-img/akshar-abbott-sq.jpg",
     alt: "Akshar Abbott, M.D.",
     bio_name: "Akshar Abbott, M.D.",
@@ -73,9 +73,9 @@ let aksharView = {
 
 let taylorView = {
     id: "taylor-hooker",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/TaylorHooker.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/TaylorHooker.jpg",
     profileImg: "../assets/img/fellows/profile-img/taylor-hooker-sq.jpg",
     alt: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     bio_name: "Taylor Hooker, M.S., CTRS, NBC-HWC",
@@ -91,9 +91,9 @@ let taylorView = {
 
 let stacyView = {
     id: "stacy-lewis",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/StaceyLewis.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/StaceyLewis.jpg",
     profileImg: "../assets/img/fellows/profile-img/stacy-lewis-sq.jpg",
     alt: "Stacey Lewis, BSHIM, LSSBB",
     bio_name: "Stacey Lewis, BSHIM, LSSBB",
@@ -109,9 +109,9 @@ let stacyView = {
 
 let priyaView = {
     id: "priya-joshi",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/priyajoshi.jpg",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/priyajoshi.jpg",
     profileImg: "../assets/img/fellows/profile-img/priya-joshi-sq.jpg",
     alt: "Priya Joshi, MD",
     bio_name: "Priya Joshi, MD",
@@ -127,7 +127,7 @@ let priyaView = {
 
 let kevinView = {
     id: "kevin-carroll",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/home-img/kevin_carroll.jpg",
     profileImg: "../assets/img/fellows/profile-img/kevin_carroll-sq.jpg",
@@ -146,7 +146,7 @@ let kevinView = {
 
 let elizabethView = {
     id: "elizabeth-dinges",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/home-img/elizabeth_dinges.jpg",
     profileImg: "../assets/img/fellows/profile-img/elizabeth_dinges-sq.jpg",
@@ -165,7 +165,7 @@ let elizabethView = {
 
 let jayView = {
     id: "jay-gorman",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/home-img/jay_gorman.jpg",
     profileImg: "../assets/img/fellows/profile-img/jay_gorman-sq.jpg",
@@ -184,7 +184,7 @@ let jayView = {
 
 let minhView = {
     id: "minh-ho",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/home-img/minh_ho.jpg",
     profileImg: "../assets/img/fellows/profile-img/minh_ho-sq.jpg",
@@ -222,7 +222,7 @@ let maryView = {
 
 let loriView = {
     id: "lori-murphy",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/home-img/lori_murphy.jpg",
     profileImg: "../assets/img/fellows/profile-img/lori_murphy-sq.jpg",
@@ -466,7 +466,7 @@ if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
 $("#bio-card-about p:empty").remove();
 
 
-// Render dynamic owl carousel for CURRENT fellows
+// Render dynamic owl carousel for CURRENT sif & erf fellows
 var currentFellowsArray = fellowsArray;
 var newCurrentFellowsArray = [];
 
@@ -486,7 +486,7 @@ currentData.data.push(newCurrentFellowsArray);
 currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + current.img + "'alt='" + current.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + current.alt + "</h3>" + "<h4 class='margin-y-0'>" + current.title + "</h4>" + "<p class='job'>" + current.job + "</p>" + "<p class='job_description'>" + current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
-// Render dynamic owl carousel for ALUMNI fellows
+// Render dynamic owl carousel for ALUMNI SIF
 var alumniFellowsArray = fellowsArray;
 var newAlumniFellowsArray = [];
 
@@ -505,6 +505,25 @@ alumniData.data.push(newAlumniFellowsArray);
 
 alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "</div>" + "</a>" + "</div>"));
 
+
+// Render dynamic owl carousel for ALUMNI ERF
+var alumniFellowsArray = fellowsArray;
+var newAlumniFellowsArray = [];
+
+for (var i = 0; i < alumniFellowsArray.length; i++) {
+    if (alumniFellowsArray[i].fellow_status == "alumni" && alumniFellowsArray[i].fellow_type == "erf") {
+        newAlumniFellowsArray.push(alumniFellowsArray[i]);
+        // console.log(newAlumniFellowsArray);
+    } 
+}
+
+var alumniData = {
+    data: []
+};
+
+alumniData.data.push(newAlumniFellowsArray);  
+
+alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-erf--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "</div>" + "</a>" + "</div>"));
 
 
 
