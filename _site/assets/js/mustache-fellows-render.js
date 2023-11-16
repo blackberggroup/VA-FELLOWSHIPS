@@ -53,6 +53,43 @@ let melissaView = {
     bio2: "Perinatal Reproductive Education Planning and Resources (PREPARe) is a multidisciplinary approach to meet the needs of our perinatal Veterans. The innovation was developed due to a lack of comprehensive and easily accessible perinatal services available to Veterans. Services are scattered between VA, Community Care or not available at all. Veterans must pay out of pocket and request reimbursement for such services as lactation counseling covered under the Maternity Care benefit. PREPARe is a one stop shop wraparound approach where services typically offered in the community are now offered by trained VA specialists. These services include whole health, mental health, nutrition, physical therapy, women's health, chaplain care, and more."
 };
 
+let suzanneView = {
+    id: "suzanne-shirley",
+    fellow_type: "erf",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/SuzyShirley.jpg",
+    profileImg: "../assets/img/fellows/profile-img/suzanne-shirley-sq.jpg",
+    alt: "Suzanne Shirley, LCSW",
+    bio_name: "Suzanne Shirley, LCSW",
+    title: "2019 Entrepreneur In Residence Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Director, Community Engagement and Fellowships",
+    office_location: "VHA Innovation Ecosystem",
+    project: "The Initiative to End Diabetic Limb Loss",
+    bio: "Suzanne Shirley, LCSW, is the Director of Community Engagement & Fellowships with the Veterans Health Administration Innovation Ecosystem (VHA IE) and serves in a faculty role with MIT’s Catalyst Fellowship Program. In the role of community engagement, Shirley drives transformative innovation across the Veterans Health Administration (VHA) by engaging both internal and external collaborators in the design, testing and scaling of mission driven innovative solutions. Through convening diverse groups of collaborators, she is committed to bringing key stakeholders from every community together in the spirit of solving VHA’s most pressing challenges with a focus on customer experience, evaluation, and impact. In her role leading innovative VHA Fellowship programs, she strategically implements a variety of experiential learning opportunities in partnership with academia, that aim to shape future thought leaders in healthcare, improve care and drive down cost. Shirley has been recognized through awards such as 2022 AMSUS-Administrative Management, 2021 Arthur S. Flemming-Outstanding Federal Service, 2021 Service to the Citizen, 2021 Teddy Roosevelt-Visionary Leadership, and 2020 ACT-IAC Igniting Innovation- Disruptive Technology."
+};
+
+let eliView = {
+    id: "eli-kaufman",
+    fellow_type: "erf",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/EliKaufman.jpg",
+    profileImg: "../assets/img/fellows/profile-img/eli-kaufman-sq.jpg",
+    alt: "Eli Kaufman, CPO",
+    bio_name: "Eli Kaufman, CPO",
+    title: "2020-2021 Entrepreneur in Residence",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Program Manager, Mobile Prosthetic and Orthotic Care Program",
+    office_location: "VISN 20",
+    project: "Mobile Prosthetic and Orthotic Care (MoPOC) Program",
+    bio: "Eli Kaufman is a Certified Prosthetist/Orthotist and the National Program Manager for Mobile Prosthetic and Orthotic Care (MoPOC), an Enterprise-Wide Initiative through the VHA Office of Rural Health in partnership with Rehabilitation and Prosthetic Services. Through his work in MoPOC, Kaufman aims to increase access to care for Veterans with artificial limb and complex bracing needs by reducing or eliminating the patient burden of travel. Kaufman previously served as a Research Prosthetist at the Center for Limb Loss & MoBility (CLiMB) at VA Puget Sound Health Care System in Seattle, WA. Kaufman collaborates to research and develop emerging technologies and clinical practices to enhance mobility for individuals with limb differences and neuromusculoskeletal impairments.",
+    bio2: "Eli Kaufman and his MoPOC collaborator, Daniel Abrahamson, were the recipients of the 2022 Dr. Robert L. Jesse Award for Excellence in Innovation."
+};
+
 let aksharView = {
     id: "akshar-abbott",
     fellow_type: "erf",
@@ -89,24 +126,6 @@ let taylorView = {
     bio: "Taylor Hooker is a certified Recreation Therapist and Health Coach serving as a Health Systems Specialist for Veterans Healthcare Administration (VHA) Office of Health Equity in VA Central Office (VACO). Taylor is a 4th-year doctoral student whose studies center on nonpharmacological approaches to Veterans' lifelong health and wellness. Empowering Innovation in Recreation Therapy supports the formation of an integrative research, mentorship, evidence-based practice and dissemination program beginning at a regional, and eventually national, footprint to support the advancement of RT service provision at VHA. Through partnership with academic allies, various VHA medical centers and VACO program offices, this robust quality improvement project will lead to improved patient care, clinician & client satisfaction and increased evidence-based practice."
 };
 
-let stacyView = {
-    id: "stacy-lewis",
-    fellow_type: "erf",
-    fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/StaceyLewis.jpg",
-    profileImg: "../assets/img/fellows/profile-img/stacy-lewis-sq.jpg",
-    alt: "Stacey Lewis, BSHIM, LSSBB",
-    bio_name: "Stacey Lewis, BSHIM, LSSBB",
-    title: "2023 Entrepreneur in Residence Fellow",
-    job: "",
-    job2: "",
-    job_description: "",
-    office_title: "Health System Specialist",
-    office_location: "VHA New England Center for Innovation Excellence (NECIE)",
-    project: "Veterans Health Administration Innovation Ecosystem Optimization",
-    bio: "Stacey Lewis is a Health System and Improvement Specialist at the VA New England Center for Innovation Excellence (NECIE) where she focuses on the Center's strategic operations. As a certified Lean Six Sigma Black Belt and data-driven strategic thinker, her Veterans Health Administration Innovation Ecosystem (VHA IE) Optimization project is taking a deep dive into the new VA Pathfinder program's processes and outcomes. Her ultimate goal is to examine and optimize the flow of innovative solutions throughout VHA Office of Healthcare Innovation and Learning; beginning at intake and concluding with the successful integration of those solutions into the appropriate Care Models of the healthcare delivery system, she seeks to operationalize the process so that the value of innovation can be extracted and realized. Utilizing a systematic approach to understanding performance, key areas are efficiency, effectiveness, and strategic alignment."
-};
-
 let priyaView = {
     id: "priya-joshi",
     fellow_type: "erf",
@@ -123,6 +142,24 @@ let priyaView = {
     office_location: "San Francisco VA Medical Center",
     project: "Ensuring Veteran Food Security",
     bio: "Dr. Priya Joshi is a clinician and informaticist who practices general medicine in the inpatient and outpatient setting. She serves as the Chief Health Informatics Officer and physician at the San Francisco VA Medical Center and as an Assistant Professor at the University of California, San Francisco. Dr. Joshi centers her career on leveraging digital innovation, human-centered design, and clinical interventions to synergistically improve clinical workflow and equitable patient outcomes. Dr. Joshi designs preventive care algorithms to more equitably identify patient needs and creates corresponding clinical interventions in partnership with so that they may prescribe novel medications with the highest likelihood of improving a Veteran's mortality, morbidity and quality of life. She joined the VHA Innovation Ecosystem as a 2022 Entrepreneur in Residence Fellow to advance how VHA can utilize digital and clinical innovation to prevent adverse outcomes and remediate inequities in care. Currently, Dr. Joshi is leading the strategy to identify and manage root causes of Veteran food insecurity and implement enterprise-wide solutions to improve Veteran access to food within their communities."
+};
+
+let stacyView = {
+    id: "stacy-lewis",
+    fellow_type: "erf",
+    fellow_status: "alumni",
+    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/StaceyLewis.jpg",
+    profileImg: "../assets/img/fellows/profile-img/stacy-lewis-sq.jpg",
+    alt: "Stacey Lewis, BSHIM, LSSBB",
+    bio_name: "Stacey Lewis, BSHIM, LSSBB",
+    title: "2023 Entrepreneur in Residence Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Health System Specialist",
+    office_location: "VHA New England Center for Innovation Excellence (NECIE)",
+    project: "Veterans Health Administration Innovation Ecosystem Optimization",
+    bio: "Stacey Lewis is a Health System and Improvement Specialist at the VA New England Center for Innovation Excellence (NECIE) where she focuses on the Center's strategic operations. As a certified Lean Six Sigma Black Belt and data-driven strategic thinker, her Veterans Health Administration Innovation Ecosystem (VHA IE) Optimization project is taking a deep dive into the new VA Pathfinder program's processes and outcomes. Her ultimate goal is to examine and optimize the flow of innovative solutions throughout VHA Office of Healthcare Innovation and Learning; beginning at intake and concluding with the successful integration of those solutions into the appropriate Care Models of the healthcare delivery system, she seeks to operationalize the process so that the value of innovation can be extracted and realized. Utilizing a systematic approach to understanding performance, key areas are efficiency, effectiveness, and strategic alignment."
 };
 
 let kevinView = {
@@ -390,7 +427,7 @@ let coryView = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
 
 var tab;
 var img;
