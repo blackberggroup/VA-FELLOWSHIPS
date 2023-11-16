@@ -102,10 +102,15 @@
       box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
       height: 99% !important;
     }
-  
+    
     .usa-card__media img {
-      border-radius: 4px 4px 0px 0px;
-      max-height: 232px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    @media (min-width: 768px) { 
+        .usa-card__media img {
+            max-height: 232px;
+        }
     }
   
     p {
