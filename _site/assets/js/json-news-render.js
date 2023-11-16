@@ -468,6 +468,216 @@ var newsData = {
             "title": "Diffusion of Excellence kicks off with 11 groundbreaking practices",
             "url": "https://news.va.gov/53321/diffusion-excellence-kicks-off-11-groundbreaking-practices/",
             "description": "Prescription benefit auditing practice earns Gold Star status with VHA Diffusion of Excellence Program."
+        },
+        {
+            "id1": "suzanne-shirley",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img16_MITGrandHack_Picture.png",
+            "title": "VA partners with MIT to 'hack' medicine, improve veteran health care",
+            "url": "https://news.va.gov/53321/diffusion-excellence-kicks-off-11-groundbreaking-practices/",
+            "description": "The Veterans Health Administration Innovation Ecosystem partnered with the Massachusetts Institute of Technology (MIT) Hacking Medicine organization and Samsung for a series of Grand Hacks throughout 2019."
+        },
+        {
+            "id1": "suzanne-shirley",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img13_TIEDLLV.png",
+            "title": "How Innovation and Partnership are Ending Diabetic Limb Loss at VA",
+            "url": "https://news.va.gov/74980/innovation-partnership-ending-diabetic-limb-loss-va/",
+            "description": "A partnership between VHA IE and Podimetrics, named The Initiative to End Diabetic Limb Loss at VA (TIEDLLV), supplies at-risk, diabetic Veterans with mats that use thermal imaging to measure the temperature of a Veteran's foot."
+        },
+        {
+            "id1": "suzanne-shirley",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img14_MITHack.png",
+            "title": "MIT and VA Partner for COVID-19 Hackathon",
+            "url": "https://news.va.gov/73988/mit-va-partner-covid-19-hackathon/",
+            "description": "Earlier this month, VA partnered with MIT and a host of other organizations to put on the MIT COVID-19 Challenge \"Beat the Pandemic\" Hackathon."
+        },
+        {
+            "id1": "suzanne-shirley",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img5_TIEDLLVcover_download.jpg",
+            "title": "The Initiative to End Diabetic Limb Loss at VA",
+            "url": "https://www.youtube.com/watch?v=2yWDETBevwQ",
+            "description": "VHA Innovation Ecosystem's Initiative to End Diabetic Limb Loss (TIEDLLV), in collaboration with Podimetrics, is transforming the way Veterans with diabetes receive care."
+        },
+        {
+            "id1": "eli-kaufman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img31-ElliKaufman_BobJesseAward.jpg",
+            "title": "Dr. Robert L. Jesse Award recognizes transformational VA innovators",
+            "url": "https://news.va.gov/113582/jesse-award-recognizes-va-innovators/",
+            "description": "Four VA innovators received the Bob Jesse Award at the 2022 VHA Innovation Experience."
+        },
+        {
+            "id1": "eli-kaufman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img25_MoPOC2020iEX.jpg",
+            "title": "2021 VHA iEX Talks: Mobile Prosthetics and Orthotic Care (MoPOC) Program",
+            "url": "https://www.youtube.com/watch?v=Lo9cId2ZQjI",
+            "description": "Mobile Prosthetics and Orthotic Care (MoPOC) provides VA clinical prosthetic care closer to home for rural Veterans."
+        },
+        {
+            "id1": "eli-kaufman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img24_MoPOC_Healthcast.jpg",
+            "title": "Listen: Prosthetics Care Advancing at VA",
+            "url": "https://www.youtube.com/watch?v=0eCb9SZ-sTc",
+            "description": "The Mobile Prosthetic and Orthotic Care program  has quickly turned into one of the most promising and impactful services within the VHA Office of Rural Health. Read more here."
+        },
+        {
+            "id1": "eli-kaufman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "Fellowship Friday: Eli Kaufman",
+            "url": "https://www.facebook.com/watch/?v=893700928029028",
+            "description": "Entrepreneur in Residence Fellow Eli Kaufman, Research Prosthetist at the Center for Limb Loss and Mobility at the Seattle VA Medical Center works to  expand the Innovators Network's Mobile Prosthetic and Orthotic Care (MoPOC) program."
+        },
+        {
+            "id1": "eli-kaufman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img8_Eli_Trailblazer.jpg",
+            "title": "VHA IE Trailblazers: Eli Kaufman is bringing prosthetic and orthotic care home to Veterans",
+            "url": "https://news.va.gov/88416/vha-ie-trailblazers-eli-kaufman-bringing-prosthetic-orthotic-care-home-veterans/",
+            "description": "Eli Kaufman and his team are creating a team of MoPOC units that travel to provide VHA's world-class care at VA Community-Based Outpatient Clinics (CBOCs) and in Veterans' homes."
+        },
+        {
+            "id1": "eli-kaufman",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img15_MobileOPS.png",
+            "title": "Mobile OPS pilot looks to expand VA prosthetic care",
+            "url": "https://news.va.gov/70204/mobile-ops-pilot-looks-expand-va-prosthetic-care/",
+            "description": "VA Mobile OPS pilot program brings prosthetic care to Veterans with travel challenges, like Army Veteran Matthew Houston."
+        },
+        {
+            "id1": "george-akingba",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img9_George_Trailblazer.jpg",
+            "title": "VHA IE Trailblazer: Dr. George Akingba is leveraging VA's Innovation Networks to improve surgical care",
+            "url": "https://news.va.gov/87033/vha-ie-trailblazers-dr-george-akingba-leveraging-vas-innovation-networks-improve-surgical-care/",
+            "description": "Dr. Ajibola \"George\" Akingba, a surgeon at the Washington D.C. (VAMC), is always looking to push past the norm to develop boundary-breaking solutions."
+        },
+        {
+            "id1": "george-akingba",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "Fellowship Friday: Dr. George Akingba",
+            "url": "https://www.facebook.com/VHAInnovation/videos/fellowship-friday-dr-ajibola-george-akingba/920982182057582",
+            "description": "Dr. Ajibola \"George\" Akingba from the Washington DC VA Medical Center is an Entrepreneur in Residence Fellow who developed advancements in 3D Printing."
+        },
+        {
+            "id1": "raza-hussain",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img29_OralSurgeon.jpg",
+            "title": "Dr. Raza Hussain: OMS' Are Built for Leadership",
+            "url": "https://news.va.gov/95943/vha-ie-trailblazers-dr-raza-hussain/",
+            "description": "Tune in to hear Dr. Hussain unpack what he's learned from his experiences in public hospitals, leadership training, and what Department of Veterans Affairs has taught him about leadership."
+        },
+        {
+            "id1": "raza-hussain",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "Fellowship Friday: Dr. Raza Hussain",
+            "url": "https://www.facebook.com/watch/?v=383732400110474",
+            "description": "Dr. Raza Hussain, an Entrepreneur in Residence Fellow, discusses the program he developed, Teeth in a Day."
+        },
+        {
+            "id1": "raza-hussain",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img1_Raza_Trailblazer.jpg",
+            "title": "VHA IE Trailblazers: Dr. Raza Hussain",
+            "url": "https://news.va.gov/95943/vha-ie-trailblazers-dr-raza-hussain/",
+            "description": "2021 VHA IE Entrepreneur in Residence Fellow Dr. Raza Hussain is delivering new smiles for Veterans in just one day."
+        },
+        {
+            "id1": "ravi-rasalingam",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img42-HealthcarePlaybook_Harzand.jpg",
+            "title": "VA Releases Digital Healthcare Playbook to Improve Patient Care",
+            "url": "https://ehrintelligence.com/news/va-releases-digital-healthcare-playbook-to-improve-patient-care",
+            "description": "The guide will help healthcare leaders navigate digital healthcare solutions to better patient care, streamline operational efficiencies, and lower costs, VA official stated."
+        },
+        {
+            "id1": "ravi-rasalingam",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img38-Roche_Ravi.jpg",
+            "title": "Novel device for obstructive sleep apnea in Down Syndrome",
+            "url": "https://deshpande.mit.edu/projects/novel-device-for-obstructive-sleep-apnea-in-down-syndrome/",
+            "description": "Obstructive sleep apnea (OSA) is marked by repetitive obstructions of the airway as muscle tone reduces during sleep. This team has created a custom-fit oral prosthesis with a pump that stabilizes the mouth muscles and prevents obstruction of the airway at night."
+        },
+        {
+            "id1": "ravi-rasalingam",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img39-MIT_Ravi.jpg",
+            "title": "A Novel Device for Treatment of Obstructive Sleep Apnea in People with Down Syndrome | IdeaStream",
+            "url": "https://www.youtube.com/watch?v=6ZG0-3p5s3o",
+            "description": "Dr. Ravi Rasalingam presents A Novel Device for Treatment of Obstructive Sleep Apnea in People with Down Syndrome at MIT's IdeaStream 2021."
+        },
+        {
+            "id1": "ravi-rasalingam",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img7_Ravi_Trailblazer.jpg",
+            "title": "VHA IE Trailblazers: Dr. Ravi Rasalingam",
+            "url": "https://news.va.gov/89944/vha-ie-trailblazers-dr-ravi-rasalingam/",
+            "description": "VHA IE's Trailblazers series features Dr. Ravi Rasalingam, an Entrepreneur in Residence who worked with Veterans to develop a better, more comfortable CPAP device."
+        },
+        {
+            "id1": "ravi-rasalingam",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img6_RRasalingam_Fellow.jpg",
+            "title": "December Innovator of the Month: Ravi Rasalingam",
+            "url": "https://news.va.gov/82261/innovator-of-the-month-rasalingam/",
+            "description": "Dr. Rasalingam is also part of the VHA Innovation Ecosystems (VHA IEs) newest class of Fellows. His innovation journey, however, started years ago while observing and empathizing with his patients."
+        },
+        {
+            "id1": "ravi-rasalingam",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "Fellowship Friday: Dr. Ravi Rasalingam",
+            "url": "https://www.facebook.com/VHAInnovation/videos/fellowship-friday-dr-ravi-rasalingam/400575224304380",
+            "description": "VHA IE's Trailblazers series features Dr. Ravi Rasalingam, an Entrepreneur in Residence who worked with Veterans to develop a better, more comfortable CPAP device."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-sandal-vuhc-logo.jpg",
+            "title": "VHA-Uber Health Connect Initiative Brochure and FAQ",
+            "url": "https://www.innovation.va.gov/ecosystem/views/vuhc/assets/documents/VHA-Uber-Health-Connect-Initiative-FAQ.pdf",
+            "description": "Learn more about the VHA-Uber Health Connect Initiative, including eligibility, requirements, and benefits to both Veterans and VA medical centers."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-sandal-vuhc-roadshow-230808.jpg",
+            "title": "VHA-Uber Health Connect expands Veterans' access to transportation",
+            "url": "https://news.va.gov/122430/vha-uber-health-connect-veterans-transportation/",
+            "description": "Following a successful pilot at 10 VA medical centers in 2022, the VHA-Uber Health Connect (VUHC) Initiative is now expanding to 60 new VAMCs to continue addressing this challenge."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-citizenaward-2023.jpg",
+            "title": "2023 Service to the Citizen Award Winners announced",
+            "url": "https://www.servicetothecitizen.org/indrasandal",
+            "description": "Indra Sandal has been named a 2023 Service to the Citizen Award winner for her work on the VHA-Uber Health Connect Initiative."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img41-IndraHeadshot.jpg",
+            "title": "VA tries a novel way to ensure veterans get to their medical appointments",
+            "url": "https://federalnewsnetwork.com/veterans-affairs/2022/11/hbidcpodcast-podcastid4340969/",
+            "description": "The Veterans Health Administration has been working a deal with Uber, the ride service to help rural veterans get to their appointments."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img40-Indra_iEX_InnovatingForAmericasVeterans.jpg",
+            "title": "Innovating for America's Veterans",
+            "url": "https://www.kellogg.northwestern.edu/news/blog/2022/11/08/indra-sandal-veterans-affairs-innovation.aspx",
+            "description": "Leading a new public-private partnership that helps veterans get transportation to and from their healthcare appointments, Indra Sandal ’17 is using her Kellogg education to serve those who served our nation."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img26_2021-VHA-UHC_iEX.jpg",
+            "title": "2021 VHA iEX Talks: Mobile Prosthetics and Orthotic Care (MoPOC) Program",
+            "url": "https://www.youtube.com/watch?v=WTV9RabSM5o",
+            "description": "A fireside chat between Uber Health and VA will explore the impacts of transportation challenges and the value of removing barriers to care for Veterans."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img19_Indra_HealthcastPodcast.jpg",
+            "title": "Healthcast: A VA Partnership with Uber is Helping Veterans Get to Appointments",
+            "url": "https://governmentciomedia.com/listen-va-partnership-uber-helping-veterans-get-appointments",
+            "description": "Director of the Veterans Transportation Program Ben Williams and VHA Executive Management Fellow Dr. Indra Sandal discuss the new VHA-Uber Health Connect pilot helping veterans access the care they need."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "VHA IE Trailblazers: Bringing Veterans to their VA healthcare",
+            "url": "https://www.facebook.com/VHAInnovation/videos/fellowship-friday-dr-indra-sandal/997005597788207",
+            "description": "Dr. Sandal is an Entrepreneur in Residence Fellow working with Uber Health on Veteran Rideshare Services."
+        },
+        {
+            "id1": "indra-sandal",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img3_Indra_Trailblazer.png",
+            "title": "Fellowship Friday: Dr. Indra Sandal",
+            "url": "https://news.va.gov/92343/vha-ie-trailblazers-bringing-veterans-to-their-va-health-care/",
+            "description": "Dr. Indra Sandal  knew that there had to be a way to get Veterans with transportation challenges to VA facilities to receive the Veteran-centered care that they want."
         }
     ]
 
