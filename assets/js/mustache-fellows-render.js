@@ -622,11 +622,19 @@ if ($(".office_title").text() == ',') {
     $(".office_title").remove();
 }
 
+if ($(".office_title2").text() == ',') {
+    $(".office_title2").remove();
+}
+
 $(".bio-card-attributes p span:empty").remove();
 $(".bio-card-attributes p:empty").remove();
 
 if ($(".bio-card-attributes > p.margin-top-0").text() == ' ') {
     $(".bio-card-attributes > p.margin-top-0").remove();
+}
+
+if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
+    $(".bio-card-attributes > p.margin-bottom-0").remove();
 }
 
 if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
