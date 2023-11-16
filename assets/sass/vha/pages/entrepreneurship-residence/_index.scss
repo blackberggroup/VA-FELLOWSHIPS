@@ -104,12 +104,17 @@
     }
   
     .usa-card__media img {
-      border-radius: 4px 4px 0px 0px;
-      max-height: 232px;
+        border-radius: 4px 4px 0px 0px;
+      }
+  
+    @media (min-width: 768px) { 
+        .usa-card__media img {
+            max-height: 232px;
+        }
     }
   
     p {
-      &.job, &.office_title {
+      &.job, &.office_title, &.office_title2 {
         font-weight: 700;
       }
     }
@@ -126,13 +131,13 @@
 
 
 .alumni-erf.masthead {
-    height: 850px !important;
+    height: 950px !important;
     margin-bottom: 0;
 }
 
 @media (max-width: 999px) { 
     .alumni-erf.masthead {
-        height: 800px !important;
+        height: 900px !important;
         margin-bottom: 0;
     }
 }
