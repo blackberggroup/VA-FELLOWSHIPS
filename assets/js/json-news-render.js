@@ -696,7 +696,7 @@ for (var i = 0; i < newsJsonData.length; i++) {
     if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 ) {
         newsPageData.data.push(newsJsonData[i]); 
         newsItemCount = newsPageData.data.length;
-        console.log(newsPageData.data.length);
+        //console.log(newsPageData.data.length);
     } 
 }
 

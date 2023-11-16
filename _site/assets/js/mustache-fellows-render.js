@@ -637,10 +637,6 @@ if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
     $(".bio-card-attributes > p.margin-bottom-0").remove();
 }
 
-if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
-    $(".bio-card-attributes > p.margin-bottom-0").remove();
-}
-
 $("#bio-card-about p:empty").remove();
 
 
