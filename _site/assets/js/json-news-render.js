@@ -510,7 +510,7 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
     newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
     count1 = 1;
-    count2 = 4;
+    count2 = 2;
     count3 = 4;
     shouldLoop = false
 
@@ -527,7 +527,7 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
             600:{
                 items: count2
             },
-            1000:{
+            1200:{
                 items: count3
             }
         }
