@@ -717,14 +717,14 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
 
 } else if (newsItemCount < 5 && newsItemCount > 1) {
 
-    newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
+    newsPageData.data.forEach(news => $('.owl-carousel.news-4-3-2').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
     count1 = 1;
     count2 = 2;
     count3 = 4;
     shouldLoop = false
 
-    $('.owl-carousel.profile--fellows').owlCarousel({
+    $('.owl-carousel.news-4-3-2').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
@@ -742,8 +742,6 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
             }
         }
     });
-
-    $(".owl-stage div.cloned.active").css("visibility", "hidden");
 
 } else {
 

@@ -133,6 +133,12 @@ section#page--news {
         padding: 0;
         margin: 0;
     }
+
+    @media (min-width: 768px) {
+        .news-4-3-2 .owl-stage div.cloned.active {
+            visibility: hidden;
+        }
+    }
     
 }
 
