@@ -2,6 +2,55 @@ var newsData = {
 
     "data": [
         {
+            "id1": "taylor-hooker",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-citizenaward-2023.jpg",
+            "title": "2023 Service to the Citizen Award Winners announced",
+            "url": "https://www.servicetothecitizen.org/taylorhooker",
+            "description": "Taylor Hooker has been named a 2023 Service to the Citizen Award winner for her work in recreation and creative arts therapy."
+        },
+        {
+            "id1": "akshar-abbott",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-obamafellow-2023.jpg",
+            "title": "Akshar Abbott named a 2023 Obama Foundation Fellow",
+            "url": "https://www.obama.org/programs/leaders/usa/2023/akshar-abbott/",
+            "description": "Akshar Abbott, MD, is a staff ophthalmologist and national innovation fellow with the Veterans Health Administration, leveraging health care delivery innovation to promote ophthalmic health equity for veterans living in rural communities."
+        },
+        {
+            "id1": "akshar-abbott",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-citizenaward-2023.jpg",
+            "title": "2023 Service to the Citizen Award Winners announced",
+            "url": "https://www.servicetothecitizen.org/visn23clinicalresourcehub",
+            "description": "Akshar Abbott and the Veterans Integrated Services Network 23 Clinical Resource Hub Virtual Medical Retina Clinic were recipients of the 2023 Service to the Citizen Award for their work in improving access to eye care for Veterans."
+        },
+        {
+            "id1": "priya-joshi",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-joshi-ucsf-171113.jpg",
+            "title": "Priya Joshi, University of California, San Francisco",
+            "url": "https://profiles.ucsf.edu/priya.joshi",
+            "description": "Priya Joshi is the Chief Health Informatics Officer of the San Francisco VA Medical Center and a VHA Innovation Ecosystem Entrepreneur in Residence Fellow."
+        },
+        {
+            "id1": "priya-joshi",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-joshi-voting-181104.jpg",
+            "title": "Help hospitalized patients vote by requesting emergency ballots",
+            "url": "https://www.kevinmd.com/2018/11/help-hospitalized-patients-vote-by-requesting-emergency-ballots.html",
+            "description": "Hear from Dr. Joshi about the benefits of engaging Veteran patients in the voting process early."
+        },
+        {
+            "id1": "priya-joshi",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-joshi-patientcare-150701.jpg",
+            "title": "July welcomes a new wave of doctors, but how does that impact patient care?",
+            "url": "https://whyy.org/segments/july-welcomes-a-new-wave-of-doctors-but-how-does-that-impact-patient-care/",
+            "description": "Priya Joshi isn't sure when exactly the shift happened, when the thrill of graduating from medical school was replaced with the anticipation and anxiety of starting her residency."
+        },
+        {
+            "id1": "priya-joshi",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-joshi-handguns-171113.jpg",
+            "title": "Doctors need to discuss firearm safety and gun violence with their patients",
+            "url": "https://www.statnews.com/2017/11/13/gun-violence-firearms-doctors-patients/",
+            "description": "We all have a part to play in reducing deaths and injury from firearms. How physicians talk with their patients — those who own guns and those who do not — about firearms matters for the social norms that drive public health."
+        },
+        {
             "id1": "melissa-tran",
             "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-tran-2023.jpg",
             "title": "2023 Top 25 Emerging Leaders Melissa Tran",
@@ -43,6 +92,9 @@ var newsData = {
             "id1": "candis-connell",
             "id2": "jacquelyn-paykel",
             "id3": "melissa-tran",
+            "id4": "priya-joshi",
+            "id5": "akshar-abbott",
+            "id6": "taylor-hooker",
             "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-fellows-221210.jpg",
             "title": "VA announces 2022-2023 Innovation Fellows",
             "url": "https://news.va.gov/111460/va-announces-2022-2023-innovation-fellows/",
@@ -193,6 +245,13 @@ var newsData = {
             "title": "VA announces 2022-2023 Innovation Fellows",
             "url": "https://news.va.gov/111460/va-announces-2022-2023-innovation-fellows/",
             "description": "Seven VA employees are joining the next cohort of VA Innovation Fellows."
+        },
+        {
+            "id1": "stacy-lewis",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-lewis-pathfinder-230717.jpg",
+            "title": "Pathfinder: Opportunities to improve health care delivery for Veterans",
+            "url": "https://news.va.gov/121539/pathfinder-improve-health-care-delivery/",
+            "description": "Launched in June 2022, Pathfinder is an evolving collaboration between a team of experts led by VA Entrepreneur in Residence Fellow Stacey Lewis."
         },
         {
             "id1": "priya-joshi",
@@ -737,11 +796,21 @@ var newsPageData = {
 };
 var newsItemCount;
 
+var userIndex1;
+var userIndex2;
+var userIndex3;
+var userIndex4;
+var userIndex5;
+var userIndex6;
+
 for (var i = 0; i < newsJsonData.length; i++) {
-    var userIndex1 = newsJsonData[i].id1;
-    var userIndex2 = newsJsonData[i].id2;
-    var userIndex3 = newsJsonData[i].id3;
-    if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 || window.location.href.indexOf(userIndex3) > -1 ) {
+    userIndex1 = newsJsonData[i].id1;
+    userIndex2 = newsJsonData[i].id2;
+    userIndex3 = newsJsonData[i].id3;
+    userIndex4 = newsJsonData[i].id4;
+    userIndex5 = newsJsonData[i].id5;
+    userIndex6 = newsJsonData[i].id6;
+    if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 || window.location.href.indexOf(userIndex3) > -1 || window.location.href.indexOf(userIndex4) > -1 || window.location.href.indexOf(userIndex5) > -1 || window.location.href.indexOf(userIndex6) > -1) {
         newsPageData.data.push(newsJsonData[i]); 
         newsItemCount = newsPageData.data.length;
         //console.log(newsPageData.data.length);
