@@ -261,24 +261,6 @@ let stacyView = {
     bio: "Stacey Lewis is a Health System and Improvement Specialist at the VA New England Center for Innovation Excellence (NECIE) where she focuses on the Center's strategic operations. As a certified Lean Six Sigma Black Belt and data-driven strategic thinker, her Veterans Health Administration Innovation Ecosystem (VHA IE) Optimization project is taking a deep dive into the new VA Pathfinder program's processes and outcomes. Her ultimate goal is to examine and optimize the flow of innovative solutions throughout VHA Office of Healthcare Innovation and Learning; beginning at intake and concluding with the successful integration of those solutions into the appropriate Care Models of the healthcare delivery system, she seeks to operationalize the process so that the value of innovation can be extracted and realized. Utilizing a systematic approach to understanding performance, key areas are efficiency, effectiveness, and strategic alignment."
 };
 
-let priyaView = {
-    id: "priya-joshi",
-    fellow_type: "eif",
-    fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/PriyaJoshi.jpg",
-    profileImg: "../assets/img/fellows/profile-img/priya-joshi-sq.jpg",
-    alt: "Priya Joshi, M.D.",
-    bio_name: "Priya Joshi, M.D.",
-    title: "2022, 2023 Entrepreneur in Residence Fellow",
-    job: "",
-    job2: "",
-    job_description: "",
-    office_title: "Chief Health Informatics Officer",
-    office_location: "San Francisco VA Medical Center",
-    project: "Ensuring Veteran Food Security",
-    bio: "Dr. Priya Joshi is a clinician and informaticist who practices general medicine in the inpatient and outpatient setting. She serves as the Chief Health Informatics Officer and physician at the San Francisco VA Medical Center and as an Assistant Professor at the University of California, San Francisco. Dr. Joshi centers her career on leveraging digital innovation, human-centered design, and clinical interventions to synergistically improve clinical workflow and equitable patient outcomes. Dr. Joshi designs preventive care algorithms to more equitably identify patient needs and creates corresponding clinical interventions in partnership with so that they may prescribe novel medications with the highest likelihood of improving a Veteran's mortality, morbidity and quality of life. She joined the VHA Innovation Ecosystem as a 2022 Entrepreneur in Residence Fellow to advance how VHA can utilize digital and clinical innovation to prevent adverse outcomes and remediate inequities in care. Currently, Dr. Joshi is leading the strategy to identify and manage root causes of Veteran food insecurity and implement enterprise-wide solutions to improve Veteran access to food within their communities."
-};
-
 let kevinView = {
     id: "kevin-carroll",
     fellow_type: "erf",
