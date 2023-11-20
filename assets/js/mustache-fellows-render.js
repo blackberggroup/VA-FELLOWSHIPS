@@ -55,7 +55,7 @@ let melissaView = {
 
 let aksharView = {
     id: "akshar-abbott",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
     img: "../assets/img/fellows/fellows-rectangle/AksharAbbott.jpg",
     profileImg: "../assets/img/fellows/profile-img/akshar-abbott-sq.jpg",
@@ -73,7 +73,7 @@ let aksharView = {
 
 let taylorView = {
     id: "taylor-hooker",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
     img: "../assets/img/fellows/fellows-rectangle/TaylorHooker.jpg",
     profileImg: "../assets/img/fellows/profile-img/taylor-hooker-sq.jpg",
@@ -91,7 +91,7 @@ let taylorView = {
 
 let stacyView = {
     id: "stacy-lewis",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
     img: "../assets/img/fellows/fellows-rectangle/StaceyLewis.jpg",
     profileImg: "../assets/img/fellows/profile-img/stacy-lewis-sq.jpg",
@@ -109,7 +109,7 @@ let stacyView = {
 
 let priyaView = {
     id: "priya-joshi",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
     img: "../assets/img/fellows/fellows-rectangle/PriyaJoshi.jpg",
     profileImg: "../assets/img/fellows/profile-img/priya-joshi-sq.jpg",
@@ -127,7 +127,7 @@ let priyaView = {
 
 let kevinView = {
     id: "kevin-carroll",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/fellows-rectangle/kevin_carroll.jpg",
     profileImg: "../assets/img/fellows/profile-img/kevin_carroll-sq.jpg",
@@ -146,7 +146,7 @@ let kevinView = {
 
 let elizabethView = {
     id: "elizabeth-dinges",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/fellows-rectangle/elizabeth_dinges.jpg",
     profileImg: "../assets/img/fellows/profile-img/elizabeth_dinges-sq.jpg",
@@ -165,7 +165,7 @@ let elizabethView = {
 
 let jayView = {
     id: "jay-gorman",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/fellows-rectangle/jay_gorman.jpg",
     profileImg: "../assets/img/fellows/profile-img/jay_gorman-sq.jpg",
@@ -184,7 +184,7 @@ let jayView = {
 
 let minhView = {
     id: "minh-ho",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/fellows-rectangle/minh_ho.jpg",
     profileImg: "../assets/img/fellows/profile-img/minh_ho-sq.jpg",
@@ -222,7 +222,7 @@ let maryView = {
 
 let loriView = {
     id: "lori-murphy",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
     img: "../assets/img/fellows/fellows-rectangle/lori_murphy.jpg",
     profileImg: "../assets/img/fellows/profile-img/lori_murphy-sq.jpg",
@@ -336,7 +336,7 @@ let arashView = {
     id: "arash-harzand",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/AksharAbbott.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/arashharzand.jpg",
     profileImg: "../assets/img/fellows/profile-img/arash-harzand-sq.jpg",
     alt: "Arash Harzand, M.D., M.B.A., FAAC",
     bio_name: "Arash Harzand, M.D., M.B.A., FAAC",

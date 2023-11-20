@@ -2,6 +2,53 @@ var newsData = {
 
     "data": [
         {
+            "id1": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-tran-2023.jpg",
+            "title": "2023 Top 25 Emerging Leaders Melissa Tran",
+            "url": "https://news.va.gov/123157/maternal-health-summit-perinatal-care-veterans/",
+            "description": "Modern Healthcare has named Melissa Tran as a 2023 Top 25 Emerging Leader. Tran created PREPARe to connect pregnant and parenting veterans with comprehensive care, including lactation counselors, mental health medication providers, nutritionists and physical therapists."
+        },
+        {
+            "id1": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-tran-maternalhealth-230829.jpg",
+            "title": "Maternal Health Summit: Perinatal care for Veterans",
+            "url": "https://www.modernhealthcare.com/awards/2023-top-25-emerging-leaders-melissa-tran",
+            "description": "The Perinatal Reproductive Educational Planning and Resources (PREPARe) program hosted its first VA Maternal Health Summit at Orlando VA, led by VHA Innovation Ecosystem senior innovation fellow and PREPARe innovator, Melissa Tran."
+        },
+        {
+            "id1": "jacquelyn-paykel",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-paykel-wholehealth-230322.jpg",
+            "title": "Innovation Hero: Dr. Jackie Paykel growing a Whole Health approach",
+            "url": "https://news.va.gov/116928/innovation-hero-dr-jackie-paykel-whole-health/",
+            "description": "On Dr. Jacquelyn Paykel's first day at VA in 2014, she found a Slim Jim with a simple message: \"If you have a suggestion, we'd love to hear about it!\" Paykel was skeptical but told herself she would give it a try."
+        },
+        {
+            "id1": "candis-connell",
+            "id2": "jacquelyn-paykel",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-thrive-230530.jpg",
+            "title": "THRIVE: Helping Veterans and employees find happiness",
+            "url": "https://news.va.gov/120035/thrive-help-veterans-employees-find-happiness/",
+            "description": "Veterans and employees alike are finding happiness through health care thanks to the Transforming Health and Resilience through Integration of Values-based Experience (THRIVE), which has been adopted at 60 VA medical centers to date."
+        },
+        {
+            "id1": "candis-connell",
+            "id2": "jacquelyn-paykel",
+            "id3": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-innovationawards-230511.jpg",
+            "title": "The 2023 Innovation Award Winners Announced",
+            "url": "https://insights.govforum.io/2023/05/the-2023-innovation-award-winners-announced-2/",
+            "description": "The 9th Annual FORUM Innovation Awards have been announced, with winners across Veterans Affairs receiving recognition."
+        },
+        {
+            "id1": "candis-connell",
+            "id2": "jacquelyn-paykel",
+            "id3": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-fellows-221210.jpg",
+            "title": "VA announces 2022-2023 Innovation Fellows",
+            "url": "https://news.va.gov/111460/va-announces-2022-2023-innovation-fellows/",
+            "description": "Seven VA employees are joining the next cohort of VHA Innovation Fellows. These new fellows will utilize VHA Innovation Ecosystem's (VHA IE) community and resources to expand their innovations' capabilities."
+        },
+        {
             "id1": "candis-connell",
             "id2": "jacquelyn-paykel",
             "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img43-CConnell_AboutTHRIVE.jpg",
@@ -58,7 +105,7 @@ var newsData = {
         {
             "id1": "candis-connell",
             "id2": "jacquelyn-paykel",
-            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img48-MTran_InnovationRevolutionary.jpg",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img74_DisruptiveSummit.jpg",
             "title": "2023 Disruptive Tech Award Winners",
             "url": "https://events.govforum.io/disruptive-tech-summit/",
             "description": "Federal IT and consulting leaders who are changing the game, taking calculated risks, and impacting their business and our culture with groundbreaking ideas."
@@ -483,7 +530,8 @@ var newsItemCount;
 for (var i = 0; i < newsJsonData.length; i++) {
     var userIndex1 = newsJsonData[i].id1;
     var userIndex2 = newsJsonData[i].id2;
-    if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 ) {
+    var userIndex3 = newsJsonData[i].id3;
+    if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 || window.location.href.indexOf(userIndex3) > -1 ) {
         newsPageData.data.push(newsJsonData[i]); 
         newsItemCount = newsPageData.data.length;
         console.log(newsPageData.data.length);
