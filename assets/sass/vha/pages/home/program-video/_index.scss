@@ -1,6 +1,6 @@
 @use "uswds-core" as *;
 
-.iex-video__img-container {
+.program-video__img-container {
 
     .p, p {
         color: white;
@@ -15,10 +15,10 @@
 
 
 @include at-media(mobile) {
-    .iex-video {
+    .program-video {
         margin-bottom: -15rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -14em;
 
         .vha-video__play-icon {
@@ -34,10 +34,10 @@
 }
 
 @include at-media(mobile-lg) {
-    .iex-video {
+    .program-video {
         margin-bottom: -15rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -19em;
 
         .vha-video__play-icon {
@@ -53,10 +53,10 @@
 }
 
 @include at-media(tablet) {
-    .iex-video {
+    .program-video {
         margin-bottom: -20rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -23em;
 
         .vha-video__play-icon {
@@ -72,10 +72,10 @@
 }
 
 @include at-media(tablet-lg) {
-    .iex-video {
+    .program-video {
         margin-bottom: -30rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -27em;
 
         .vha-video__play-icon {
@@ -91,10 +91,10 @@
 }
 
 @include at-media(desktop) {
-    .iex-video {
+    .program-video {
         margin-bottom: -30rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -30em;
     }
     .offset-background {
@@ -106,10 +106,10 @@
 }
 
 @include at-media(desktop-lg) {
-    .iex-video {
+    .program-video {
         margin-bottom: -40rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -35em;
     }
     .offset-background {
@@ -121,10 +121,10 @@
 }
 
 @include at-media(widescreen) {
-    .iex-video {
+    .program-video {
         margin-bottom: -40rem;
     }
-    .iex-video__img-container {
+    .program-video__img-container {
         top: -36em;
     }
     .offset-background {
