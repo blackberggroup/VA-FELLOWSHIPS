@@ -1,67 +1,218 @@
 .usa-pagination__button {
-    align-items: center;
-    border-color: rgba(27, 27, 27, 0.2);
-    border-radius: 0.25rem;
-    border-style: solid;
-    border-width: 1px;
-    color: #005ea2;
-    display: inline-flex;
-    justify-content: center;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    width: auto;
-    background: #fff;
-    margin: 5px;
+  align-items: center;
+  border-color: rgba(27, 27, 27, 0.2);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+  color: #005ea2;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  width: auto;
+  background: #fff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  border: none;
+  background: none;
+
+  &:hover {
+    text-decoration: underline;
     cursor: pointer;
+    color: #005ea2;
   }
-  
-  .nav-buttons {
-    border: none;
-    background: none;
-  
-    &:hover {
-      text-decoration: underline;
-      cursor: pointer;
-      color: #005ea2;
+
+  span {
+    &.next {
+      margin-left: 20px;
     }
-  
-    span {
-      &.next {
-        margin-left: 20px;
-      }
-  
-      &.previous {
-        margin-right: 20px;
-      }
+
+    &.previous {
+      margin-right: 20px;
     }
   }
-  
-  .jplist-holder {
-    margin: 0 20px;
-  }
-  
-  .pagination-controls {
-    display: flex;
+}
+
+.jplist-holder {
+  margin: 0 20px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .pagination-controls .grid-row {
     justify-content: center;
   }
-  
-  @media screen and (max-width: 767px) {
-    .pagination-controls .grid-row {
-      justify-content: center;
-    }
+}
+
+.date {
+  visibility: hidden;
+}
+
+.jplist-selected {
+  background-color: #005ea2;
+  border-color: transparent;
+  color: #fff;
+
+  &:hover {
+    color: #fff !important;
   }
-  
-  .date {
-    visibility: hidden;
+}
+
+// =====================================================
+// Masthead
+// =====================================================
+
+.masthead-sub.sif {
+  height: 250px !important;
+}
+
+@media (max-width: 767px) { 
+  .masthead-sub.sif {
+      height: 50vw !important;
   }
+}
+
+@use "uswds-core" as *;
+
+.masthead-sub {
+  background: linear-gradient(235deg,#93348c,#fd4496,#93348c);
+  background-size: 600% 600%;
+  position: relative;
   
-  .jplist-selected {
-    background-color: #005ea2;
-    border-color: transparent;
-    color: #fff;
-  
-    &:hover {
-      color: #fff !important;
-    }
+  -webkit-animation: GradientRotation 40s ease infinite;
+  -moz-animation: GradientRotation 40s ease infinite;
+  animation: GradientRotation 40s ease infinite;
+
+  @include at-media(mobile) {
+      // padding-top: 78%;
+      // height: 81vw;
+      height: 46vw; // 179px;
+      margin-bottom: 16%;
+      .masthead__logo {
+          display: none;
+      }
+      .masthead-sub__wordmark {
+          text-align: center;
+      }
   }
-  
+
+  @include at-media(mobile-lg) {
+      // padding-top: 78%;
+      height: 46vw;
+      margin-bottom: 16%;
+      .masthead__logo {
+          display: none;
+      }
+      .masthead-sub__wordmark {
+          text-align: center;
+      }
+  }
+
+  @include at-media(tablet) {
+      // padding-top: 70%;
+      height: 35vw;
+      margin-bottom: 14%;
+      .masthead__logo {
+          display: none;
+      }
+      .masthead-sub__wordmark {
+          text-align: center;
+      }
+  }
+
+  @include at-media(tablet-lg) {
+      // padding-top: 59%;
+      height: 35vw;
+      margin-bottom: 10%;
+      .masthead__logo {
+          display: contents;
+      }
+      .masthead-sub__wordmark {
+          text-align: right;
+      }
+  }
+
+  @include at-media(desktop) {
+      // padding-top: 55%;
+      height: 29vw;
+      margin-bottom: 9%;
+      .masthead__logo {
+          display: contents;
+      }
+      .masthead-sub__wordmark {
+          text-align: right;
+      }
+  }    
+
+  @include at-media(desktop-lg) {
+      // padding-top: 54%;
+      height: 22vw;
+      margin-bottom: 8%;
+      .masthead__logo {
+          display: contents;
+      }
+      .masthead-sub__wordmark {
+          text-align: right;
+      }
+  }
+
+  @include at-media(widescreen) {
+      // height: 730px;
+      height: 15.64vw;
+      padding-top: 0;
+      margin-bottom: 120px;
+      .masthead__logo {
+          display: contents;
+      }
+      .masthead-sub__wordmark {
+          text-align: right;
+      }
+  }
+
+  &__content-wrapper {
+      position: absolute;
+      top: 0; 
+      left: 0;
+      width: 100%;
+      padding-top: 48px;
+      z-index: 10;
+  }
+
+  &__logo {
+      margin-bottom: 1.5rem;
+
+      img {
+          height: 78px;
+          
+          @include at-media(tablet) {
+              height: 80px;
+          }
+          
+      }
+
+  }
+
+  &__wordmark h1 {
+      // font-size: clamp(2rem, 1.7391rem + 0.8696vw, 2.5rem) !important;
+      // font-size: clamp(2rem, 0.6383rem + 2.1277vw, 2.5rem);
+      // font-size: calc(32px + (40 - 32) * ((100vw - 320px) / (1600 - 320)));
+      margin-bottom: .5em;
+      color: #fff;
+  }
+
+  &__tagline {
+  //    font-size: 1.375em;
+  //    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1600 - 320)));
+     margin-bottom: 48px;
+     color: #fff;
+   }
+
+}
+
