@@ -3,7 +3,8 @@ let candisView = {
     id: "candis-connell",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/home-img/CandisConnell.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/CandisConnell.jpg",
+    profileImg: "../assets/img/fellows/profile-img/candice-connell-sq.jpg",
     alt: "Candis Connell, Psy.D.",
     bio_name: "Candis Connell, Psy.D.",
     title: "2023 Senior Innovation Fellow",
@@ -19,7 +20,8 @@ let jacquelynView = {
     id: "jacquelyn-paykel",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/JacquelynPaykel.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/JacquelynPaykel.jpg",
+    profileImg: "../assets/img/fellows/profile-img/jacquelyn-paykel-sq.jpg",
     alt: "Jacquelyn Paykel, M.D., M.B.A.",
     bio_name: "Jacquelyn Paykel, M.D., M.B.A.",
     title: "2023 Senior Innovation Fellow",
@@ -35,7 +37,9 @@ let melissaView = {
     id: "melissa-tran",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/Images/IE/fellows/home-img/MelissaTran.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/MelissaTran.jpg",
+    profileImg: "../assets/img/fellows/profile-img/melissa-tran-sq.jpg",
+    alt: "Jacquelyn Paykel, M.D., M.B.A.",
     alt: "Melissa Tran, PMH-C",
     bio_name: "Melissa Tran, PMH-C",
     title: "2023 Senior Innovation Fellow",
@@ -45,14 +49,16 @@ let melissaView = {
     office_title: "National Lead",
     office_location: "Orlando VA Healthcare System",
     project: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)",
-    bio: "Melissa Tran is a Marriage and Family Therapist and the Military Sexual Trauma Coordinator at Orlando VA Healthcare System. She leads the Perinatal Reproductive Education Planning and Resources (PREPARe) service, which has garnered national recognition through the achievement of the 2021 Dr. Robert L Jesse Award for Innovation. Ms. Tran is also an instructor for Nova Southeastern Kiran C Patel and University of Central Florida Colleges of Medicine and supports the diversity, equity, and inclusion team at OVAHCS. Perinatal Reproductive Education Planning and Resources (PREPARe) is a multidisciplinary approach to meet the needs of our perinatal Veterans. The innovation was developed due to a lack of comprehensive and easily accessible perinatal services available to Veterans. Services are scattered between VA, Community Care or not available at all. Veterans must pay out of pocket and request reimbursement for such services as lactation counseling covered under the Maternity Care benefit. PREPARe is a one stop shop wraparound approach where services typically offered in the community are now offered by trained VA specialists. These services include whole health, mental health, nutrition, physical therapy, women's health, chaplain care, and more."
+    bio: "Melissa Tran is a Marriage and Family Therapist and the Military Sexual Trauma Coordinator at Orlando VA Healthcare System. She leads the Perinatal Reproductive Education Planning and Resources (PREPARe) service, which has garnered national recognition through the achievement of the 2021 Dr. Robert L Jesse Award for Innovation. Ms. Tran is also an instructor for Nova Southeastern Kiran C Patel and University of Central Florida Colleges of Medicine and supports the diversity, equity, and inclusion team at OVAHCS.",
+    bio2: "Perinatal Reproductive Education Planning and Resources (PREPARe) is a multidisciplinary approach to meet the needs of our perinatal Veterans. The innovation was developed due to a lack of comprehensive and easily accessible perinatal services available to Veterans. Services are scattered between VA, Community Care or not available at all. Veterans must pay out of pocket and request reimbursement for such services as lactation counseling covered under the Maternity Care benefit. PREPARe is a one stop shop wraparound approach where services typically offered in the community are now offered by trained VA specialists. These services include whole health, mental health, nutrition, physical therapy, women's health, chaplain care, and more."
 };
 
 let aksharView = {
     id: "akshar-abbott",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/AksharAbbott.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/AksharAbbott.jpg",
+    profileImg: "../assets/img/fellows/profile-img/akshar-abbott-sq.jpg",
     alt: "Akshar Abbott, M.D.",
     bio_name: "Akshar Abbott, M.D.",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -67,9 +73,10 @@ let aksharView = {
 
 let taylorView = {
     id: "taylor-hooker",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/TaylorHooker.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/TaylorHooker.jpg",
+    profileImg: "../assets/img/fellows/profile-img/taylor-hooker-sq.jpg",
     alt: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     bio_name: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -82,11 +89,30 @@ let taylorView = {
     bio: "Taylor Hooker is a certified Recreation Therapist and Health Coach serving as a Health Systems Specialist for Veterans Healthcare Administration (VHA) Office of Health Equity in VA Central Office (VACO). Taylor is a 4th-year doctoral student whose studies center on nonpharmacological approaches to Veterans' lifelong health and wellness. Empowering Innovation in Recreation Therapy supports the formation of an integrative research, mentorship, evidence-based practice and dissemination program beginning at a regional, and eventually national, footprint to support the advancement of RT service provision at VHA. Through partnership with academic allies, various VHA medical centers and VACO program offices, this robust quality improvement project will lead to improved patient care, clinician & client satisfaction and increased evidence-based practice."
 };
 
+let priyaView = {
+    id: "priya-joshi",
+    fellow_type: "erf",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/PriyaJoshi.jpg",
+    profileImg: "../assets/img/fellows/profile-img/priya-joshi-sq.jpg",
+    alt: "Priya Joshi, M.D.",
+    bio_name: "Priya Joshi, M.D.",
+    title: "2022, 2023 Entrepreneur in Residence Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Chief Health Informatics Officer",
+    office_location: "San Francisco VA Medical Center",
+    project: "Ensuring Veteran Food Security",
+    bio: "Dr. Priya Joshi is a clinician and informaticist who practices general medicine in the inpatient and outpatient setting. She serves as the Chief Health Informatics Officer and physician at the San Francisco VA Medical Center and as an Assistant Professor at the University of California, San Francisco. Dr. Joshi centers her career on leveraging digital innovation, human-centered design, and clinical interventions to synergistically improve clinical workflow and equitable patient outcomes. Dr. Joshi designs preventive care algorithms to more equitably identify patient needs and creates corresponding clinical interventions in partnership with so that they may prescribe novel medications with the highest likelihood of improving a Veteran's mortality, morbidity and quality of life. She joined the VHA Innovation Ecosystem as a 2022 Entrepreneur in Residence Fellow to advance how VHA can utilize digital and clinical innovation to prevent adverse outcomes and remediate inequities in care. Currently, Dr. Joshi is leading the strategy to identify and manage root causes of Veteran food insecurity and implement enterprise-wide solutions to improve Veteran access to food within their communities."
+};
+
 let stacyView = {
     id: "stacy-lewis",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/StaceyLewis.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/StaceyLewis.jpg",
+    profileImg: "../assets/img/fellows/profile-img/stacy-lewis-sq.jpg",
     alt: "Stacey Lewis, BSHIM, LSSBB",
     bio_name: "Stacey Lewis, BSHIM, LSSBB",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -99,31 +125,14 @@ let stacyView = {
     bio: "Stacey Lewis is a Health System and Improvement Specialist at the VA New England Center for Innovation Excellence (NECIE) where she focuses on the Center's strategic operations. As a certified Lean Six Sigma Black Belt and data-driven strategic thinker, her Veterans Health Administration Innovation Ecosystem (VHA IE) Optimization project is taking a deep dive into the new VA Pathfinder program's processes and outcomes. Her ultimate goal is to examine and optimize the flow of innovative solutions throughout VHA Office of Healthcare Innovation and Learning; beginning at intake and concluding with the successful integration of those solutions into the appropriate Care Models of the healthcare delivery system, she seeks to operationalize the process so that the value of innovation can be extracted and realized. Utilizing a systematic approach to understanding performance, key areas are efficiency, effectiveness, and strategic alignment."
 };
 
-let priyaView = {
-    id: "priya-joshi",
-    fellow_type: "eif",
-    fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/home-img/priyajoshi.jpg",
-    alt: "Priya Joshi, MD",
-    bio_name: "Priya Joshi, MD",
-    title: "2022, 2023 Entrepreneur in Residence Fellow",
-    job: "",
-    job2: "",
-    job_description: "",
-    office_title: "Chief Health Informatics Officer",
-    office_location: "San Francisco VA Medical Center",
-    project: "Ensuring Veteran Food Security",
-    bio: "Dr. Priya Joshi is a clinician and informaticist who practices general medicine in the inpatient and outpatient setting. She serves as the Chief Health Informatics Officer and physician at the San Francisco VA Medical Center and as an Assistant Professor at the University of California, San Francisco. Dr. Joshi centers her career on leveraging digital innovation, human-centered design, and clinical interventions to synergistically improve clinical workflow and equitable patient outcomes. Dr. Joshi designs preventive care algorithms to more equitably identify patient needs and creates corresponding clinical interventions in partnership with so that they may prescribe novel medications with the highest likelihood of improving a Veteran's mortality, morbidity and quality of life. She joined the VHA Innovation Ecosystem as a 2022 Entrepreneur in Residence Fellow to advance how VHA can utilize digital and clinical innovation to prevent adverse outcomes and remediate inequities in care. Currently, Dr. Joshi is leading the strategy to identify and manage root causes of Veteran food insecurity and implement enterprise-wide solutions to improve Veteran access to food within their communities."
-};
-
 let kevinView = {
     id: "kevin-carroll",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/kevin_carroll.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/kevin_carroll.jpg",
     profileImg: "../assets/img/fellows/profile-img/kevin_carroll-sq.jpg",
-    alt: "Kevin Carroll, PhD",
-    bio_name: "Kevin Carroll, PhD",
+    alt: "Kevin Carroll, Ph.D.",
+    bio_name: "Kevin Carroll, Ph.D.",
     title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
@@ -137,12 +146,12 @@ let kevinView = {
 
 let elizabethView = {
     id: "elizabeth-dinges",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/elizabeth_dinges.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/elizabeth_dinges.jpg",
     profileImg: "../assets/img/fellows/profile-img/elizabeth_dinges-sq.jpg",
-    alt: "Elizabeth Dinges, PharmD",
-    bio_name: "Elizabeth Dinges, PharmD",
+    alt: "Elizabeth Dinges, Pharm.D.",
+    bio_name: "Elizabeth Dinges, Pharm.D.",
     title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
@@ -156,12 +165,12 @@ let elizabethView = {
 
 let jayView = {
     id: "jay-gorman",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/jay_gorman.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/jay_gorman.jpg",
     profileImg: "../assets/img/fellows/profile-img/jay_gorman-sq.jpg",
-    alt: "Jay Gorman, PhD",
-    bio_name: "Jay Gorman, PhD",
+    alt: "Jay Gorman, Ph.D.",
+    bio_name: "Jay Gorman, Ph.D.",
     title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
@@ -175,12 +184,12 @@ let jayView = {
 
 let minhView = {
     id: "minh-ho",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/minh_ho.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/minh_ho.jpg",
     profileImg: "../assets/img/fellows/profile-img/minh_ho-sq.jpg",
-    alt: "Minh Ho, DO",
-    bio_name: "Minh Ho, DO",
+    alt: "Minh Ho, D.O.",
+    bio_name: "Minh Ho, D.O.",
     title: "2024 Entrepreneur in Residence Fellow",
     job: "",
     job2: "",
@@ -196,7 +205,7 @@ let maryView = {
     id: "mary-julius",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/mary_julius.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/mary_julius.jpg",
     profileImg: "../assets/img/fellows/profile-img/mary_julius-sq.jpg",
     alt: "Mary Julius, RDN, LD, CDCES",
     bio_name: "Mary Julius, RDN, LD, CDCES",
@@ -213,9 +222,9 @@ let maryView = {
 
 let loriView = {
     id: "lori-murphy",
-    fellow_type: "eif",
+    fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/lori_murphy.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/lori_murphy.jpg",
     profileImg: "../assets/img/fellows/profile-img/lori_murphy-sq.jpg",
     alt: "Lori Murphy, MSW, LISW-S",
     bio_name: "Lori Murphy, MSW, LISW-S",
@@ -234,10 +243,10 @@ let ronaView = {
     id: "rona-relova",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/rona_relova.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/rona_relova.jpg",
     profileImg: "../assets/img/fellows/profile-img/rona_relova-sq.jpg",
-    alt: "Rona Relova, MD",
-    bio_name: "Rona Relova, MD",
+    alt: "Rona Relova, M.D.",
+    bio_name: "Rona Relova, M.D.",
     title: "2024 Senior Innovation Fellow",
     job: "",
     job2: "",
@@ -253,10 +262,10 @@ let nicholView = {
     id: "nichol-salvo",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/home-img/nichol_salvo.jpg",
+    img: "../assets/img/fellows/fellows-rectangle/nichol_salvo.jpg",
     profileImg: "../assets/img/fellows/profile-img/nichol_salvo-sq.jpg",
-    alt: "Nichol Salvo, DPM",
-    bio_name: "Nichol Salvo, DPM",
+    alt: "Nichol Salvo, D.P.M.",
+    bio_name: "Nichol Salvo, D.P.M.",
     title: "2024 Senior Innovation Fellow",
     job: "",
     job2: "",
@@ -268,9 +277,120 @@ let nicholView = {
     bio2: "As a Senior Innovation Fellow, Dr. Salvo's mission is to provide basic foot care to patients at increased risk for amputation, improve access and timeliness of care, and prevent amputation in Veterans, establishing a model of care that can be used nationally across VA. This is to be accomplished by developing a permanent program using telehealth and tele-supervision, which allows podiatrists to serve more patients than in traditional face-to-face clinical settings."
 };
 
+let bethView = {
+    id: "beth-ripley",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/BethRipley.jpg",
+    profileImg: "../assets/img/fellows/profile-img/beth-ripley-sq.jpg",
+    alt: "Beth Ripley, M.D., Ph.D.",
+    bio_name: "Beth Ripley, M.D., Ph.D.",
+    title: "2019 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Acting Chief Officer",
+    office_location: "VHA Office of Healthcare Innovation and Learning",
+    project: "3D Printing Network",
+    bio: "Dr. Beth Ripley oversees strategic operations to advance innovation across VHA. She is a leader in the expansion of 3D Printing (3DP) technology capabilities and serves as the Enterprise Lead for the VHA 3D Printing Network Initiative, Director for VA Ventures and serves on the VHA Advanced Manufacturing Advisory Committee. Dr. Ripley collaborates with talented and diverse staff throughout VA, experts across federal agencies, and industry partners to improve the delivery of personalized healthcare solutions for Veterans through 3DP. Dr. Ripley is a staff radiologist at the Seattle Division of the VA Puget Sound Health Care System and an Assistant Professor of Radiology at the University of Washington School of Medicine. She received her Bachelor's Degree in Art History from Stanford University as well as her M.D. and Ph.D. in Neurosciences from University of California, San Diego School of Medicine. She completed radiology residency training and a cardiovascular imaging fellowship at Brigham and Women's Hospital, Harvard Medical School, and a body imaging fellowship at the University of Washington."
+};
+
+let amandaView = {
+    id: "amanda-lienau",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/amanda-lienau.jpg",
+    profileImg: "../assets/img/fellows/profile-img/amanda-lienau-sq.jpg",
+    alt: "Amanda Lienau, Ph.D",
+    bio_name: "Amanda Lienau, Ph.D",
+    title: "2020 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Director of Data and Analytics Innovation",
+    office_location: "VHA Office of Healthcare Innovation and Learning",
+    project: "Democratizing Data / Arches",
+    bio: "Dr. Amanda Lienau is the Director of Data and Analytics Innovation with the VHA Innovation Ecosystem. She has lead dozens of small scale and large-scale innovation initiatives with a primary focus of increasing meaningful use of information to increase access to care, improve equitable outcomes and improve quality of life. Prior to that time, she was the Senior Innovation Fellow working on a project to democratize data and the Innovation Specialist at the VA St. Louis Health Care System. She has also held leadership roles in implementing programs for prevention, integrative and complimentary care and health behavior change at VA. She has extensive experience and training in facilitation and advancing learning in adults. Dr. Lienau has a Ph.D. in Counseling Psychology from The Ohio State University."
+};
+
+let michaelView = {
+    id: "michael-amendola",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/MichaelAmendola.jpg",
+    profileImg: "../assets/img/fellows/profile-img/michael-amendola-sq.jpg",
+    alt: "Michael Amendola, M.D., M.E.H.P.",
+    bio_name: "Michael Amendola, M.D., M.E.H.P.",
+    title: "2021 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Chief of Vascular Surgery",
+    office_location: "Central Virginia VA Healthcare System",
+    project: "3D Printing Pre-Surgical Planning Curriculum",
+    bio: "Dr. Michael Amendola is the Chief of Vascular Surgery, Director of the Non-Invasive Vascular Lab and Program Director for the Chief Resident in Quality and Patient Safety at the Central Virginia VA Health Care System. He is a Professor of Surgery at Virginia Commonwealth University School of Medicine and Adjunct Faculty at Johns Hopkins School of Education. As a Senior Innovation Fellow, Dr. Amendola created a local 3D Printing (3DP) for pre-surgical planning curriculum for surgeons and contributed to launching a national VHA training course to introduce healthcare teams to 3DP technology. He is the program director of the Office of Advance Manufacturing's Central Virginia VA Health Care System based 3DP Surgical Fellowship. His interests focus on mentoring novice surgical learners, hemodialysis access, 3D printing and implications of surgical simulation in the current health care environment.",
+    bio2: "Dr. Michael Amendola received his medical degree at the Virginia Commonwealth University School of Medicine (VCU-SOM) in Richmond, Virginia. He completed his general surgery internship and residency at Virginia Commonwealth University Health System (VCUHS) in 2007. He also completed a Vascular Surgery fellowship at VCUHS in 2009. He is a fellow of the American College of Surgeons and the Society of Vascular Surgery. In 2021 he was inducted into the American College of Surgeons Academy of Master Surgeon Educators. Dr. Amendola is board certified by the American Board of Surgery in both general and vascular surgery. He maintains privileges at Central Virginia VA Health Care System in Richmond, Virginia and is Professor of Surgery at VCU-SOM. He completed his Master's Degree in Medical Education at John Hopkins School of Education in Baltimore, Maryland in 2019."
+};
+
+let arashView = {
+    id: "arash-harzand",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/arashharzand.jpg",
+    profileImg: "../assets/img/fellows/profile-img/arash-harzand-sq.jpg",
+    alt: "Arash Harzand, M.D., M.B.A., FAAC",
+    bio_name: "Arash Harzand, M.D., M.B.A., FAAC",
+    title: "2021 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Director of Digital Cardiology",
+    office_location: "Atlanta VA Medical Center",
+    project: "Digital Health Platform",
+    bio: "Dr. Arash Harzand is the Director of Digital Cardiology at Atlanta VA Medical Center and an Assistant Professor of Medicine at Emory University where he focuses on integrating Veteran-facing technologies – including video-to-home, wearable devices and remote monitoring – into new-care pathways for heart and vascular disease that are expanding Veteran access to cardiology services. As a Senior Innovation Fellow, Dr. Harzand led the development of an enterprise innovation strategy for digital health and the design of a Digital Health Platform with the goal of delivering high-value care using early-stage digital health solutions for Veterans and VA clinicians, staff and leadership."
+};
+
+let danielleView = {
+    id: "danielle-krakora",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/DanielleKrakora.jpg",
+    profileImg: "../assets/img/fellows/profile-img/danielle-krakora-sq.jpg",
+    alt: "Danielle Krakora",
+    bio_name: "Danielle Krakora",
+    title: "2021 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "",
+    office_location: "",
+    project: "Makeathon Model for Building Community",
+    bio: "Danielle Krakora loves change and embraces new technology as a mechanism for continuous improvement. She believes in putting the end user at the center of every project and that there is no such thing as a perfect design. Instead, she believes that projects are dynamic and needs are ever changing and require iteration to get to the next version of success.",
+    bio2: "Throughout her fellowship year, Krakora focused on creating a Makeathon Model for Building Community Partnerships to increase opportunities for external and academic institutions to collaborate with VA employees and provide subject matter expertise in support of specialized Veteran solutions. The Makeathon model sought to expand VHA’s collaborations with industry and academia across the country to promote a user centered design approach in solving Veteran challenges through design competitions and socializing solutions. Through her project, Krakora refined internal VA processes and develop a replicable and transferable framework for future innovation events."
+};
+
+let coryView = {
+    id: "cory-fominaya",
+    fellow_type: "sif",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/fellows-rectangle/CoryFominaya.jpg",
+    profileImg: "../assets/img/fellows/profile-img/cory-fominaya-sq.jpg",
+    alt: "Cory Fominaya, Pharm.D.",
+    bio_name: "Cory Fominaya, Pharm.D.",
+    title: "2022 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "National Program Manager for Health Solutions, VHA Patient Care Services",
+    office_location: "Hines VA Medical Center",
+    project: "Machine Learning Decision Support",
+    bio: "Dr. Cory Fominaya is National Program Manager for Health Solutions, Population Health focusing on informatics solutions. His interests are in the intersection of clinical informatics, statistics/mathematics and outcomes research. As a Senior Innovation Fellow, he worked on creating Machine Learning Decision Support (MLDS). MLDS aims to design efficient cloud architecture and productionizing a decision support service utilizing machine learning models to improve Veterans clinical benefits adjudication.",
+    bio2: "Supported by Office of Healthcare Innovation and Learning, the program has undergone four key pilots from proof of concept to autonomous intervention across VISN 9, while coordinating with key stakeholders including Office of Finance Revenue Operations, Pharmacy Benefits Management, Members Services Health Resource Center, and Veterans Benefits Office of Business Oversight Program Integrity Office. The foundational work was completed and was submitted to the Diffusion of Excellence Shark Tank Competition in 2016. An early application was scripted to create interactions between the clinicians and the program was deployed to seven sites. During the next phase, the program was permitted to perform autonomous interventions at multiple medical centers. Presently, the focus is shifting to codifying machine learning support systems for an enterprise solution capitalizing on integration within the electronic health records using a lightweight human in the loop user interface. The program will provide support for medical centers and administrative staff enhancing impartiality and justice for Veterans, third party payers, and VA Medical Centers."
+};
+
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, aksharView, taylorView, stacyView, priyaView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
 
 var tab;
 var img;
@@ -328,6 +448,24 @@ $('#bio-card-about p.bio').text(bio);
 $('#bio-card-about p.bio2').text(bio2);
 
 
+if ($(".office_title").text() == ',') {
+    $(".office_title").remove();
+}
+
+$(".bio-card-attributes p span:empty").remove();
+$(".bio-card-attributes p:empty").remove();
+
+if ($(".bio-card-attributes > p.margin-top-0").text() == ' ') {
+    $(".bio-card-attributes > p.margin-top-0").remove();
+}
+
+if ($(".bio-card-attributes > p.margin-bottom-0").text() == ' ') {
+    $(".bio-card-attributes > p.margin-bottom-0").remove();
+}
+
+$("#bio-card-about p:empty").remove();
+
+
 // Render dynamic owl carousel for CURRENT fellows
 var currentFellowsArray = fellowsArray;
 var newCurrentFellowsArray = [];
@@ -347,6 +485,25 @@ currentData.data.push(newCurrentFellowsArray);
 
 currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + current.img + "'alt='" + current.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + current.alt + "</h3>" + "<h4 class='margin-y-0'>" + current.title + "</h4>" + "<p class='job'>" + current.job + "</p>" + "<p class='job_description'>" + current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location + "</p>" + "</div>" + "</a>" + "</div>")); 
 
+
+// Render dynamic owl carousel for ALUMNI fellows
+var alumniFellowsArray = fellowsArray;
+var newAlumniFellowsArray = [];
+
+for (var i = 0; i < alumniFellowsArray.length; i++) {
+    if (alumniFellowsArray[i].fellow_status == "alumni" && alumniFellowsArray[i].fellow_type == "sif") {
+        newAlumniFellowsArray.push(alumniFellowsArray[i]);
+        // console.log(newAlumniFellowsArray);
+    } 
+}
+
+var alumniData = {
+    data: []
+};
+
+alumniData.data.push(newAlumniFellowsArray);  
+
+alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "</div>" + "</a>" + "</div>"));
 
 
 
