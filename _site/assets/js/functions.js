@@ -74,5 +74,22 @@ $('.owl-carousel.current--fellows').owlCarousel({
     }
 });
 
+$('.owl-carousel.home').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        1000:{
+            items:2
+        },
+        1200:{
+            items:3
+        }
+    }
+});
+
 $(".owl-stage").addClass("display-flex flex-align-stretch");
 

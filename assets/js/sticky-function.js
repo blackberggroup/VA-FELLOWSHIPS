@@ -5,10 +5,10 @@ if (window.innerWidth > 1199) {
         var stickySectionWrapper = $('main').height();
         var stickySection = $('#fellowship-impact').height();
         var programSection = $('.program-video').height();
-        var newsSection = $('.news-and-events').height();
+        var newsSection = $('.fellowship-news').height();
 
-        var aboveStickySection = stickySectionWrapper - stickySection - programSection - newsSection + 400;
-        var belowStickySection = stickySectionWrapper - programSection - newsSection + 225;
+        var aboveStickySection = stickySectionWrapper - stickySection - programSection - newsSection + 300;
+        var belowStickySection = stickySectionWrapper - programSection - newsSection + 100;
 
         if ($(this).scrollTop() > aboveStickySection && $(this).scrollTop() < belowStickySection) {
             $('.sticky-div').addClass("desktop-lg:sticky");
