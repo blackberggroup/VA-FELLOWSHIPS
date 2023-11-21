@@ -1,10 +1,16 @@
+@use "uswds-core" as *;
+
+// =====================================================
+// Pagination 
+// =====================================================
+
 .usa-pagination__button {
   align-items: center;
   border-color: rgba(27, 27, 27, 0.2);
   border-radius: 0.25rem;
   border-style: solid;
   border-width: 1px;
-  color: #005ea2;
+  color: #93348c;
   display: inline-flex;
   justify-content: center;
   padding: 0.5rem 1rem;
@@ -22,7 +28,7 @@
   &:hover {
     text-decoration: underline;
     cursor: pointer;
-    color: #005ea2;
+    color: #93348c;
   }
 
   span {
@@ -56,7 +62,7 @@
 }
 
 .jplist-selected {
-  background-color: #005ea2;
+  background-color: #93348c;
   border-color: transparent;
   color: #fff;
 
@@ -68,19 +74,6 @@
 // =====================================================
 // Masthead
 // =====================================================
-
-.masthead-sub.sif {
-  height: 250px !important;
-}
-
-@media (max-width: 767px) { 
-  .masthead-sub.sif {
-      height: 50vw !important;
-  }
-}
-
-@use "uswds-core" as *;
-
 .masthead-sub {
   background: linear-gradient(235deg,#93348c,#fd4496,#93348c);
   background-size: 600% 600%;
@@ -94,7 +87,7 @@
       // padding-top: 78%;
       // height: 81vw;
       height: 46vw; // 179px;
-      margin-bottom: 16%;
+      margin-bottom: 5%;
       .masthead__logo {
           display: none;
       }
@@ -106,7 +99,7 @@
   @include at-media(mobile-lg) {
       // padding-top: 78%;
       height: 46vw;
-      margin-bottom: 16%;
+      margin-bottom: 5%;
       .masthead__logo {
           display: none;
       }
@@ -118,7 +111,7 @@
   @include at-media(tablet) {
       // padding-top: 70%;
       height: 35vw;
-      margin-bottom: 14%;
+      margin-bottom: 5%;
       .masthead__logo {
           display: none;
       }
@@ -130,7 +123,7 @@
   @include at-media(tablet-lg) {
       // padding-top: 59%;
       height: 35vw;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       .masthead__logo {
           display: contents;
       }
@@ -142,7 +135,7 @@
   @include at-media(desktop) {
       // padding-top: 55%;
       height: 29vw;
-      margin-bottom: 9%;
+      margin-bottom: 5%;
       .masthead__logo {
           display: contents;
       }
@@ -154,7 +147,7 @@
   @include at-media(desktop-lg) {
       // padding-top: 54%;
       height: 22vw;
-      margin-bottom: 8%;
+      margin-bottom: 5%;
       .masthead__logo {
           display: contents;
       }
@@ -167,7 +160,7 @@
       // height: 730px;
       height: 15.64vw;
       padding-top: 0;
-      margin-bottom: 120px;
+      margin-bottom: 5%;
       .masthead__logo {
           display: contents;
       }
@@ -216,3 +209,24 @@
 
 }
 
+.masthead-sub.sif {
+  height: 250px !important;
+}
+
+@media (max-width: 767px) { 
+  .masthead-sub.sif {
+      height: 50vw !important;
+  }
+}
+
+// =====================================================
+// USWDS Overrides
+// =====================================================
+
+.immersive-news__item-container .usa-button {
+  background-color: #93348c !important;
+}
+
+.immersive-news__item-container .usa-card__heading {
+  color: #93348c !important;
+}

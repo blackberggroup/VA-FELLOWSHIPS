@@ -669,11 +669,13 @@ var data = {
         },
         {
           "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img2_MAmendola_Trailblazer.jpg",
+          "title": "VHA IE Trailblazers: How Dr. Michael Amendola uses 3D printing for Veteran Care",
           "url": "https://news.va.gov/93168/vha-ie-trailblazers-how-dr-michael-amendola-uses-3d-printing-for-veteran-care/",
           "description": "Dr. Amendola has spent the last three years working on large-scale 3D-printing projects leading him to developing the 3D Printing Clinical Champion Capability program."
         },
         {
           "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img3_Indra_Trailblazer.png",
+          "title": "VHA IE Trailblazers: Bringing Veterans to their VA healthcare",
           "url": "https://news.va.gov/92343/vha-ie-trailblazers-bringing-veterans-to-their-va-health-care/",
           "description": "Dr. Indra Sandal  knew that there had to be a way to get Veterans with transportation challenges to VA facilities to receive the Veteran-centered care that they want."
         }
@@ -681,9 +683,9 @@ var data = {
 
 }
 
-data.data.sort().forEach(inews => $('.immersive-news__item-container').append(
+data.data.forEach(inews => $('.immersive-news__item-container').append(
 "<div class='immersive-news__item grid-col-12 tablet:grid-col-12 tablet-lg:grid-col-4 padding-top-2 padding-bottom-2 minh-mobile-lg aos-init aos-animate' data-aos='fade-up' data-jplist-item>" + 
-"<div class='usa-card__container padding-0 text-primary bg-base-lightest'>" + 
+"<div class='usa-card__container padding-0 text-primary'>" + 
 "<div class='usa-card__header'>" +
 "<h2 class='usa-card__heading'>" + inews.title + "</h2>" +
 "</div>" +
