@@ -1,5 +1,5 @@
 #fellowship-news {
-    background: #e3eef7 !important;
+    background: #F8F0F9 !important;
     color: #000;
   }
   
@@ -11,8 +11,8 @@
   
   #fellowship-news .owl-nav {
     position: absolute;
-    top: 105%;
-    left: 1%;
+    top: 95%;
+    left: -.5%;
   }
   
   #fellowship-news .owl-carousel {
@@ -35,12 +35,12 @@
       &.owl-next {
         position: relative !important;
         top: 112% !important;
-        left: 25% !important;
+        left: 6% !important;
         right: auto !important;
       }
   
       &.owl-next, &.owl-prev {
-        background: #337CB4 !important;
+        background: #93348C !important;
         padding: 6px 0 0 0 !important;
         border-radius: 3px !important;
         width: 48px;
@@ -109,7 +109,7 @@
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     #fellowship-news .owl-nav {
-      left: 1.5%;
+      left: -.75%;
     }
   
     #fellowship-news .usa-card__container {
@@ -164,7 +164,7 @@
       &.owl-prev {
         position: relative !important;
         top: auto !important;
-        left: -6% !important;
+        left: 0 !important;
         right: auto !important;
       }
     }
@@ -174,7 +174,7 @@
     }
   
     #fellowship-news {
-      background: #e3eef7;
+      background: #F8F0F9;
       color: #000;
       padding: 10% 0 10% !important;
       margin-top: 10%;
