@@ -1,0 +1,67 @@
+.usa-pagination__button {
+    align-items: center;
+    border-color: rgba(27, 27, 27, 0.2);
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    color: #005ea2;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    width: auto;
+    background: #fff;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-buttons {
+    border: none;
+    background: none;
+  
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      color: #005ea2;
+    }
+  
+    span {
+      &.next {
+        margin-left: 20px;
+      }
+  
+      &.previous {
+        margin-right: 20px;
+      }
+    }
+  }
+  
+  .jplist-holder {
+    margin: 0 20px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .pagination-controls .grid-row {
+      justify-content: center;
+    }
+  }
+  
+  .date {
+    visibility: hidden;
+  }
+  
+  .jplist-selected {
+    background-color: #005ea2;
+    border-color: transparent;
+    color: #fff;
+  
+    &:hover {
+      color: #fff !important;
+    }
+  }
+  

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title></title>
+        <meta property="og:title" content="((TITLE))">
+        <meta property="og:url" content="((URL))">
+        <meta property="og:description" content="((DESCRIPTION))">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="((OG:IMAGE URL))">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link id="favicon" rel="shortcut icon" href="assets/img/favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="../assets/uswds/js/uswds-init.min.js"></script>
+    </head>
+    <body>
+
+        <!-- SITE WRAPPER - START -->
+        <div class="site-wrapper">
+            {% include "header-sub.html" %}
+            
+            <main>
+
+                <section class="usa-graphic-list usa-section padding-top-0">
+                    <div class="grid-col-12 padding-0 nbSection margin-x-auto">
+        
+                        <div class="grid-container padding-3">
+        
+                            <!-- pagination control -->
+                            <div
+                                    data-jplist-control="pagination"
+                                    data-group="data-group-1"
+                                    data-items-per-page="6"
+                                    data-current-page="0"
+                                    data-jump=".pagination-controls.one"
+                                    data-name="pagination1"
+                                    class="pagination-controls one margin-bottom-3">
+        
+                                <div class="grid-row display-flex mb-3">
+        
+                                    <button type="button" data-type="prev" class="usa-pagination nav-buttons"><span class="previous"><</span>Previous</button>
+        
+                                    <div class="jplist-holder" data-type="pages">
+                                        <button type="button" data-type="page" class="usa-pagination usa-pagination__button">{pageNumber}</button>
+                                    </div>
+                                    
+                                    <button type="button" data-type="next" class="usa-pagination nav-buttons">Next<span class="next">></span></button>
+                                
+                                </div>
+        
+                            </div>
+        
+                            <!-- hidden sort control -->
+                            <div
+                                style="display: none"
+                                data-jplist-control="hidden-sort"
+                                data-group="data-group-1"
+        
+                                data-path=".date"
+                                data-order="dsc"
+                                data-type="datetime">
+                            </div>
+        
+                            <div class="grid-row grid-gap usa-card-group immersive-news__item-container" data-jplist-group="data-group-1"></div>
+        
+                            <!-- pagination control -->
+                            <div
+                                    data-jplist-control="pagination"
+                                    data-group="data-group-1"
+                                    data-items-per-page="6"
+                                    data-current-page="0"
+                                    data-jump=".pagination-controls.one"
+                                    data-name="pagination1"
+                                    class="pagination-controls margin-top-3">
+        
+                                <div class="grid-row display-flex mb-3">
+        
+                                    <button type="button" data-type="prev" class="usa-pagination nav-buttons"><span class="previous"><</span>Previous</button>
+        
+                                    <div class="jplist-holder" data-type="pages">
+                                        <button type="button" data-type="page" class="usa-pagination usa-pagination__button">{pageNumber}</button>
+                                    </div>
+                                    
+                                    <button type="button" data-type="next" class="usa-pagination nav-buttons">Next<span class="next">></span></button>
+                                
+                                </div>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                </section>
+
+            </main>
+
+            {% include "footer-sub.html" %}
+            
+        </div>
+        <!-- SITE WRAPPER - END -->
+        <script src="../assets/uswds/js/uswds.min.js"></script>
+        <script src="../assets/js/vendors/lazy/jquery.lazy.min.js"></script>
+        <script src="https://unpkg.com/mustache@latest"></script>
+        <script src="../assets/js/mustache-fellows-render.js"></script>
+        <script src="../assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="../assets/js/json-news-render.js"></script>
+        <script src="https://www.innovation.va.gov/hil/assets/js/jplist.min.js"></script>
+        <script src="../assets/js/fellowship-news-render.js"></script>
+        <script src="../assets/js/functions.js"></script>
+        
+    </body>
+</html>
