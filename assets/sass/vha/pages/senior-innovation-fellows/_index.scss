@@ -1,0 +1,177 @@
+// =====================================================
+// New SIF
+// =====================================================
+#new-senior-innovation-fellows {
+
+    @media (min-width: 64em) { 
+        .new-fellows-wrapper {
+            padding: 0 10%;
+        }
+    }
+    
+    .new-fellow-container {
+        position: relative;
+    }
+    
+    .new-fellow-container img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    
+    .new-fellow-container h3 {
+        position: absolute;
+        left: 50%;
+        padding: 3% 0;
+        transform: translate(-50%,-50%);
+        white-space: nowrap;
+        width: 100%;
+        background: linear-gradient(transparent, black);
+        border-radius: 0 0 8px 8px;
+        bottom: -55px;
+    }
+
+    @media (max-width: 880px) { 
+        .overlay-content__logo-stroke { 
+            display: none; 
+        }
+
+        .new-fellow-container h3 {
+            bottom: -70px;
+        }
+
+        .new-fellow-container {
+            margin-bottom: 5%;
+        }
+    }
+
+    @media (max-width: 760px) { 
+        .new-fellow-container h3 {
+            bottom: -65px;
+        }
+    }
+
+    @media (max-width: 500px) { 
+        .new-fellow-container h3 {
+            bottom: -60px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .hide-at-lg {
+            display: none;
+        }
+    }
+
+}
+
+// =====================================================
+// SIF
+// =====================================================
+
+.masthead-sub.sif {
+    height: 250px !important;
+}
+
+@media (max-width: 767px) { 
+    .masthead-sub.sif {
+        height: 50vw !important;
+    }
+}
+
+@media (max-width: 1023px) { 
+    #senior-innovation-fellows .overlay-content__logo-stroke  {
+        display: none !important;
+    }
+}
+
+// =====================================================
+// Alumni SIF
+// =====================================================
+#alumni-senior-innovation-fellows {
+
+    a {
+      text-decoration: none !important;
+      color: #1B1B1B;
+    }
+  
+    .usa-card__body {
+      text-align: left;
+    }
+  
+    .usa-card__container {
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+      height: 99% !important;
+    }
+    
+    .usa-card__media img {
+        border-radius: 4px 4px 0px 0px;
+    }
+  
+    p {
+      &.job, &.office_title {
+        font-weight: 700;
+      }
+    }
+  
+    .usa-card__body > :first-child, .usa-card__header > :first-child {
+      margin-top: 14px !important;
+    }
+
+}
+
+.alumni-sif.masthead .masthead__content-wrapper {
+    padding-top: 0; 
+}
+
+
+.alumni-sif.masthead {
+    height: 950px !important;
+    margin-bottom: 0;
+}
+
+@media (max-width: 999px) { 
+    .alumni-sif.masthead {
+        height: 900px !important;
+        margin-bottom: 0;
+    }
+}
+
+.alumni-senior--fellows {
+
+    .usa-card__container {
+        border-color: none;
+        border-style: none;
+    }
+
+    .owl-nav button {
+        background: transparent !important;
+        border: 2px solid #E6E6E6 !important;
+        padding: 10px 10px 6px;
+        margin: 32px 12px;
+        border-radius: 4px;
+    }
+
+}
+
+@media (min-width: 768px) { 
+    .senior-innovation-fellows-collage img {
+        width: 75%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 767px) { 
+    .senior-innovation-fellows-collage img {
+        margin-bottom: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

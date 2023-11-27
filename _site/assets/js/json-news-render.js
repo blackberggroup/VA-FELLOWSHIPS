@@ -2,6 +2,53 @@ var newsData = {
 
     "data": [
         {
+            "id1": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-tran-2023.jpg",
+            "title": "2023 Top 25 Emerging Leaders Melissa Tran",
+            "url": "https://news.va.gov/123157/maternal-health-summit-perinatal-care-veterans/",
+            "description": "Modern Healthcare has named Melissa Tran as a 2023 Top 25 Emerging Leader. Tran created PREPARe to connect pregnant and parenting veterans with comprehensive care, including lactation counselors, mental health medication providers, nutritionists and physical therapists."
+        },
+        {
+            "id1": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-tran-maternalhealth-230829.jpg",
+            "title": "Maternal Health Summit: Perinatal care for Veterans",
+            "url": "https://www.modernhealthcare.com/awards/2023-top-25-emerging-leaders-melissa-tran",
+            "description": "The Perinatal Reproductive Educational Planning and Resources (PREPARe) program hosted its first VA Maternal Health Summit at Orlando VA, led by VHA Innovation Ecosystem senior innovation fellow and PREPARe innovator, Melissa Tran."
+        },
+        {
+            "id1": "jacquelyn-paykel",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-paykel-wholehealth-230322.jpg",
+            "title": "Innovation Hero: Dr. Jackie Paykel growing a Whole Health approach",
+            "url": "https://news.va.gov/116928/innovation-hero-dr-jackie-paykel-whole-health/",
+            "description": "On Dr. Jacquelyn Paykel's first day at VA in 2014, she found a Slim Jim with a simple message: \"If you have a suggestion, we'd love to hear about it!\" Paykel was skeptical but told herself she would give it a try."
+        },
+        {
+            "id1": "candis-connell",
+            "id2": "jacquelyn-paykel",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-thrive-230530.jpg",
+            "title": "THRIVE: Helping Veterans and employees find happiness",
+            "url": "https://news.va.gov/120035/thrive-help-veterans-employees-find-happiness/",
+            "description": "Veterans and employees alike are finding happiness through health care thanks to the Transforming Health and Resilience through Integration of Values-based Experience (THRIVE), which has been adopted at 60 VA medical centers to date."
+        },
+        {
+            "id1": "candis-connell",
+            "id2": "jacquelyn-paykel",
+            "id3": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-innovationawards-230511.jpg",
+            "title": "The 2023 Innovation Award Winners Announced",
+            "url": "https://insights.govforum.io/2023/05/the-2023-innovation-award-winners-announced-2/",
+            "description": "The 9th Annual FORUM Innovation Awards have been announced, with winners across Veterans Affairs receiving recognition."
+        },
+        {
+            "id1": "candis-connell",
+            "id2": "jacquelyn-paykel",
+            "id3": "melissa-tran",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-fellows-221210.jpg",
+            "title": "VA announces 2022-2023 Innovation Fellows",
+            "url": "https://news.va.gov/111460/va-announces-2022-2023-innovation-fellows/",
+            "description": "Seven VA employees are joining the next cohort of VHA Innovation Fellows. These new fellows will utilize VHA Innovation Ecosystem's (VHA IE) community and resources to expand their innovations' capabilities."
+        },
+        {
             "id1": "candis-connell",
             "id2": "jacquelyn-paykel",
             "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img43-CConnell_AboutTHRIVE.jpg",
@@ -58,7 +105,7 @@ var newsData = {
         {
             "id1": "candis-connell",
             "id2": "jacquelyn-paykel",
-            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img48-MTran_InnovationRevolutionary.jpg",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img74_DisruptiveSummit.jpg",
             "title": "2023 Disruptive Tech Award Winners",
             "url": "https://events.govforum.io/disruptive-tech-summit/",
             "description": "Federal IT and consulting leaders who are changing the game, taking calculated risks, and impacting their business and our culture with groundbreaking ideas."
@@ -300,6 +347,174 @@ var newsData = {
             "title": "VA's Use of Telemedicine Services During the Pandemic",
             "url": "https://podiatrym.com/pdf/2022/11/Salvo1122Web.pdf",
             "description": "The pandemic hit the healthcare industry, particularly patient access to care, in a way that most podiatrists never anticipated."
+        },
+        {
+            "id1": "beth-ripley",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img37-Ripley_3DPGovMatters.jpg",
+            "title": "Department of Veterans Affairs could get 3D-printed living bone to clinics in three years",
+            "url": "https://www.youtube.com/watch?v=hw5quUs_FVQ",
+            "description": "3D printing technology has been around for a while, but at the Department of Veterans Affairs (VA), printing an actual model of a patient's organ will help improve surgeries and healthcare for vets."
+        },
+        {
+            "id1": "beth-ripley",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img12_3DPInnovation.png",
+            "title": "3D printing innovations deliver medical breakthroughs for Veterans",
+            "url": "https://news.va.gov/77777/3d-printing-innovations-deliver-medical-breakthroughs-veterans/",
+            "description": "VA's early investment in 3D printing technology has allowed the Department to innovate and improve Veteran care and to aid in VA's COVID-19 response."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img35-MDB_Amanda.jpg",
+            "title": "Synthetic Data's Critical Role in Preventing Suicides in Veterans",
+            "url": "https://governmentciomedia.com/synthetic-datas-critical-role-preventing-suicides-veterans",
+            "description": "Some tech innovations at the Department of Veterans Affairs are using synthetic data to help reduce veteran suicides. Here's how you can get involved."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img36-Amanda_AIRadiology.jpg",
+            "title": "VA embraces AI to improve radiology screening",
+            "url": "https://federalnewsnetwork.com/artificial-intelligence/2023/01/va-embraces-ai-to-improve-radiology-screening/",
+            "description": "The Department of Veterans Affairs is looking for new opportunities to enhance its health care with the launch of a new AI Tech Sprint focused on cardiothoracic medicine."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img34-DM_Arches.jpg",
+            "title": "VA Diffusion Marketplace: Arches",
+            "url": "https://marketplace.va.gov/innovations/arches",
+            "description": "Arches, a cloud-native platform, harnesses the power of collaboration and innovation to provide a one-stop data workshop for VA employees and external collaborators."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img33-Amanda_Healthcast.jpg",
+            "title": "Listen: Using Synthetic Data in Medical Realities at VA",
+            "url": "https://governmentciomedia.com/listen-using-synthetic-data-medical-realities-va",
+            "description": "Hear from VA Director of Data Analytics and Innovation Amanda Lienau on how the agency is making innovative use of synthetic data to support and advance health issues for veterans."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img27_Lienau_2021iEX.jpg",
+            "title": "2021 VHA iEX Talks: Democratizing Data",
+            "url": "https://www.youtube.com/watch?v=dt-WHX-_kBM",
+            "description": "The Democratizing Data project addresses the challenges of leveraging vast amounts of VHA clinical data to better understand, present, and respond to Veteran issues."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img11_SyntheticData_Amanda.png",
+            "title": "The future of policy for synthetic data in health care",
+            "url": "https://news.va.gov/102749/the-future-of-policy-for-synthetic-data-in-health-care",
+            "description": "Synthetic data can also accelerate software development, increase access to important patient data and improve research that benefits Veterans."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img20_Amanda_KeepingITBrief.jpg",
+            "title": "Listen: A Look At Democratizing Data with VA",
+            "url": "https://www.fedhealthit.com/2021/06/a-look-at-democratizing-data-with-va/",
+            "description": "A conversation with Dr. Amanda Lienau on how VA is advancing data analytics through the use of synthetic data."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img21_AIPilot_STL.jpg",
+            "title": "Piloting AI tools for radiologists to deliver the best care to Veterans",
+            "url": "https://news.va.gov/88868/piloting-ai-tools-radiologists-deliver-best-care-veterans/",
+            "description": "VA St. Louis Health Care System partners with Aidoc to pilot artificial intelligence software that prioritizes urgent abnormalities in CT scans for radiologists, enabling faster diagnosis."
+        },
+        {
+            "id1": "amanda-lienau",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img11_SyntheticData_Amanda.png",
+            "title": "How synthetic data will improve Veteran health and care",
+            "url": "https://news.va.gov/81908/synthetic-data-improve-veteran-care/",
+            "description": "To better understand the factors that impact Veteran health, VHA IE is using artificial data also known as synthetic data to measure a broad array of health risks that will improve Veteran care."
+        },
+        {
+            "id1": "michael-amendola",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img32-MichaelAmendolaVCU.jpg",
+            "title": "One-of-a-kind VCU and VA program prints 3D replicas of patient's body parts",
+            "url": "https://www.vcuhealth.org/news/vcu-and-va-program-prints-3d-replicas-of-patients-body-parts",
+            "description": "Through nation's first 3D printing surgical fellowship, VCU researchers are using anatomy replicas to improve the surgery experience for physicians and patients."
+        },
+        {
+            "id1": "michael-amendola",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img2_MAmendola_Trailblazer.jpg",
+            "title": "VHA IE Trailblazers: How Dr. Michael Amendola uses 3D printing for Veteran Care",
+            "url": "https://news.va.gov/93168/vha-ie-trailblazers-how-dr-michael-amendola-uses-3d-printing-for-veteran-care/",
+            "description": "Dr. Amendola has spent the last three years working on large-scale 3D-printing projects leading him to developing the 3D Printing Clinical Champion Capability program."
+        },
+        {
+            "id1": "michael-amendola",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "Fellowship Friday: Dr. Michael Amendola",
+            "url": "https://www.facebook.com/VHAInnovation/videos/fellowship-friday-dr-michael-amendola/365836444932223/",
+            "description": "Dr. Michael Amendola, Senior Innovation Fellow at the Central Virginia VA Health Care System, discusses the development of a 3D Printing Clinical Challenge program."
+        },
+        {
+            "id1": "michael-amendola",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img64-MAmendola_SegmentationBootCamp.jpg",
+            "title": "2023 American College of Surgeons Presentation: Engineers' Feedback on Segmentation Bootcamp",
+            "url": "/ecosystem/assets/documents/FellowsInTheNews_MAmendola_Slide4-FeedbackDoc.pdf",
+            "description": "Dr. Amendola presented \"They Want Clinical Context and Protocols: Analysis of Engineers\" Feedback from a National Segmentation Boot Camp Experience” at the 2023 American College of Surgeons annual meeting."
+        },
+        {
+            "id1": "michael-amendola",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img42-HealthcarePlaybook_Harzand.jpg",
+            "title": "VA Releases Digital Healthcare Playbook to Improve Patient Care",
+            "url": "/ecosystem/assets/documents/FellowsInTheNews_MAmendola_Slide5-3DPrintingDoc.pdf",
+            "description": "Dr. Amendola presented \"Teaching the Surgeons: A Novel VHA-Based 3D Printing Fellowship for General Surgery Residents\" at the 2023 American College of Surgeons annual meeting."
+        },
+        {
+            "id1": "arash-harzand",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img42-HealthcarePlaybook_Harzand.jpg",
+            "title": "Digital transformation at VHA with Arash Harzand, MD, MBA",
+            "url": "https://ehrintelligence.com/news/va-releases-digital-healthcare-playbook-to-improve-patient-care",
+            "description": "The guide will help healthcare leaders navigate digital healthcare solutions to better patient care, streamline operational efficiencies, and lower costs, VA official stated."
+        },
+        {
+            "id1": "arash-harzand",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img30_AMA.jpg",
+            "title": "Digital transformation at VHA with Arash Harzand, MD, MBA",
+            "url": "https://www.ama-assn.org/practice-management/digital/digital-transformation-vha-arash-harzand-md-mba",
+            "description": "Dr. Arash Harzand talks about digital transformation in health care and how it's helping to fill critical gap."
+        },
+        {
+            "id1": "arash-harzand",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img23_Evidation_Arash.jpg",
+            "title": "Evidation, VA Collaborate to Enroll Veterans in Personalized Heart Health Program",
+            "url": "https://news.va.gov/101015/health-application-aims-to-transform-veteran-heart-health/",
+            "description": "VHA IE, in collaboration with Evidation, is encouraging Veterans to enroll in Heart Health—a free, application-based program that helps educate Veterans about their heart health and chronic conditions from anywhere."
+        },
+        {
+            "id1": "arash-harzand",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img10_Arash_Trailblazer.png",
+            "title": "VHA IE Trailblazers: Dr. Arash Harzand is bringing the hospital to Veterans' homes",
+            "url": "https://news.va.gov/84407/vha-ie-trailblazers-dr-arash-harzand/",
+            "description": "Dr. Arash Harzand is taking an old-school approach to Veteran health care with new-school technologies."
+        },
+        {
+            "id1": "arash-harzand",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img4.jpg",
+            "title": "Fellowship Friday: Dr. Arash Harzand",
+            "url": "https://www.facebook.com/VHAInnovation/videos/fellowship-friday-dr-arash-harzand/1368406660165889",
+            "description": "Dr. Arash Harzand, a Senior Innovation Fellow in the latest VHA IE Fellowship Cohorts pioneered a Digital Cardiology Program at Atlanta VA Health Care System and will work to diffuse his innovation VA-wide."
+        },
+        {
+            "id1": "cory-fominaya",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img61-CForminaya_FedHealthITAward.jpg",
+            "title": "MLDS Honored with 2020 FedHealthIT Innovation Award",
+            "url": "https://www.fedhealthit.com/2020/02/fedhealthit-2020-innovation-award-winners-announced/",
+            "description": "Machine Learning Decision Support tool honored for its results that are driving impact across VHA."
+        },
+        {
+            "id1": "cory-fominaya",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img55-SLewis_InnovationFellows.jpg",
+            "title": "Innovation Revolutionary: Machine learning provides focused Veteran care",
+            "url": "https://news.va.gov/108120/innovation-revolutionary-machine-learning/",
+            "description": "VA employees can learn more about MLDS on VA's Diffusion Marketplace."
+        },
+        {
+            "id1": "cory-fominaya",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img63-CForminaya_DiffusionOfExcellence.jpg",
+            "title": "Diffusion of Excellence kicks off with 11 groundbreaking practices",
+            "url": "https://news.va.gov/53321/diffusion-excellence-kicks-off-11-groundbreaking-practices/",
+            "description": "Prescription benefit auditing practice earns Gold Star status with VHA Diffusion of Excellence Program."
         }
     ]
 
@@ -315,7 +530,8 @@ var newsItemCount;
 for (var i = 0; i < newsJsonData.length; i++) {
     var userIndex1 = newsJsonData[i].id1;
     var userIndex2 = newsJsonData[i].id2;
-    if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 ) {
+    var userIndex3 = newsJsonData[i].id3;
+    if (window.location.href.indexOf(userIndex1) > -1 || window.location.href.indexOf(userIndex2) > -1 || window.location.href.indexOf(userIndex3) > -1 ) {
         newsPageData.data.push(newsJsonData[i]); 
         newsItemCount = newsPageData.data.length;
         console.log(newsPageData.data.length);
@@ -339,14 +555,14 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
 
 } else if (newsItemCount < 5 && newsItemCount > 1) {
 
-    newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
+    newsPageData.data.forEach(news => $('.owl-carousel.news-4-3-2').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
     count1 = 1;
-    count2 = 4;
+    count2 = 2;
     count3 = 4;
     shouldLoop = false
 
-    $('.owl-carousel.profile--fellows').owlCarousel({
+    $('.owl-carousel.news-4-3-2').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
@@ -359,13 +575,11 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
             600:{
                 items: count2
             },
-            1000:{
+            1200:{
                 items: count3
             }
         }
     });
-
-    $(".owl-stage div.cloned.active").css("visibility", "hidden");
 
 } else {
 

@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: 🚀 Deploy to Sandbox on merge
+name: 🚀 Deploy to BG Sandbox on merge
 jobs:
   web-deploy:
     name: 🎉 Deploy
