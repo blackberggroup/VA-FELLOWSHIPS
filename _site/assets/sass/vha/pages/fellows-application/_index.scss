@@ -1,0 +1,45 @@
+// =====================================================
+// FA
+// =====================================================
+
+.fellows-application {
+    margin-bottom: 15%;
+}
+
+.masthead-sub.fa {
+    height: 250px !important;
+}
+
+@media (max-width: 767px) { 
+    .masthead-sub.fa {
+        height: 50vw !important;
+    }
+}
+
+@media (max-width: 1200px) { 
+    #fellows-application .overlay-content__logo-stroke  {
+        display: none !important;
+    }
+}
+
+.overlay-content__logo-stroke.logo-stroke-1 {
+    top: -100px;
+    left: 30% !important;
+}
+
+.overlay-content__logo-stroke.logo-stroke-2 {
+    top: -50px;
+    left: 25% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
