@@ -93,10 +93,13 @@ $('.owl-carousel.alumni-senior--fellows').owlCarousel({
 
 $(".owl-stage").addClass("display-flex flex-align-stretch");
 
-$(document).ready(function() {
-	$(".accordion").on("click", function() {
-	  $(this).toggleClass("active");
-	  $(this).next().slideToggle(200);
+
+if (window.location.href.indexOf("fellowship-application") > -1) {
+	$(document).ready(function() {
+		$(".accordion").on("click", function() {
+		  $(this).toggleClass("active");
+		  $(this).next().slideToggle(0);
+		});
 	});
-});
-  
+}
+
