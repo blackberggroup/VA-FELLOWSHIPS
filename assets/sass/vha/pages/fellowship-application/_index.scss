@@ -1,10 +1,6 @@
 // =====================================================
-// FA
+// Fellows Application
 // =====================================================
-
-.fellows-application {
-    margin-bottom: 15%;
-}
 
 .masthead-sub.fa {
     height: 250px !important;
@@ -32,7 +28,28 @@
     left: 25% !important;
 }
 
+// =====================================================
+// Application Process
+// =====================================================
 
+#application-process {
+    color: #F0F0F0;
+
+    .grid-col-12 p {
+        max-width: 676px;
+        margin: auto;
+    }
+}
+
+// =====================================================
+// Application Guide
+// =====================================================
+
+#application-guide {
+    a.button-vha {
+        background: #864381 !important;
+    }
+}
 
 
 

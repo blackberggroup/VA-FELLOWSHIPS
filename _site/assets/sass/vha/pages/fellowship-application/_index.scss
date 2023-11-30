@@ -1,0 +1,62 @@
+// =====================================================
+// Fellows Application
+// =====================================================
+
+.masthead-sub.fa {
+    height: 250px !important;
+}
+
+@media (max-width: 767px) { 
+    .masthead-sub.fa {
+        height: 50vw !important;
+    }
+}
+
+@media (max-width: 1023px) { 
+    #fellows-application .overlay-content__logo-stroke  {
+        display: none !important;
+    }
+}
+
+.overlay-content__logo-stroke.logo-stroke-1 {
+    top: -100px;
+    left: 30% !important;
+}
+
+.overlay-content__logo-stroke.logo-stroke-2 {
+    top: -50px;
+    left: 25% !important;
+}
+
+// =====================================================
+// Application Process
+// =====================================================
+
+#application-process {
+    color: #F0F0F0;
+
+    .grid-col-12 p {
+        max-width: 676px;
+        margin: auto;
+    }
+}
+
+// =====================================================
+// Application Guide
+// =====================================================
+
+#application-guide {
+    a.button-vha {
+        background: #864381 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
