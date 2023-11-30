@@ -121,6 +121,16 @@
         margin-top: -5px;
     }
 
+    .faq-dropdowns {
+        max-width: 960px;
+    }
+
+    @media (max-width: 1300px) and (min-width: 768px) { 
+        .faq-dropdowns {
+            max-width: 69vw;
+        }
+    }
+
     @media (max-width: 767px) { 
         .accordion {
             margin-bottom: 4%;
