@@ -203,3 +203,13 @@
     50%{left: 25%;}
     100%{left: 0%;}    
 }
+
+#masthead {
+    z-index: 1 !important;
+    position: relative;
+}
+
+#application {
+    z-index: 0 !important;
+    position: relative;
+}
