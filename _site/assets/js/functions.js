@@ -53,10 +53,6 @@ $('.scroll').on('click',function(e) {
 	});
 });
 
-$(function() {
-	$('.lazy').Lazy();
-});
-
 $('.owl-carousel.current--fellows').owlCarousel({
     loop: true,
     margin: 10,
@@ -102,4 +98,3 @@ if (window.location.href.indexOf("fellowship-application") > -1) {
 		});
 	});
 }
-
