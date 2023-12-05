@@ -71,6 +71,50 @@ connection {
     }
 }
 
+@media (max-width: 600px) { 
+    connection.two-to-three {
+        border-top-left-radius: 50px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 0px 2px 2px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: -200px;
+    }
+
+    connection.five-to-six {
+        border-top-left-radius: 50px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 0px 2px 2px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: -150px;
+    }
+
+    connection.seven-to-eight {
+        border-top-left-radius: 50px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 0px 2px 2px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: -150px;
+    }
+}
+
 @media (max-width: 1399px) { 
     #connections div.box {
         width: 75%;
@@ -83,6 +127,68 @@ connection {
 
     #connections div.box.three {
         width: 100%;
+    }
+
+    connection.one-to-two {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 50px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 2px 2px 0px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: 50px;
+    }
+
+    connection.four-to-three {
+        margin-left: -95px;
+        border-width: 2px 2px 2px 0px !important;
+
+    }
+
+    connection.four-to-five {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 50px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 2px 2px 0px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: 50px;
+    }
+
+    connection.six-to-seven {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 50px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 2px 2px 0px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: 50px;
+    }
+
+    connection.eight-to-nine {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 50px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        position: absolute;
+        border-width: 2px 2px 2px 0px !important;
+
+        margin-top: -70px;
+        width: 100px !important;
+        height: 120px !important;
+        margin-left: 50px;
     }
 }
 
