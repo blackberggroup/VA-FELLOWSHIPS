@@ -96,19 +96,26 @@
                     </div>
                 </section>
 
+                <!-- <section id="application-process" class="application-process text-center padding-y-5 mobile-lg:padding-y-15" style="background: url('../assets/img/home/gray_rectangle.png'), #93348C;">
+                    <div class="grid-col-12">
+                        <h1>Application Process</h1>
+                        <p class="padding-bottom-5 padding-x-6 mobile-lg:padding-x-0">The application period for the 2024 Entrepreneur in Residence and Senior Innovation Fellowships has closed. Application details for 2025 will be provided here when they become available.</p>
+                    </div>
+
+                    <div class="grid-col-12 padding-x-0 mobile-lg:padding-x-5">
+                        <picture>
+                            <source srcset="../assets/img/fellowship-application/card-collage-sm.png" media="(max-width: 1023px)" />
+                            <img src="../assets/img/fellowship-application/card-collage-xl.png" alt="Phases" />
+                          </picture>
+                    </div>
+                </section> -->
+
                 <section id="application-process" class="application-process text-center padding-y-5 mobile-lg:padding-y-15" style="background: url('../assets/img/home/gray_rectangle.png'), #93348C;">
 
                     <div class="grid-col-12">
                         <h1>Application Process</h1>
                         <p class="padding-bottom-5 padding-x-6 mobile-lg:padding-x-0">The application period for the 2024 Entrepreneur in Residence and Senior Innovation Fellowships has closed. Application details for 2025 will be provided here when they become available.</p>
                     </div>
-
-                    <!-- <div class="grid-col-12 padding-x-0 mobile-lg:padding-x-5">
-                        <picture>
-                            <source srcset="../assets/img/fellowship-application/card-collage-sm.png" media="(max-width: 1023px)" />
-                            <img src="../assets/img/fellowship-application/card-collage-xl.png" alt="Phases" />
-                          </picture>
-                    </div> -->
 
                     <div id="connections" class="padding-x-0 mobile-lg:padding-x-5">
                         <div class="grid-container">
@@ -142,8 +149,23 @@
                                     <p>VHA IE hosts an information call for prospective applicants.</p>
                                 </div>
                             </div>
+                            <div class="grid-row grid-gap flex-justify-center margin-top-10">
+                                <div class="box eight">
+                                    <h4>Phase 8</h4>
+                                    <p>2024 VHA IE Fellowships Year Begins.</p>
+                                </div>
+                                <div class="box seven">
+                                    <h4>Phase 7</h4>
+                                    <p>VHA IE announces the 2024 VHA Entrepreneur in Residence and Senior Innovation Fellowships Cohort.</p>
+                                </div>
+                            </div>
+                            <div class="grid-row grid-gap flex-justify-center margin-top-10">
+                                <div class="box nine">
+                                    <h4>Phase 9</h4>
+                                    <p>VHA Innovation Experience (iEX)</p>
+                                </div>
+                            </div>
                         </div>
-                        
                     </div>
 
                 </section>
@@ -285,18 +307,42 @@
         <script src="../assets/js/functions.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-connections@1.0.1/jquery.connections.min.js"></script>
         <script>
-            $(document).ready(function() {
-                $("#connections div.box.one").connections({ 
-                    to: '#connections div.box.two'});
-                $("#connections div.box.two").connections({ 
-                    to: '#connections div.box.three',
-                    'class': 'two-to-three'
+            if(window.innerWidth > 1400) {
+                $(document).ready(function() {
+                    $("#connections div.box.one").connections({ 
+                        to: '#connections div.box.two'});
+                    $("#connections div.box.two").connections({ 
+                        to: '#connections div.box.three',
+                        'class': 'two-to-three'
+                    });
+                    $("#connections div.box.four").connections({ 
+                        to: '#connections div.box.three',
+                        'class': 'four-to-three'
+                    });
+                    $("#connections div.box.four").connections({ 
+                        to: '#connections div.box.five'
+                    });
+                    $("#connections div.box.five").connections({ 
+                        to: '#connections div.box.six'
+                    });
+                    $("#connections div.box.six").connections({ 
+                        to: '#connections div.box.seven',
+                        'class': 'six-to-seven'
+                    });
+                    $("#connections div.box.eight").connections({ 
+                        to: '#connections div.box.seven'
+                    });
+                    $("#connections div.box.eight").connections({ 
+                        to: '#connections div.box.nine',
+                        'class': 'eight-to-nine'
+                    });
+
+                    var c = $('connection');
+                        setInterval(function() {
+                        c.connections('update');
+                    }, 100);
                 });
-                $("#connections div.box.three").connections({ 
-                    to: '#connections div.box.four',
-                    'class': 'three-to-four'
-                });
-            });
+            }
         </script>
 
     </body>
