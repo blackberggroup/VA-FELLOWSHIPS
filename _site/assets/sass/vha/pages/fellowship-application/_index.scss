@@ -115,7 +115,7 @@ connection {
     }
 }
 
-@media (max-width: 1399px) { 
+@media (max-width: 600px) { 
     #connections div.box {
         width: 75%;
         margin-bottom: 30px;
@@ -202,6 +202,17 @@ connection {
         width: 100px !important;
         height: 120px !important;
         margin-left: 50px;
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 601px) { 
+    #connections div.box {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+
+    #connections div.box.two, #connections div.box.five, #connections div.box.seven, #connections div.box.nine {
+        margin-left: 0%;
     }
 }
 
