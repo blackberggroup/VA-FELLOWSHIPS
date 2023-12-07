@@ -123,6 +123,7 @@ $('.owl-carousel.home').owlCarousel({
 
 $(".owl-stage").addClass("display-flex flex-align-stretch");
 
+<<<<<<< HEAD
 $('.vha-video__play-action').magnificPopup({
     type: 'iframe', 
     
@@ -135,3 +136,14 @@ $('.vha-video__play-action').magnificPopup({
     }
 });
 
+=======
+
+if (window.location.href.indexOf("fellowship-application") > -1) {
+	$(document).ready(function() {
+		$(".accordion").on("click", function() {
+		  $(this).toggleClass("active");
+		  $(this).next().slideToggle(0);
+		});
+	});
+}
+>>>>>>> 5b77f38654552135af5236151499feb915370872
