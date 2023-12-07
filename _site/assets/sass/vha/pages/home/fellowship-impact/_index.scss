@@ -1,0 +1,30 @@
+#fellowship-impact {
+
+    color: #fff;
+
+    .usa-card__container.item, .usa-card__body {
+      padding: 0 !important;
+    }
+
+    @media screen and (min-width: 1200px) {
+      .bottom-section {
+        margin-top: 50%;
+      }
+    }
+    
+}
+
+@media (min-width: 75em) {
+  .desktop-lg\:sticky {
+    position: fixed;
+    top: 80px;
+    max-width: 450px;
+  }
+
+  .desktop-lg\:sticky-stay {
+    position: absolute;
+    bottom: -1%;
+  }
+}
+
+
