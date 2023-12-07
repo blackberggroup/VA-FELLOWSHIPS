@@ -53,10 +53,6 @@ $('.scroll').on('click',function(e) {
 	});
 });
 
-$(function() {
-	$('.lazy').Lazy();
-});
-
 $('.owl-carousel.current--fellows').owlCarousel({
     loop: true,
     margin: 10,
@@ -110,3 +106,12 @@ $('.owl-carousel.alumni-erf--fellows').owlCarousel({
 
 $(".owl-stage").addClass("display-flex flex-align-stretch");
 
+
+if (window.location.href.indexOf("fellowship-application") > -1) {
+	$(document).ready(function() {
+		$(".accordion").on("click", function() {
+		  $(this).toggleClass("active");
+		  $(this).next().slideToggle(0);
+		});
+	});
+}
