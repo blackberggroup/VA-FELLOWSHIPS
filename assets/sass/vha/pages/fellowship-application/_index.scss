@@ -411,6 +411,10 @@ connection {
 
 #application-faq {
 
+    button.usa-accordion__button {
+        border-radius: 8px !important;
+    }
+
     .accordion {
         background-color: #f0f0f0;
         color: #1B1B1B;
@@ -425,6 +429,25 @@ connection {
         font-weight: 700;
         border-radius: 8px;
         margin-bottom: 2%;
+    }
+
+    .usa-accordion__button[aria-expanded=true], .usa-accordion__button[aria-expanded=true]:hover {
+        background-image: url(https://designsystem.digital.gov/assets/img/usa-icons/remove.svg),linear-gradient(transparent,transparent);
+        background-repeat: no-repeat;
+        background-position: right 1.25rem center;
+        background-size: 1.5rem;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 3.5rem 1rem 1.25rem;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .usa-accordion__button[aria-expanded=false], .usa-accordion__button[aria-expanded=false]:hover {
+        background-image: url(https://designsystem.digital.gov/assets/img/usa-icons/add.svg),linear-gradient(transparent,transparent);
+        background-repeat: no-repeat;
     }
     
     .panel {
