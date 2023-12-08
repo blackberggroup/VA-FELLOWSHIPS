@@ -6,6 +6,10 @@
     height: 250px !important;
 }
 
+.fellowship-application__content a {
+    color: #93348c;
+}
+
 @media (max-width: 767px) { 
     .masthead-sub.fa {
         height: 50vw !important;
@@ -18,12 +22,12 @@
     }
 }
 
-.overlay-content__logo-stroke.logo-stroke-1 {
+#fellowship-application .overlay-content__logo-stroke.logo-stroke-1 {
     top: -100px;
     left: 30% !important;
 }
 
-.overlay-content__logo-stroke.logo-stroke-2 {
+#fellowship-application .overlay-content__logo-stroke.logo-stroke-2 {
     top: -50px;
     left: 25% !important;
 }
@@ -511,5 +515,9 @@ connection {
 
     .font-body.one {
         max-width: 700px;
+    }
+
+    .font-body.one a {
+        color: #93348c;
     }
 }

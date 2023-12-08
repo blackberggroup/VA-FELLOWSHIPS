@@ -65,6 +65,9 @@ $('.owl-carousel.current--fellows').owlCarousel({
             items:2
         },
         1000:{
+            items:3
+        },
+        1400:{
             items:4
         }
     }
@@ -82,6 +85,9 @@ $('.owl-carousel.alumni-senior--fellows').owlCarousel({
             items:2
         },
         1000:{
+            items:3
+        },
+        1400:{
             items:4
         }
     }
@@ -99,6 +105,9 @@ $('.owl-carousel.alumni-erf--fellows').owlCarousel({
             items:2
         },
         1000:{
+            items:3
+        },
+        1400:{
             items:4
         }
     }
@@ -112,7 +121,7 @@ $('.owl-carousel.home').owlCarousel({
         0:{
             items:1
         },
-        1000:{
+        600:{
             items:2
         },
         1200:{
