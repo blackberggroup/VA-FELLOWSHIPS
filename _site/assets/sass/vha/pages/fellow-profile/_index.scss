@@ -8,9 +8,11 @@ section#page--bios {
 
     margin-top: -275px;
 
-    .bio-card-attributes {
-        padding-left: 25px;
-    }   
+    @media screen and (min-width: 640px) {
+        .bio-card-attributes {
+            padding-left: 25px;
+        }   
+    }
 
     @media screen and (max-width: 767px) {
         margin-top: -200px;
@@ -53,11 +55,19 @@ section#page--bios {
         margin: 8% 8% 8% 12%;
     }
 
-    @media screen and (max-width: 1023px) {
+    @media screen and (max-width: 1023px) and (min-width: 640px) {
         .bio-card-img {
             text-align: center;
         }
 
+        .bio-card-img img {
+            width: 40vw;
+            height: 40vw;
+            margin: 10% 0;
+        }
+    }
+
+    @media screen and (max-width: 639px) {
         .bio-card-img img {
             width: 52vw;
             height: 52vw;
@@ -94,16 +104,27 @@ section#page--bios {
             max-width: 85%;
         }
 
-        @media screen and (max-width: 1400px) and (min-width: 1024px) {
+        @media screen and (max-width: 1400px) {
             > div {
                 position: relative;
-                margin-top: 25%;
                 max-width: none;
                 bottom: auto;
             }
         }
 
-        @media screen and (max-width: 1023px) {
+        @media screen and (max-width: 1400px) and (min-width: 1024px) {
+            > div {
+                margin-top: 25%;
+            }
+        }
+
+        @media screen and (max-width: 1023px) and (min-width: 640px) {
+            > div {
+                margin: 0 0 4% 0;
+            }
+        }
+
+        @media screen and (max-width: 639px) {
             > div {
                 position: relative;
                 margin: 10% 0;
