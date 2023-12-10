@@ -181,6 +181,27 @@ let indraView = {
     bio2: "Before joining VA, Dr. Sandal also held prominent research roles, including serving as Assistant Professor of Medicine at the University of Utah School of Medicine in Salt Lake City, UT from 2011-2014 and as Research Scientist at Virginia Tech from 2005-2011. Her genetic and genomic research outcomes included 17 secured patents, 14 peer reviewed journal publications as lead author, three book chapters and over 50 conference presentations worldwide."
 };
 
+let lindsayView = {
+    id: "lindsay-riegler",
+    fellow_type: "erf",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/lindsay-riegler.jpg",
+    profileImg: "../assets/img/fellows/lindsay-riegler-sq.jpg",
+    alt: "Lindsay James Riegler, CCC-SLP, CBIS",
+    bio_name: "Lindsay James Riegler, CCC-SLP, CBIS",
+    title: "2022 Entrepreneur in Residence",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Innovation Specialist and Speech-Language Pathologist",
+    office_location: "Cincinnati VA Medical Center",
+    office_title2: "",
+    office_location2: "",
+    project: "Remote Patient Monitoring Policy Framework of the Future",
+    bio: "Lindsay R. James Riegler is a Research Speech-Language Pathologist, Adjunct Associate Professor at the University of Cincinnati's College of Allied Health Sciences and Innovation Specialist at the Cincinnati VA Medical Center. She is a standing reviewer for multiple peer reviewed journals and an invited member of the VA Rehabilitation Research and Development Merit Review board.",
+    bio2: "Dr. Riegler focused her Entrepreneur in Residence Fellowship on collaborating with national level stakeholders in establishing Remote Patient Monitoring policy and implementation solutions. In addition, she is the Professional Development Manager for the American Speech-Language Hearing Association Special Interest Group, Telepractice. She is a certified brain injury specialist with 15 years of expertise in delivering evidence based cognitive rehabilitation via telehealth to Veterans with traumatic brain injury. Her research has resulted in numerous local and national presentations, grant funded projects, multiple peer reviewed publications and co-authored book chapters. She has experience serving as Principal Investigator on randomized clinical drug trials and was recently awarded Mid-Career Research Scientist Award from the University of Cincinnati. She is an avid traveler and enjoys spending time with her husband and three kids."
+};
+
 let aksharView = {
     id: "akshar-abbott",
     fellow_type: "erf",
@@ -550,7 +571,7 @@ let coryView = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, lindsayView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
 
 var tab;
 var img;
@@ -694,9 +715,3 @@ var alumniData = {
 alumniData.data.push(newAlumniFellowsArray);  
 
 alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-erf--fellows').append("<div class='usa-card__container item'>" + "<a href=../fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_locatio2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
-
-
-
-  
-  
-  
