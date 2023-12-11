@@ -576,10 +576,52 @@ var newsData = {
             "description": "Prescription benefit auditing practice earns Gold Star status with VHA Diffusion of Excellence Program."
         },
         {
+            "id1": "lindsay-riegler",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/SlideShow/ssFellowLindsay-img1.jpg",
+            "title": "Listen: VA Eyes Long-Term Treatments With the Help of Wearables",
+            "url": "https://governmentciomedia.com/listen-va-eyes-long-term-treatments-help-wearables",
+            "description": "Dr. Lindsay Riegler provides a look at how VA is incorporating wearable medical devices within its broader health care program to improve treatment of chronic conditions."
+        },
+        {
+            "id1": "lindsay-riegler",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img17-LRiegler_FaceInnovation.jpg",
+            "title": "Face of InnoVAtion: Lindsay Riegler",
+            "url": "https://news.va.gov/92620/face-of-innovation-lindsay-riegler/",
+            "description": "As an Innovation Specialist at the Cincinnati VAMC, Dr. Lindsay Riegler fosters a culture of innovation throughout VA by empowering employees to develop their own innovative solutions to problems they experience firsthand."
+        },
+        {
+            "id1": "lindsay-riegler",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img18_LR_Revolutionary.png",
+            "title": "Innovation Revolutionary: Doctor leads remote patient monitoring initiative",
+            "url": "https://news.va.gov/107814/revolutionary-remote-patient-monitoring/",
+            "description": "Remote Patient Monitoring (RPM) solutions are growing in popularity and will help to expand preventative measures to reduce hospital admissions and improving quality of life for Veterans."
+        },
+        {
+            "id1": "lindsay-riegler",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img79-LRiegler_RemoteTempMon.jpg",
+            "title": "Remote Temperature Monitoring Innovator Earns VA Fellowship",
+            "url": "https://connectedcare.va.gov/whats-new/awards/remote-temperature-monitoring-innovator-earns-va-fellowship",
+            "description": "Dr. Lindsay Riegler, Liaison between Connected Care and the Office of Healthcare Innovation and Learning, has been named an Entrepreneur in Residence Fellow."
+        },
+        {
+            "id1": "lindsay-riegler",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/nefellowship-Img77-LRiegler_VideoConnect.jpg",
+            "title": "Video calls key to Cincinnati VA maintaining connection to vets during pandemic",
+            "url": "https://www.wcpo.com/news/our-community/homefront/video-calls-key-to-cincinnati-va-maintaining-connection-to-vets-during-pandemic",
+            "description": "Innovation Specialist Lindsay Riegler shares about the impact of the VA Video Connect (VVC) platform in reaching Veterans during the pandemic."
+        },
+        {
+            "id1": "lindsay-riegler",
+            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img78_AshaVoices.jpg",
+            "title": "ASHA Voices: Breaking Down Telepractice Barriers—It's a VA Reality",
+            "url": "https://leader.pubs.asha.org/do/10.1044/2021-0527-transvoices-podcast-telepractice-va-barriers",
+            "description": "Innovation Specialist and research speech language pathologist Lindsay Riegler shares the perspective on tele-practice from inside the VA."
+        },
+        {
             "id1": "suzanne-shirley",
             "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/neFellowship-Img16_MITGrandHack_Picture.png",
             "title": "VA partners with MIT to 'hack' medicine, improve veteran health care",
-            "url": "https://news.va.gov/53321/diffusion-excellence-kicks-off-11-groundbreaking-practices/",
+            "url": "https://news.va.gov/64036/join-in-hacking-va-health-care-to-better-future-for-all-veterans/",
             "description": "The Veterans Health Administration Innovation Ecosystem partnered with the Massachusetts Institute of Technology (MIT) Hacking Medicine organization and Samsung for a series of Grand Hacks throughout 2019."
         },
         {

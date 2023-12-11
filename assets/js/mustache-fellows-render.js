@@ -3,8 +3,8 @@ let candisView = {
     id: "candis-connell",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/CandisConnell.jpg",
-    profileImg: "../assets/img/fellows/profile-img/candice-connell-sq.jpg",
+    img: "../assets/img/fellows/candice-connell.jpg",
+    profileImg: "../assets/img/fellows/candice-connell-sq.jpg",
     alt: "Candis Connell, Psy.D.",
     bio_name: "Candis Connell, Psy.D.",
     title: "2023 Senior Innovation Fellow",
@@ -22,8 +22,8 @@ let jacquelynView = {
     id: "jacquelyn-paykel",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/JacquelynPaykel.jpg",
-    profileImg: "../assets/img/fellows/profile-img/jacquelyn-paykel-sq.jpg",
+    img: "../assets/img/fellows/jacquelyn-paykel.jpg",
+    profileImg: "../assets/img/fellows/jacquelyn-paykel-sq.jpg",
     alt: "Jacquelyn Paykel, M.D., M.B.A.",
     bio_name: "Jacquelyn Paykel, M.D., M.B.A.",
     title: "2023 Senior Innovation Fellow",
@@ -41,8 +41,8 @@ let melissaView = {
     id: "melissa-tran",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/MelissaTran.jpg",
-    profileImg: "../assets/img/fellows/profile-img/melissa-tran-sq.jpg",
+    img: "../assets/img/fellows/melissa-tran.jpg",
+    profileImg: "../assets/img/fellows/melissa-tran-sq.jpg",
     alt: "Jacquelyn Paykel, M.D., M.B.A.",
     alt: "Melissa Tran, PMH-C",
     bio_name: "Melissa Tran, PMH-C",
@@ -63,8 +63,8 @@ let suzanneView = {
     id: "suzanne-shirley",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/SuzyShirley.jpg",
-    profileImg: "../assets/img/fellows/profile-img/suzanne-shirley-sq.jpg",
+    img: "../assets/img/fellows/suzanne-shirley.jpg",
+    profileImg: "../assets/img/fellows/suzanne-shirley-sq.jpg",
     alt: "Suzanne Shirley, LCSW",
     bio_name: "Suzanne Shirley, LCSW",
     title: "2019 Entrepreneur In Residence Fellow",
@@ -83,8 +83,8 @@ let eliView = {
     id: "eli-kaufman",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "https://www.innovation.va.gov/ecosystem/assets/images/IE/fellows/EliKaufman.jpg",
-    profileImg: "../assets/img/fellows/profile-img/eli-kaufman-sq.jpg",
+    img: "../assets/img/fellows/eli-kaufman.jpg",
+    profileImg: "../assets/img/fellows/eli-kaufman-sq.jpg",
     alt: "Eli Kaufman, CPO",
     bio_name: "Eli Kaufman, CPO",
     title: "2020-2021 Entrepreneur in Residence",
@@ -104,8 +104,8 @@ let georgeView = {
     id: "george-akingba",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/GeorgeAkingba.jpg",
-    profileImg: "../assets/img/fellows/profile-img/george-akingba-sq.jpg",
+    img: "../assets/img/fellows/george-akingba.jpg",
+    profileImg: "../assets/img/fellows/george-akingba-sq.jpg",
     alt: "George Akingba, M.D., Ph.D.",
     bio_name: "George Akingba, M.D., Ph.D.",
     title: "2021 Entrepreneur in Residence Fellow",
@@ -124,8 +124,8 @@ let razaView = {
     id: "raza-hussain",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/RazaHussain.jpg",
-    profileImg: "../assets/img/fellows/profile-img/raza-hussein-sq.jpg",
+    img: "../assets/img/fellows/raza-hussain.jpg",
+    profileImg: "../assets/img/fellows/raza-hussain-sq.jpg",
     alt: "Raza Hussain, D.M.D.",
     bio_name: "Raza Hussain, D.M.D.",
     title: "2021 Entrepreneur in Residence Fellow",
@@ -144,8 +144,8 @@ let raviView = {
     id: "ravi-rasalingam",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/RaviRasalingam.jpg",
-    profileImg: "../assets/img/fellows/profile-img/ravi-rasalingam-sq.jpg",
+    img: "../assets/img/fellows/ravi-rasalingam.jpg",
+    profileImg: "../assets/img/fellows/ravi-rasalingam-sq.jpg",
     alt: "Ravi Rasalingam, M.D., M.B.Ch.B.",
     bio_name: "Ravi Rasalingam, M.D., M.B.Ch.B.",
     title: "2021 Entrepreneur in Residence Fellow",
@@ -164,8 +164,8 @@ let indraView = {
     id: "indra-sandal",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/IndraSandal.jpg",
-    profileImg: "../assets/img/fellows/profile-img/indra-sandal-sq.jpg",
+    img: "../assets/img/fellows/indra-sandal.jpg",
+    profileImg: "../assets/img/fellows/indra-sandal-sq.jpg",
     alt: "Indra Sandal, Ph.D., M.B.A.",
     bio_name: "Indra Sandal, Ph.D., M.B.A.",
     title: "2021 Entrepreneur in Residence Fellow",
@@ -181,12 +181,33 @@ let indraView = {
     bio2: "Before joining VA, Dr. Sandal also held prominent research roles, including serving as Assistant Professor of Medicine at the University of Utah School of Medicine in Salt Lake City, UT from 2011-2014 and as Research Scientist at Virginia Tech from 2005-2011. Her genetic and genomic research outcomes included 17 secured patents, 14 peer reviewed journal publications as lead author, three book chapters and over 50 conference presentations worldwide."
 };
 
+let lindsayView = {
+    id: "lindsay-riegler",
+    fellow_type: "erf",
+    fellow_status: "alumni",
+    img: "../assets/img/fellows/lindsay-riegler.jpg",
+    profileImg: "../assets/img/fellows/lindsay-riegler-sq.jpg",
+    alt: "Lindsay James Riegler, CCC-SLP, CBIS",
+    bio_name: "Lindsay James Riegler, CCC-SLP, CBIS",
+    title: "2022 Entrepreneur in Residence",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Innovation Specialist and Speech-Language Pathologist",
+    office_location: "Cincinnati VA Medical Center",
+    office_title2: "",
+    office_location2: "",
+    project: "Remote Patient Monitoring Policy Framework of the Future",
+    bio: "Lindsay R. James Riegler is a Research Speech-Language Pathologist, Adjunct Associate Professor at the University of Cincinnati's College of Allied Health Sciences and Innovation Specialist at the Cincinnati VA Medical Center. She is a standing reviewer for multiple peer reviewed journals and an invited member of the VA Rehabilitation Research and Development Merit Review board.",
+    bio2: "Dr. Riegler focused her Entrepreneur in Residence Fellowship on collaborating with national level stakeholders in establishing Remote Patient Monitoring policy and implementation solutions. In addition, she is the Professional Development Manager for the American Speech-Language Hearing Association Special Interest Group, Telepractice. She is a certified brain injury specialist with 15 years of expertise in delivering evidence based cognitive rehabilitation via telehealth to Veterans with traumatic brain injury. Her research has resulted in numerous local and national presentations, grant funded projects, multiple peer reviewed publications and co-authored book chapters. She has experience serving as Principal Investigator on randomized clinical drug trials and was recently awarded Mid-Career Research Scientist Award from the University of Cincinnati. She is an avid traveler and enjoys spending time with her husband and three kids."
+};
+
 let aksharView = {
     id: "akshar-abbott",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/AksharAbbott.jpg",
-    profileImg: "../assets/img/fellows/profile-img/akshar-abbott-sq.jpg",
+    img: "../assets/img/fellows/akshar-abbott.jpg",
+    profileImg: "../assets/img/fellows/akshar-abbott-sq.jpg",
     alt: "Akshar Abbott, M.D.",
     bio_name: "Akshar Abbott, M.D.",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -205,8 +226,8 @@ let taylorView = {
     id: "taylor-hooker",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/TaylorHooker.jpg",
-    profileImg: "../assets/img/fellows/profile-img/taylor-hooker-sq.jpg",
+    img: "../assets/img/fellows/taylor-hooker.jpg",
+    profileImg: "../assets/img/fellows/taylor-hooker-sq.jpg",
     alt: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     bio_name: "Taylor Hooker, M.S., CTRS, NBC-HWC",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -225,8 +246,8 @@ let priyaView = {
     id: "priya-joshi",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/PriyaJoshi.jpg",
-    profileImg: "../assets/img/fellows/profile-img/priya-joshi-sq.jpg",
+    img: "../assets/img/fellows/priya-joshi.jpg",
+    profileImg: "../assets/img/fellows/priya-joshi-sq.jpg",
     alt: "Priya Joshi, M.D.",
     bio_name: "Priya Joshi, M.D.",
     title: "2022, 2023 Entrepreneur in Residence Fellow",
@@ -243,8 +264,8 @@ let stacyView = {
     id: "stacy-lewis",
     fellow_type: "erf",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/StaceyLewis.jpg",
-    profileImg: "../assets/img/fellows/profile-img/stacy-lewis-sq.jpg",
+    img: "../assets/img/fellows/stacy-lewis.jpg",
+    profileImg: "../assets/img/fellows/stacy-lewis-sq.jpg",
     alt: "Stacey Lewis, BSHIM, LSSBB",
     bio_name: "Stacey Lewis, BSHIM, LSSBB",
     title: "2023 Entrepreneur in Residence Fellow",
@@ -261,8 +282,8 @@ let kevinView = {
     id: "kevin-carroll",
     fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/kevin_carroll.jpg",
-    profileImg: "../assets/img/fellows/profile-img/kevin_carroll-sq.jpg",
+    img: "assets/img/fellows/kevin-carroll.jpg",
+    profileImg: "../assets/img/fellows/kevin_carroll-sq.jpg",
     alt: "Kevin Carroll, Ph.D.",
     bio_name: "Kevin Carroll, Ph.D.",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -282,8 +303,8 @@ let elizabethView = {
     id: "elizabeth-dinges",
     fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/elizabeth_dinges.jpg",
-    profileImg: "../assets/img/fellows/profile-img/elizabeth_dinges-sq.jpg",
+    img: "assets/img/fellows/elizabeth-dinges.jpg",
+    profileImg: "../assets/img/fellows/elizabeth-dinges-sq.jpg",
     alt: "Elizabeth Dinges, Pharm.D.",
     bio_name: "Elizabeth Dinges, Pharm.D.",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -303,8 +324,8 @@ let jayView = {
     id: "jay-gorman",
     fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/jay_gorman.jpg",
-    profileImg: "../assets/img/fellows/profile-img/jay_gorman-sq.jpg",
+    img: "assets/img/fellows/jay-gorman.jpg",
+    profileImg: "../assets/img/fellows/jay-gorman-sq.jpg",
     alt: "Jay Gorman, Ph.D.",
     bio_name: "Jay Gorman, Ph.D.",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -324,8 +345,8 @@ let minhView = {
     id: "minh-ho",
     fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/minh_ho.jpg",
-    profileImg: "../assets/img/fellows/profile-img/minh_ho-sq.jpg",
+    img: "assets/img/fellows/minh-ho.jpg",
+    profileImg: "../assets/img/fellows/minh-ho-sq.jpg",
     alt: "Minh Ho, D.O.",
     bio_name: "Minh Ho, D.O.",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -345,8 +366,8 @@ let maryView = {
     id: "mary-julius",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/mary_julius.jpg",
-    profileImg: "../assets/img/fellows/profile-img/mary_julius-sq.jpg",
+    img: "assets/img/fellows/mary-julius.jpg",
+    profileImg: "../assets/img/fellows/mary-julius-sq.jpg",
     alt: "Mary Julius, RDN, LD, CDCES",
     bio_name: "Mary Julius, RDN, LD, CDCES",
     title: "2024 Senior Innovation Fellow",
@@ -366,8 +387,8 @@ let loriView = {
     id: "lori-murphy",
     fellow_type: "erf",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/lori_murphy.jpg",
-    profileImg: "../assets/img/fellows/profile-img/lori_murphy-sq.jpg",
+    img: "assets/img/fellows/lori-murphy.jpg",
+    profileImg: "../assets/img/fellows/lori-murphy-sq.jpg",
     alt: "Lori Murphy, MSW, LISW-S",
     bio_name: "Lori Murphy, MSW, LISW-S",
     title: "2024 Entrepreneur in Residence Fellow",
@@ -387,8 +408,8 @@ let ronaView = {
     id: "rona-relova",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/rona_relova.jpg",
-    profileImg: "../assets/img/fellows/profile-img/rona_relova-sq.jpg",
+    img: "assets/img/fellows/rona-relova.jpg",
+    profileImg: "../assets/img/fellows/rona-relova-sq.jpg",
     alt: "Rona Relova, M.D.",
     bio_name: "Rona Relova, M.D.",
     title: "2024 Senior Innovation Fellow",
@@ -408,8 +429,8 @@ let nicholView = {
     id: "nichol-salvo",
     fellow_type: "sif",
     fellow_status: "current",
-    img: "../assets/img/fellows/fellows-rectangle/nichol_salvo.jpg",
-    profileImg: "../assets/img/fellows/profile-img/nichol_salvo-sq.jpg",
+    img: "assets/img/fellows/nichol-salvo.jpg",
+    profileImg: "../assets/img/fellows/nichol-salvo-sq.jpg",
     alt: "Nichol Salvo, D.P.M.",
     bio_name: "Nichol Salvo, D.P.M.",
     title: "2024 Senior Innovation Fellow",
@@ -429,8 +450,8 @@ let bethView = {
     id: "beth-ripley",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/BethRipley.jpg",
-    profileImg: "../assets/img/fellows/profile-img/beth-ripley-sq.jpg",
+    img: "../assets/img/fellows/beth-ripley.jpg",
+    profileImg: "../assets/img/fellows/beth-ripley-sq.jpg",
     alt: "Beth Ripley, M.D., Ph.D.",
     bio_name: "Beth Ripley, M.D., Ph.D.",
     title: "2019 Senior Innovation Fellow",
@@ -449,8 +470,8 @@ let amandaView = {
     id: "amanda-lienau",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/amanda-lienau.jpg",
-    profileImg: "../assets/img/fellows/profile-img/amanda-lienau-sq.jpg",
+    img: "../assets/img/fellows/amanda-lienau.jpg",
+    profileImg: "../assets/img/fellows/amanda-lienau-sq.jpg",
     alt: "Amanda Lienau, Ph.D",
     bio_name: "Amanda Lienau, Ph.D",
     title: "2020 Senior Innovation Fellow",
@@ -469,8 +490,8 @@ let michaelView = {
     id: "michael-amendola",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/MichaelAmendola.jpg",
-    profileImg: "../assets/img/fellows/profile-img/michael-amendola-sq.jpg",
+    img: "../assets/img/fellows/michael-amendola.jpg",
+    profileImg: "../assets/img/fellows/michael-amendola-sq.jpg",
     alt: "Michael Amendola, M.D., M.E.H.P.",
     bio_name: "Michael Amendola, M.D., M.E.H.P.",
     title: "2021 Senior Innovation Fellow",
@@ -490,8 +511,8 @@ let arashView = {
     id: "arash-harzand",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/arashharzand.jpg",
-    profileImg: "../assets/img/fellows/profile-img/arash-harzand-sq.jpg",
+    img: "../assets/img/fellows/arash-harzand.jpg",
+    profileImg: "../assets/img/fellows/arash-harzand-sq.jpg",
     alt: "Arash Harzand, M.D., M.B.A., FAAC",
     bio_name: "Arash Harzand, M.D., M.B.A., FAAC",
     title: "2021 Senior Innovation Fellow",
@@ -503,15 +524,15 @@ let arashView = {
     office_title2: "",
     office_location2: "",
     project: "Digital Health Platform",
-    bio: "Dr. Arash Harzand is the Director of Digital Cardiology at Atlanta VA Medical Center and an Assistant Professor of Medicine at Emory University where he focuses on integrating Veteran-facing technologies – including video-to-home, wearable devices and remote monitoring – into new-care pathways for heart and vascular disease that are expanding Veteran access to cardiology services. As a Senior Innovation Fellow, Dr. Harzand led the development of an enterprise innovation strategy for digital health and the design of a Digital Health Platform with the goal of delivering high-value care using early-stage digital health solutions for Veterans and VA clinicians, staff and leadership."
+    bio: "Dr. Arash Harzand is the Director of Digital Cardiology at Atlanta VA Medical Center and an Assistant Professor of Medicine at Emory University where he focuses on integrating Veteran-facing technologies - including video-to-home, wearable devices and remote monitoring - into new-care pathways for heart and vascular disease that are expanding Veteran access to cardiology services. As a Senior Innovation Fellow, Dr. Harzand led the development of an enterprise innovation strategy for digital health and the design of a Digital Health Platform with the goal of delivering high-value care using early-stage digital health solutions for Veterans and VA clinicians, staff and leadership."
 };
 
 let danielleView = {
     id: "danielle-krakora",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/DanielleKrakora.jpg",
-    profileImg: "../assets/img/fellows/profile-img/danielle-krakora-sq.jpg",
+    img: "../assets/img/fellows/danielle-krakora.jpg",
+    profileImg: "../assets/img/fellows/danielle-krakora-sq.jpg",
     alt: "Danielle Krakora",
     bio_name: "Danielle Krakora",
     title: "2021 Senior Innovation Fellow",
@@ -531,8 +552,8 @@ let coryView = {
     id: "cory-fominaya",
     fellow_type: "sif",
     fellow_status: "alumni",
-    img: "../assets/img/fellows/fellows-rectangle/CoryFominaya.jpg",
-    profileImg: "../assets/img/fellows/profile-img/cory-fominaya-sq.jpg",
+    img: "../assets/img/fellows/cory-fominaya.jpg",
+    profileImg: "../assets/img/fellows/cory-fominaya-sq.jpg",
     alt: "Cory Fominaya, Pharm.D.",
     bio_name: "Cory Fominaya, Pharm.D.",
     title: "2022 Senior Innovation Fellow",
@@ -550,7 +571,7 @@ let coryView = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, lindsayView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
 
 var tab;
 var img;
@@ -653,7 +674,7 @@ var currentData = {
 
 currentData.data.push(newCurrentFellowsArray);  
 
-currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + current.img + "'alt='" + current.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + current.alt + "</h3>" + "<h4 class='margin-y-0'>" + current.title + "</h4>" + "<p class='job'>" + current.job + "</p>" + "<p class='job_description'>" + current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location2 + "</p>" + "<p class='office_title2 margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location2 margin-top-0'>" + current.office_location2 + "</p>" + "</div>" + "</a>" + "</div>")); 
+currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=fellow/index.html?fellow=" + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + current.img + "'alt='" + current.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + current.alt + "</h3>" + "<h4 class='margin-y-0'>" + current.title + "</h4>" + "<p class='job'>" + current.job + "</p>" + "<p class='job_description'>" + current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location2 + "</p>" + "<p class='office_title2 margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location2 margin-top-0'>" + current.office_location2 + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
 // Render dynamic owl carousel for ALUMNI SIF
@@ -673,7 +694,7 @@ var alumniData = {
 
 alumniData.data.push(newAlumniFellowsArray);  
 
-alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_location2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
+alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>" + "<a href=../fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_location2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
 
 
 // Render dynamic owl carousel for ALUMNI ERF
@@ -693,10 +714,4 @@ var alumniData = {
 
 alumniData.data.push(newAlumniFellowsArray);  
 
-alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-erf--fellows').append("<div class='usa-card__container item'>" + "<a href=/fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_locatio2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
-
-
-
-  
-  
-  
+alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-erf--fellows').append("<div class='usa-card__container item'>" + "<a href=../fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" + alumni.img + "'alt='" + alumni.title + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h3 class='margin-bottom-0'>" + alumni.alt + "</h3>" + "<h4 class='margin-y-0'>" + alumni.title + "</h4>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_locatio2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
