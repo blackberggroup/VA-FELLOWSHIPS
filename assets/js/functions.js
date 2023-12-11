@@ -153,6 +153,6 @@ if ($('.vha-video__play-action').length > 0) {
                     '</div>'
         }
     });
- }
+}
 
 
