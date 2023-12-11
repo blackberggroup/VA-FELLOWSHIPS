@@ -283,7 +283,7 @@ let kevinView = {
     fellow_type: "erf",
     fellow_status: "current",
     img: "assets/img/fellows/kevin-carroll.jpg",
-    profileImg: "../assets/img/fellows/kevin_carroll-sq.jpg",
+    profileImg: "../assets/img/fellows/kevin-carroll-sq.jpg",
     alt: "Kevin Carroll, Ph.D.",
     bio_name: "Kevin Carroll, Ph.D.",
     title: "2024 Entrepreneur in Residence Fellow",
