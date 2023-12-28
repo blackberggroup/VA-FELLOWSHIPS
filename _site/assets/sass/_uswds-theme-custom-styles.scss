@@ -52,9 +52,9 @@ i.e.
  }
  
 
-/* ========================================
-Overrides for header dropdown arrows 
-======================================== */
+/* ================================================================================
+Temporary overrides for usa-header dropdown arrows excluding usa-banner
+================================================================================ */
 
 @supports ((-webkit-mask:url()) or (mask:url())) {
    .usa-header {
@@ -66,24 +66,6 @@ Overrides for header dropdown arrows
       .usa-nav__primary button[aria-expanded=true] span::after {
          -webkit-mask-image: url(""),linear-gradient(transparent,transparent) !important;
          mask-image: url(""),linear-gradient(transparent,transparent) !important;
-      }
-   }
-}
-   
-@supports ((-webkit-mask:url()) or (mask:url())) {
-   .usa-banner {
-      .usa-banner__button::after {
-         -webkit-mask-image: url(../uswds/img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent) !important;;
-         mask-image: url(../uswds/img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent) !important;;
-      }
-   }
-}
-
-@supports ((-webkit-mask:url()) or (mask:url())) {
-   .usa-banner {
-      .usa-banner__button[aria-expanded=true]::after {
-         -webkit-mask-image: url(../uswds/img/usa-icons/expand_less.svg),linear-gradient(transparent,transparent) !important;;
-         mask-image: url(../uswds/img/usa-icons/expand_less.svg),linear-gradient(transparent,transparent) !important;;
       }
    }
 }
