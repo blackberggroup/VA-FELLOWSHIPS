@@ -8,7 +8,7 @@ in the form $setting: value,
 */
 
 
- @use "uswds-core" with (
+@use "uswds-core" with (
   $theme-utility-breakpoints: (
     'card':              false,   // 160px
     'card-lg':           false,   // 240px
@@ -33,6 +33,7 @@ in the form $setting: value,
   /* ----------------------------------------
   HEADER
   ---------------------------------------- */
+  $theme-image-path: "../uswds/img",
   $theme-header-max-width: "widescreen",
   $theme-banner-max-width: "widescreen",
 
