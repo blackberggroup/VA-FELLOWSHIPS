@@ -17,12 +17,6 @@
     .usa-card__media img {
       border-radius: 4px 4px 0px 0px;
     }
-
-    @media screen and (min-width: 1025px) {
-      .usa-card__media img {
-        max-height: 232px;
-      }
-    }
   
     p {
       &.job, &.office_title {

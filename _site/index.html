@@ -108,58 +108,6 @@
 
 <!-- END USWDS Banner, gov domain -->
 
-<!-- Begin USWDS Modal -->
-<div class="mobile:margin-0">
-  <div class="usa-modal vcl-modal" id="example-modal-1" aria-labelledby="modal-1-heading"
-    aria-describedby="modal-1-description">
-    <div class="usa-modal__content">
-      <div class="usa-modal__main">
-        <h2 class="usa-modal__heading vcl-modal__title" id="modal-1-heading">
-          We&rsquo;re here anytime, day or night - 24/7
-        </h2>
-        <div class="usa-prose">
-          <p id="modal-1-description">
-            If you are a Veteran in crisis or concerned about one, connect with our caring, qualified responders for
-            confidential help. Many of them are Veterans themselves.
-          </p>
-          <ul>
-            <li class="display-flex border-top-1px border-bottom-1px">
-              <a href="tel:18002738255" tabindex="0" id="vcl-crisis-primary" class="vcl-call">
-                Call <strong>
-                  1-800-273-8255 and press
-                  1
-                </strong>
-              </a>
-            </li>
-            <li class="display-flex border-bottom-1px">
-              <a href="sms:838255" class="vcl-text"> Text to <b>838255</b></a>
-            </li>
-            <li class="display-flex border-bottom-1px">
-              <a href="https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat"
-                class="vcl-chat"> Chat
-                <b>confidentially now</b></a>
-            </li>
-            <li class="display-flex border-bottom-1px">
-              <a href="tel:18007994889" class="vcl-tty">
-                Call TTY if you
-                have hearing loss <strong>1-800-799-4889</strong>
-              </a>
-            </li>
-          </ul>
-          <p class="font-sans-xs">Get more resources at <a
-              href="https://www.veteranscrisisline.net/">VeteransCrisisLine.net</a>.</p>
-        </div>
-      </div>
-      <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
-        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-          <use xlink:href="assets/uswds/img/sprite.svg#close"></use>
-        </svg>
-      </button>
-    </div>
-  </div>
-</div>
-<!-- END USWDS Modal popup -->
-
 <!-- BEGIN USWDS Header, extended -->
 <header class="usa-header usa-header--extended tablet-lg:padding-top-3">
   <div class="usa-navbar">
@@ -287,7 +235,6 @@
     document.getElementById("smDiv2").style.display = "none";
     document.getElementById("smDiv3").style.display = "none";
     document.getElementById("smDiv4").style.display = "none";
-    document.getElementById("smDiv5").style.display = "none";
   }
 
   function ShowSolutionsMenu2() {
@@ -295,7 +242,6 @@
     document.getElementById("smDiv2").style.display = "block";
     document.getElementById("smDiv3").style.display = "none";
     document.getElementById("smDiv4").style.display = "none";
-    document.getElementById("smDiv5").style.display = "none";
   }
 
   function ShowSolutionsMenu3() {
@@ -303,7 +249,6 @@
     document.getElementById("smDiv2").style.display = "none";
     document.getElementById("smDiv3").style.display = "block";
     document.getElementById("smDiv4").style.display = "none";
-    document.getElementById("smDiv5").style.display = "none";
   }
 
   function ShowSolutionsMenu4() {
@@ -311,7 +256,6 @@
     document.getElementById("smDiv2").style.display = "none";
     document.getElementById("smDiv3").style.display = "none";
     document.getElementById("smDiv4").style.display = "block";
-    document.getElementById("smDiv5").style.display = "none";
   }
 
   function ShowSolutionsMenu5() {
@@ -319,7 +263,6 @@
     document.getElementById("smDiv2").style.display = "none";
     document.getElementById("smDiv3").style.display = "none";
     document.getElementById("smDiv4").style.display = "none";
-    document.getElementById("smDiv5").style.display = "none";
   }
 
   $(window).click(function () {
@@ -327,7 +270,6 @@
     document.getElementById("smDiv2").style.display = "none";
     document.getElementById("smDiv3").style.display = "none";
     document.getElementById("smDiv4").style.display = "none";
-    document.getElementById("smDiv5").style.display = "none";
   });
 
   if (window.innerWidth < 1025) {
@@ -405,7 +347,7 @@
                         </div>
                         <div class="grid-col-12 tablet-lg:grid-col-3">
                             <div class="application__button">
-                                <a href="fellowship-application/" class="usa-button usa-button--outline usa-button--inverse">Apply Today!</a>
+                                <a href="fellowship-application/" class="usa-button usa-button--outline usa-button--inverse" aria-label="Apply Today!">Apply Today!</a>
                             </div>
                         </div>
                     </div>
@@ -448,7 +390,7 @@
                         <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-5">
                             <h2 class="tablet:margin-top-0">Senior Innovation Fellowship</h2>
                             <p>For accomplished leaders who are prepared to implement a national scale project or initiative that measurably improves clinical outcomes, cost, and/or Veteran experience. These projects should promote a diverse approach to innovation by leveraging internal and external collaborations across public, private, and non-profit sectors.</p>                                    
-                            <a href="senior-innovation-fellowship/" class="usa-button vha-button--primary">Learn More</a>
+                            <a href="senior-innovation-fellowship/" class="usa-button vha-button--primary" aria-label="Learn More">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -470,7 +412,7 @@
                         <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-1">
                             <h2 class="tablet:margin-top-0">Entrepreneur in Residence Fellowship</h2>
                             <p>For emerging leaders to advance their innovative initiatives, leveraging internal and external collaborations, performing value-based evaluation, and navigating pathways to broader implementation.</p>
-                            <a href="entrepreneur-residence-fellowship/" class="usa-button vha-button--primary">Learn More</a>
+                            <a href="entrepreneur-residence-fellowship/" class="usa-button vha-button--primary" aria-label="Learn More">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -502,14 +444,14 @@
                         <div class="grid-col-12 tablet:grid-col-6 tablet:grid-offset-5">
                             <h2 class="tablet:margin-top-0">MIT Catalyst Fellowship</h2>
                             <p>For emerging leaders looking to work in cross-functional teams to challenge the generally accepted research paradigm by shifting the focus to a clinical needs-driven approach in two phases: new project discovery and project execution.</p>
-                            <a href="https://catalyst.mit.edu/" class="usa-button vha-button--primary">Learn More</a>
+                            <a href="https://catalyst.mit.edu/" class="usa-button vha-button--primary" aria-label="Learn More">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="grid-col-12 tablet:grid-col-5 overlay-content__image-column">
                 <div class="overlay-content__image padding-x-4 padding-bottom-4 tablet:padding-0 vha-bg-violet-lightest">
-                    <a href="https://catalyst.mit.edu/"><img src="assets/img/home/mit-catalyst-fellowship.webp" class="radius-lg" alt="MIT Catalyst Fellowship - group meeting" /></a>
+                    <a href="https://catalyst.mit.edu/" aria-label="MIT Catalyst Fellowship"><img src="assets/img/home/mit-catalyst-fellowship.webp" class="radius-lg" alt="MIT Catalyst Fellowship - group meeting" /></a>
                 </div>
             </div>
         </div>
@@ -702,7 +644,7 @@
                 <div class="program-video__img-container vha-video text-center padding-top-2">
                   <h2>Program Overview</h2>
                     <img src="assets/img/home/iex-video-thumbnail.png" class="img-fluid radius-lg margin-top-2" alt="Poster image of Director of Diffusion of Excellence, Blake Henderson" />
-                    <a href="https://www.youtube.com/watch?v=Z-EI_8ZCeU8" class="vha-video__play vha-video__play-action stretched-link">
+                    <a href="https://www.youtube.com/watch?v=Z-EI_8ZCeU8" aria-label="program overview video" class="vha-video__play vha-video__play-action stretched-link">
                         <svg viewBox="0 0 46 46" fill="none" class="vha-video__play-icon">
                             <path d="M23 0C10.2975 0 0 10.2971 0 23C0 35.7029 10.2975 46 23 46C35.7025 46 46 35.7029 46 23C46 10.2971 35.7025 0 23 0ZM19.534 14.0944C20.2076 13.7011 21.1 13.6666 21.9096 14.2094L30.3324 19.8927C32.7858 21.6913 32.859 24.242 30.3324 26.0935L21.9096 31.7768C20.2904 32.8624 18.4001 31.7515 18.4001 29.7091V16.2748C18.4001 15.2559 18.8601 14.4877 19.534 14.0944Z" fill="white"/>
                         </svg>
@@ -720,7 +662,7 @@
         <div class="tablet-lg:grid-col-3 desktop:grid-col-3 usa-card_header">
             <h1 class="tablet-lg:margin-0">News &amp; Events</h2>
             <p>Stay up to date with the latest news and events happening in the community.</p>
-            <a href="fellowship-news/" class="usa-button vha-button--primary margin-bottom-5">View More</a>
+            <a href="fellowship-news/" class="usa-button vha-button--primary margin-bottom-5" aria-label="View More">View More</a>
         </div>
         <div class="tablet-lg:grid-col-9 desktop:grid-col-9 usa-card_body">
           <div class="owl-carousel usa-card-group home"></div>
@@ -858,6 +800,58 @@
     </section>
   </div>
 </footer>
+
+<!-- Begin USWDS Modal -->
+<div class="mobile:margin-0">
+  <div class="usa-modal vcl-modal" id="example-modal-1" aria-labelledby="modal-1-heading"
+    aria-describedby="modal-1-description">
+    <div class="usa-modal__content">
+      <div class="usa-modal__main">
+        <h2 class="usa-modal__heading vcl-modal__title" id="modal-1-heading">
+          We&rsquo;re here anytime, day or night - 24/7
+        </h2>
+        <div class="usa-prose">
+          <p id="modal-1-description">
+            If you are a Veteran in crisis or concerned about one, connect with our caring, qualified responders for
+            confidential help. Many of them are Veterans themselves.
+          </p>
+          <ul>
+            <li class="display-flex border-top-1px border-bottom-1px">
+              <a href="tel:18002738255" tabindex="0" id="vcl-crisis-primary" class="vcl-call">
+                Call <strong>
+                  1-800-273-8255 and press
+                  1
+                </strong>
+              </a>
+            </li>
+            <li class="display-flex border-bottom-1px">
+              <a href="sms:838255" class="vcl-text"> Text to <b>838255</b></a>
+            </li>
+            <li class="display-flex border-bottom-1px">
+              <a href="https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat"
+                class="vcl-chat"> Chat
+                <b>confidentially now</b></a>
+            </li>
+            <li class="display-flex border-bottom-1px">
+              <a href="tel:18007994889" class="vcl-tty">
+                Call TTY if you
+                have hearing loss <strong>1-800-799-4889</strong>
+              </a>
+            </li>
+          </ul>
+          <p class="font-sans-xs">Get more resources at <a
+              href="https://www.veteranscrisisline.net/">VeteransCrisisLine.net</a>.</p>
+        </div>
+      </div>
+      <button type="button" class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+          <use xlink:href="assets/uswds/img/sprite.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+<!-- END USWDS Modal popup -->
 
 <a href="#" class="back-to-top text-center padding-1" title="Return to the top of the page"><span class="show">TOP</span><img src="assets/img/icons/arrow-alt-circle-up-solid.svg" width="26" height="26" alt="Back to top icon"/></a>
 
