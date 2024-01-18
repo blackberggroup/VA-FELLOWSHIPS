@@ -26,6 +26,16 @@ h4, .h4 {
     color: var(--red-8);
 }
 
+.h1fs {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+    .h1fs {
+        font-size: 2.5rem;
+    }
+}
+
 .h3fs {
     font-size: calc(1.2625rem + .15vw);
 }
