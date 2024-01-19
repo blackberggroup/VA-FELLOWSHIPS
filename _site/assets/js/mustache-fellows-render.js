@@ -622,7 +622,7 @@ $('head title').text(tab);
 $('.bio-card-img > img').attr("src", profileImg);
 $('.bio-card-img > img').attr("alt", alt);
 $('.bio-card-attributes > h1').text(bio_name);
-$('.bio-card-attributes > h3').text(title);
+$('.bio-card-attributes > h2').text(title);
 $('.bio-card-attributes > p span.job').text(job);
 $('.bio-card-attributes > p span.job2').text(job2);
 $('.bio-card-attributes > p span.job_description').text(job_description);
