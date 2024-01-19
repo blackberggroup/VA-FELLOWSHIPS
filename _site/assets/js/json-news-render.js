@@ -869,14 +869,14 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
 
 } else if (newsItemCount == 1) {
 
-    newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='grid-col-12 tablet:grid-col-3 outer-div'>" + "<div class='usa-card__container'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>" + "</div>")); 
+    newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='grid-col-12 tablet:grid-col-3 outer-div'>" + "<div class='usa-card__container'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='h4'>" + news.title + "</h2>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>" + "</div>")); 
 
     $(".profile--fellows").css("display", "flex");
     $(".profile--fellows > div.outer-div").css("min-width", "334px");
 
 } else if (newsItemCount < 5 && newsItemCount > 1) {
 
-    newsPageData.data.forEach(news => $('.owl-carousel.news-4-3-2').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
+    newsPageData.data.forEach(news => $('.owl-carousel.news-4-3-2').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='h4'>" + news.title + "</h2>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
     count1 = 1;
     count2 = 2;
@@ -904,7 +904,7 @@ if (newsItemCount < 1 || newsItemCount == undefined || newsItemCount == null) {
 
 } else {
 
-    newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h4>" + news.title + "</h4>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
+    newsPageData.data.forEach(news => $('.owl-carousel.profile--fellows').append("<div class='usa-card__container item'>" + "<a href='" + news.url + "' />" + "<div class='usa-card__media usa-card__media--inset' >" + "<img src='" + news.img + "'alt='" + news.title + "' />" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='h4'>" + news.title + "</h2>" + "<p>" + news.description + "</p>" + "</div>" + "</a>" + "</div>")); 
 
     count1 = 1;
     count2 = 2;
