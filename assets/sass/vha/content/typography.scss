@@ -25,27 +25,3 @@ h4, .h4 {
     font-weight: bold;
     color: var(--red-8);
 }
-
-.h1 {
-    font-size: calc(1.375rem + 1.5vw);
-}
-
-@media (min-width: 1200px) {
-    .h1 {
-        font-size: 2.5rem;
-    }
-}
-
-.h3 {
-    font-size: calc(1.2625rem + .15vw);
-}
-
-@media (min-width: 1200px) {
-    .h3 {
-        font-size: 1.375rem;
-    }
-}
-
-.h4 {
-    font-size: 1.125rem;
-}
