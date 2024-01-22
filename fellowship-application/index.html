@@ -96,7 +96,7 @@
                     </div>
                 </section>
 
-                <section id="application-process" class="application-process text-center padding-y-5 mobile-lg:padding-y-15" style="background: url('../assets/img/home/gray_rectangle.png'), #93348C;">
+                <section id="application-process" class="application-process text-center padding-y-5 mobile-lg:padding-y-15">
 
                     <div class="grid-col-12">
                         <h1>Application Process</h1>
@@ -106,49 +106,67 @@
                     <div id="connections" class="padding-x-0 mobile-lg:padding-x-5">
                         <div class="grid-container">
                             <div class="grid-row grid-gap tablet:flex-justify-center">
-                                <div class="box one">
-                                    <h4>Phase 1</h4>
-                                    <p>VHA Innovation Ecosystem (VHA IE) Announces program.</p>
+                                <div class="card one">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 1</h2>
+                                        <p class="card__body">VHA Innovation Ecosystem (VHA IE) Announces program.</p>
+                                    </div>
                                 </div>
-                                <div class="box two">
-                                    <h4>Phase 2</h4>
-                                    <p>VHA IE hosts an information call for prospective applicants.</p>
-                                </div>
-                            </div>
-                            <div class="grid-row grid-gap tablet:flex-justify-center widescreen:margin-top-10">
-                                <div class="box three">
-                                    <h4>Phase 3</h4>
-                                    <p>VHA IE Fellowship Applications open for VHA IE Entrepreneur in Residence and Senior Innovation Fellows. Applications must be written and submitted in one session.</p>
+                                <div class="card two">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 2</h2>
+                                        <p class="card__body">VHA IE hosts an information call for prospective applicants.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid-row grid-gap tablet:flex-justify-center widescreen:margin-top-10">
-                                <div class="box four">
-                                    <h4>Phase 4</h4>
-                                    <p>VHA Innovation Ecosystem (VHA IE) Announces program.</p>
-                                </div>
-                                <div class="box five">
-                                    <h4>Phase 5</h4>
-                                    <p>VHA IE hosts an information call for prospective applicants.</p>
-                                </div>
-                                <div class="box six">
-                                    <h4>Phase 6</h4>
-                                    <p>VHA IE hosts an information call for prospective applicants.</p>
+                                <div class="card three">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 3</h2>
+                                        <p class="card__body">VHA IE Fellowship Applications open for VHA IE Entrepreneur in Residence and Senior Innovation Fellows. Applications must be written and submitted in one session.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid-row grid-gap tablet:flex-justify-center widescreen:margin-top-10">
-                                <div class="box eight mobile:order-2 widescreen::order-1">
-                                    <h4>Phase 8</h4>
-                                    <p>2024 VHA IE Fellowships Year Begins.</p>
+                                <div class="card four">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 4</h2>
+                                        <p class="card__body">VHA Innovation Ecosystem (VHA IE) Announces program.</p>
+                                    </div>
                                 </div>
-                                <div class="box seven mobile:order-1 widescreen:order-2">
-                                    <h4>Phase 7</h4>
-                                    <p>VHA IE announces the 2024 VHA Entrepreneur in Residence and Senior Innovation Fellowships Cohort.</p>
+                                <div class="card five">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 5</h2>
+                                        <p class="card__body">VHA IE hosts an information call for prospective applicants.</p>
+                                    </div>
+                                </div>
+                                <div class="card six">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 6</h2>
+                                        <p class="card__body">VHA IE hosts an information call for prospective applicants.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid-row grid-gap tablet:flex-justify-center widescreen:margin-top-10">
-                                <div class="box nine">
-                                    <h4>Phase 9</h4>
-                                    <p>VHA Innovation Experience (iEX)</p>
+                                <div class="card eight mobile:order-2 widescreen::order-1">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 8</h2>
+                                        <p class="card__body">2024 VHA IE Fellowships Year Begins.</p>
+                                    </div>
+                                </div>
+                                <div class="card seven mobile:order-1 widescreen:order-2">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 7</h2>
+                                        <p class="card__body">VHA IE announces the 2024 VHA Entrepreneur in Residence and Senior Innovation Fellowships Cohort.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-row grid-gap tablet:flex-justify-center widescreen:margin-top-10">
+                                <div class="card nine">
+                                    <div class="card__container">
+                                        <h2 class="card__header h4">Phase 9</h2>
+                                        <p class="card__body">VHA Innovation Experience (iEX)</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -426,36 +444,36 @@
         <script>
             if(window.innerWidth > 0) {
                 $(document).ready(function() {
-                    $("#connections div.box.one").connections({ 
-                        to: '#connections div.box.two',
+                    $("#connections div.card.one").connections({ 
+                        to: '#connections div.card.two',
                         'class': 'one-to-two'
                     });
-                    $("#connections div.box.two").connections({ 
-                        to: '#connections div.box.three',
+                    $("#connections div.card.two").connections({ 
+                        to: '#connections div.card.three',
                         'class': 'two-to-three'
                     });
-                    $("#connections div.box.three").connections({ 
-                        to: '#connections div.box.four',
+                    $("#connections div.card.three").connections({ 
+                        to: '#connections div.card.four',
                         'class': 'four-to-three'
                     });
-                    $("#connections div.box.four").connections({ 
-                        to: '#connections div.box.five',
+                    $("#connections div.card.four").connections({ 
+                        to: '#connections div.card.five',
                         'class': 'four-to-five'
                     });
-                    $("#connections div.box.five").connections({ 
-                        to: '#connections div.box.six',
+                    $("#connections div.card.five").connections({ 
+                        to: '#connections div.card.six',
                         'class': 'five-to-six'
                     });
-                    $("#connections div.box.six").connections({ 
-                        to: '#connections div.box.seven',
+                    $("#connections div.card.six").connections({ 
+                        to: '#connections div.card.seven',
                         'class': 'six-to-seven'
                     });
-                    $("#connections div.box.eight").connections({ 
-                        to: '#connections div.box.seven',
+                    $("#connections div.card.eight").connections({ 
+                        to: '#connections div.card.seven',
                         'class': 'seven-to-eight'
                     });
-                    $("#connections div.box.eight").connections({ 
-                        to: '#connections div.box.nine',
+                    $("#connections div.card.eight").connections({ 
+                        to: '#connections div.card.nine',
                         'class': 'eight-to-nine'
                     });
 
