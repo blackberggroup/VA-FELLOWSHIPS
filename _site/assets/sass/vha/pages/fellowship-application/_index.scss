@@ -51,7 +51,7 @@ connection {
     z-index: 1 !important;
 }    
 
-#connections div.header-tab {
+#connections div.application-phase_content {
     width: 100%;
     height: auto;
     background: #fff;
@@ -76,16 +76,16 @@ connection {
 }
 
 @media (max-width: 650px) { 
-    #connections div.header-tab {
+    #connections div.application-phase_content {
         width: 75%;
         margin-bottom: 30px;
     }
 
-    #connections div.header-tab.two, #connections div.header-tab.five, #connections div.header-tab.seven, #connections div.header-tab.nine {
+    #connections div.application-phase_content.two, #connections div.application-phase_content.five, #connections div.application-phase_content.seven, #connections div.application-phase_content.nine {
         margin-left: 30%;
     }
 
-    #connections div.header-tab.three {
+    #connections div.application-phase_content.three {
         width: 100%;
     }
 
@@ -195,17 +195,17 @@ connection {
 }
 
 @media (max-width: 1399px) and (min-width: 651px) { 
-    #connections div.header-tab {
+    #connections div.application-phase_content {
         width: 46% !important;
         max-width: 400px;
         margin: 0 2% 30px 2%;
     }
 
-    #connections div.header-tab.two, #connections div.header-tab.five, #connections div.header-tab.seven, #connections div.header-tab.nine {
+    #connections div.application-phase_content.two, #connections div.application-phase_content.five, #connections div.application-phase_content.seven, #connections div.application-phase_content.nine {
         margin-left: 0%;
     }
 
-    #connections div.header-tab.three {
+    #connections div.application-phase_content.three {
         min-width: 300px !important;
      }
 
@@ -317,19 +317,19 @@ connection {
 }
 
 @media (min-width: 1400px) { 
-    #connections div.header-tab.one, #connections div.header-tab.two, #connections div.header-tab.three, #connections div.header-tab.eight, #connections div.header-tab.seven {
+    #connections div.application-phase_content.one, #connections div.application-phase_content.two, #connections div.application-phase_content.three, #connections div.application-phase_content.eight, #connections div.application-phase_content.seven {
         margin: 0 5%;
     }
 
-    #connections div.header-tab.four, #connections div.header-tab.five, #connections div.header-tab.six {
+    #connections div.application-phase_content.four, #connections div.application-phase_content.five, #connections div.application-phase_content.six {
         margin: 0 2%;
     }
 
-    #connections div.header-tab.one, #connections div.header-tab.two, #connections div.header-tab.three, #connections div.header-tab.four, #connections div.header-tab.five, #connections div.header-tab.six, #connections div.header-tab.eight, #connections div.header-tab.seven, #connections div.header-tab.nine {
+    #connections div.application-phase_content.one, #connections div.application-phase_content.two, #connections div.application-phase_content.three, #connections div.application-phase_content.four, #connections div.application-phase_content.five, #connections div.application-phase_content.six, #connections div.application-phase_content.eight, #connections div.application-phase_content.seven, #connections div.application-phase_content.nine {
         max-width: 300px;
     }
 
-    #connections div.header-tab.three {
+    #connections div.application-phase_content.three {
         max-width: 440px;
     }
 
