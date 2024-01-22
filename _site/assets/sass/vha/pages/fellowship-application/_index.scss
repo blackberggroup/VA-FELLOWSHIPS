@@ -51,7 +51,7 @@ connection {
     z-index: 1 !important;
 }    
 
-#connections div.box {
+#connections div.header-tab {
     width: 100%;
     height: auto;
     background: #fff;
@@ -60,7 +60,7 @@ connection {
     padding: 20px 20px 0px 20px;
     z-index: 2 !important;
 
-    h4 {
+    h2, h4 {
         color: #864381;
         font-weight: bold;
         padding: 0;
@@ -76,16 +76,16 @@ connection {
 }
 
 @media (max-width: 650px) { 
-    #connections div.box {
+    #connections div.header-tab {
         width: 75%;
         margin-bottom: 30px;
     }
 
-    #connections div.box.two, #connections div.box.five, #connections div.box.seven, #connections div.box.nine {
+    #connections div.header-tab.two, #connections div.header-tab.five, #connections div.header-tab.seven, #connections div.header-tab.nine {
         margin-left: 30%;
     }
 
-    #connections div.box.three {
+    #connections div.header-tab.three {
         width: 100%;
     }
 
@@ -120,7 +120,6 @@ connection {
     connection.four-to-three {
         margin-left: -95px;
         border-width: 2px 2px 2px 0px !important;
-
     }
 
     connection.four-to-five {
@@ -196,17 +195,17 @@ connection {
 }
 
 @media (max-width: 1399px) and (min-width: 651px) { 
-    #connections div.box {
+    #connections div.header-tab {
         width: 46% !important;
         max-width: 400px;
         margin: 0 2% 30px 2%;
     }
 
-    #connections div.box.two, #connections div.box.five, #connections div.box.seven, #connections div.box.nine {
+    #connections div.header-tab.two, #connections div.header-tab.five, #connections div.header-tab.seven, #connections div.header-tab.nine {
         margin-left: 0%;
     }
 
-    #connections div.box.three {
+    #connections div.header-tab.three {
         min-width: 300px !important;
      }
 
@@ -246,9 +245,9 @@ connection {
         border-width: 2px 0px 2px 2px !important;
 
         margin-left: -44%;
-        margin-top: -100px;
+        margin-top: -90px;
         width: 31% !important;
-        height: 195px !important;
+        height: 180px !important;
     }
 
     connection.five-to-six {
@@ -273,9 +272,9 @@ connection {
         border-width: 2px 0px 2px 2px !important;
 
         margin-left: -44%;
-        margin-top: -70px;
+        margin-top: -65px;
         width: 33% !important;
-        height: 167px !important;
+        height: 156px !important;
     }
 
     connection.eight-to-nine {
@@ -318,19 +317,19 @@ connection {
 }
 
 @media (min-width: 1400px) { 
-    #connections div.box.one, #connections div.box.two, #connections div.box.three, #connections div.box.eight, #connections div.box.seven {
+    #connections div.header-tab.one, #connections div.header-tab.two, #connections div.header-tab.three, #connections div.header-tab.eight, #connections div.header-tab.seven {
         margin: 0 5%;
     }
 
-    #connections div.box.four, #connections div.box.five, #connections div.box.six {
+    #connections div.header-tab.four, #connections div.header-tab.five, #connections div.header-tab.six {
         margin: 0 2%;
     }
 
-    #connections div.box.one, #connections div.box.two, #connections div.box.three, #connections div.box.four, #connections div.box.five, #connections div.box.six, #connections div.box.eight, #connections div.box.seven, #connections div.box.nine {
+    #connections div.header-tab.one, #connections div.header-tab.two, #connections div.header-tab.three, #connections div.header-tab.four, #connections div.header-tab.five, #connections div.header-tab.six, #connections div.header-tab.eight, #connections div.header-tab.seven, #connections div.header-tab.nine {
         max-width: 300px;
     }
 
-    #connections div.box.three {
+    #connections div.header-tab.three {
         max-width: 440px;
     }
 
@@ -356,7 +355,7 @@ connection {
         border-width: 2px 0px 2px 2px !important;
 
         margin-left: -350px;
-        margin-top: -82px;
+        margin-top: -89px;
         width: 335px !important;
         height: 230px !important;
     }
