@@ -53,7 +53,7 @@ connection {
     z-index: 1 !important;
 }    
 
-#connections div.application-phase_content {
+#connections div.card {
     width: 100%;
     height: auto;
     background: #fff;
@@ -78,16 +78,16 @@ connection {
 }
 
 @media (max-width: 650px) { 
-    #connections div.application-phase_content {
+    #connections div.card {
         width: 75%;
         margin-bottom: 30px;
     }
 
-    #connections div.application-phase_content.two, #connections div.application-phase_content.five, #connections div.application-phase_content.seven, #connections div.application-phase_content.nine {
+    #connections div.card.two, #connections div.card.five, #connections div.card.seven, #connections div.card.nine {
         margin-left: 30%;
     }
 
-    #connections div.application-phase_content.three {
+    #connections div.card.three {
         width: 100%;
     }
 
@@ -197,17 +197,17 @@ connection {
 }
 
 @media (max-width: 1399px) and (min-width: 651px) { 
-    #connections div.application-phase_content {
+    #connections div.card {
         width: 46% !important;
         max-width: 400px;
         margin: 0 2% 30px 2%;
     }
 
-    #connections div.application-phase_content.two, #connections div.application-phase_content.five, #connections div.application-phase_content.seven, #connections div.application-phase_content.nine {
+    #connections div.card.two, #connections div.card.five, #connections div.card.seven, #connections div.card.nine {
         margin-left: 0%;
     }
 
-    #connections div.application-phase_content.three {
+    #connections div.card.three {
         min-width: 300px !important;
      }
 
@@ -319,19 +319,19 @@ connection {
 }
 
 @media (min-width: 1400px) { 
-    #connections div.application-phase_content.one, #connections div.application-phase_content.two, #connections div.application-phase_content.three, #connections div.application-phase_content.eight, #connections div.application-phase_content.seven {
+    #connections div.card.one, #connections div.card.two, #connections div.card.three, #connections div.card.eight, #connections div.card.seven {
         margin: 0 5%;
     }
 
-    #connections div.application-phase_content.four, #connections div.application-phase_content.five, #connections div.application-phase_content.six {
+    #connections div.card.four, #connections div.card.five, #connections div.card.six {
         margin: 0 2%;
     }
 
-    #connections div.application-phase_content.one, #connections div.application-phase_content.two, #connections div.application-phase_content.three, #connections div.application-phase_content.four, #connections div.application-phase_content.five, #connections div.application-phase_content.six, #connections div.application-phase_content.eight, #connections div.application-phase_content.seven, #connections div.application-phase_content.nine {
+    #connections div.card.one, #connections div.card.two, #connections div.card.three, #connections div.card.four, #connections div.card.five, #connections div.card.six, #connections div.card.eight, #connections div.card.seven, #connections div.card.nine {
         max-width: 300px;
     }
 
-    #connections div.application-phase_content.three {
+    #connections div.card.three {
         max-width: 440px;
     }
 
