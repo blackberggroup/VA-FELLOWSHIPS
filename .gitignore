@@ -4,3 +4,6 @@
 *.scss.map
 node_modules
 .DS_Store
+
+# ignore all DS_Store files in any directory (this is a system file created by the macOS operating system)
+**/.DS_Store
