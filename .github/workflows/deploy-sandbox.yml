@@ -1,8 +1,10 @@
+name: 🚀 Deploy to Innovation Sandbox
+
 on:
   push:
     branches:
       - main
-name: 🚀 Deploy to BGSandbox on merge
+
 jobs:
   web-deploy:
     name: 🎉 Deploy
