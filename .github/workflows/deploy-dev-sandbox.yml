@@ -43,7 +43,7 @@ jobs:
     - name: 👀 Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        urls: 'dev-innovation.bgsandbox.com/ecosystem/views/programs/fellowship/index.html, dev-innovation.bgsandbox.com/ecosystem/views/programs/fellowship/senior-innovation-fellowship/index.html, dev-innovation.bgsandbox.com/ecosystem/views/programs/fellowship/fellowship-application/index.html '
+        urls: 'https://www.dev-innovation.bgsandbox.com/ecosystem/views/programs/fellowship/index.html, https://www.dev-innovation.bgsandbox.com/ecosystem/views/programs/fellowship/senior-innovation-fellowship/index.html, https://www.dev-innovation.bgsandbox.com/ecosystem/views/programs/fellowship/fellowship-application/index.html '
         device: all  
         awsAccessKeyId: ${{ secrets.LIGHTHOUSE_CHECK_AWS_ACCESS_KEY_ID }}
         awsBucket: ${{ secrets.LIGHTHOUSE_CHECK_AWS_BUCKET }}
