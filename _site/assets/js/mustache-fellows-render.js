@@ -715,7 +715,7 @@ alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').a
 + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" 
 + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" 
 + alumni.office_title2 + "</p>" + "<p class='office_location2 margin-top-0'>" 
-+ alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
++ alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
 // Render dynamic owl carousel for ALUMNI ERF
