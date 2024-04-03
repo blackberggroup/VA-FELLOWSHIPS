@@ -8,7 +8,7 @@ let candisView = {
     alt: "Candis Connell, Psy.D.",
     bio_name: "Candis Connell, Psy.D.",
     title: "2023 Senior Innovation Fellow",
-    job: "National Coordinator",
+    job: "",
     job_description: "",
     office_title: "Clinical Psychologist",
     office_location: "James A. Haley Veterans Hospital",
