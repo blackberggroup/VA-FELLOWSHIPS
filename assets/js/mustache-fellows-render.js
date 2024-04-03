@@ -9,13 +9,13 @@ let candisView = {
     bio_name: "Candis Connell, Psy.D.",
     title: "2023 Senior Innovation Fellow",
     job: "National Coordinator",
-    job_description: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)",
+    job_description: "",
     office_title: "Clinical Psychologist",
     office_location: "James A. Haley Veterans Hospital",
     office_title2: "",
     office_location2: "",
     project: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)",
-    bio: "Candis Connell is a clinical psychologist who found her passion in health psychology and began her career as a Health Behavior Coordinator at Bay Pines VA. She currently holds a multi-role position as the Health Behavior Coordinator and National THRIVE Coordinator for the James A Haley Veterans Hospital and Clinics in Tampa, FL. Her work includes direct patient care and training/mentoring staff using positive psychology principles. Her focus encompasses whole health and preventative care, including sleep improvement, stress reduction, weight management, and communication skill development. Her experience as an Army Veteran and her personal/professional strengths enable her to provide clinical care, develop Veteran and employee programming, and design training curriculums that drive innovation within VHA. In her role with THRIVE, she focuses on increasing employee access to wellness practices to reduce burnout rates in clinical settings. Dr. Connell's focus on increasing employee access to wellness practices helps ensure that Veterans have consistent, reliable, and rewarding experiences when accessing their healthcare, while also improving employee retention within VHA."
+    bio: "Candis Connell is a clinical psychologist who found her passion in health psychology and began her career as a Health Behavior Coordinator at Bay Pines VA. She currently works as Clinical Psychologist at James A. Haley Veterans Hospital and Clinics in Tampa, FL. Her work includes direct patient care and training/mentoring staff using positive psychology principles. Her focus encompasses whole health and preventative care, including sleep improvement, stress reduction, weight management, and communication skill development. Her experience as an Army Veteran and her personal/professional strengths enable her to provide clinical care, develop Veteran and employee programming, and design training curriculums that drive innovation within VHA. In her role with THRIVE, she focuses on increasing employee access to wellness practices to reduce burnout rates in clinical settings. Dr. Connell's focus on increasing employee access to wellness practices helps ensure that Veterans have consistent, reliable, and rewarding experiences when accessing their health care, while also improving employee retention within VHA."
 };
   
 let jacquelynView = {
@@ -48,15 +48,15 @@ let melissaView = {
     bio_name: "Melissa Tran, PMH-C",
     title: "2023 Senior Innovation Fellow",
     job: "Marriage and Family Therapist",
-    job2: "Military Sexual Trauma Coordinator",
-    job_description: "Perinatal Reproductive Education Planning and Resources (PREPARe)",
+    job2: "",
+    job_description: "",
     office_title: "National Lead",
-    office_location: "Orlando VA Healthcare System",
-    office_title2: "",
-    office_location2: "",
-    project: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)",
-    bio: "Melissa Tran is a Marriage and Family Therapist and the Military Sexual Trauma Coordinator at Orlando VA Healthcare System. She leads the Perinatal Reproductive Education Planning and Resources (PREPARe) service, which has garnered national recognition through the achievement of the 2021 Dr. Robert L Jesse Award for Innovation. Ms. Tran is also an instructor for Nova Southeastern Kiran C Patel and University of Central Florida Colleges of Medicine and supports the diversity, equity, and inclusion team at OVAHCS.",
-    bio2: "Perinatal Reproductive Education Planning and Resources (PREPARe) is a multidisciplinary approach to meet the needs of our perinatal Veterans. The innovation was developed due to a lack of comprehensive and easily accessible perinatal services available to Veterans. Services are scattered between VA, Community Care or not available at all. Veterans must pay out of pocket and request reimbursement for such services as lactation counseling covered under the Maternity Care benefit. PREPARe is a one stop shop wraparound approach where services typically offered in the community are now offered by trained VA specialists. These services include whole health, mental health, nutrition, physical therapy, women's health, chaplain care, and more."
+    office_location: "PREPARe",
+    office_title2: "Reproductive Health Program Manager",
+    office_location2: "Orlando VA Healthcare System",
+    project: "Project from Thrive to Perinatal Reproductive Education Planning and Resources (PREPARe)",
+    bio: "Melissa Tran is a Licensed Marriage and Family Therapist and AAMFT approved supervisor. She serves as the Reproductive Health Program Manager at Orlando VA Healthcare System. She leads Perinatal Reproductive Education Planning and Resources (PREPARe) and hosted the first national VA Maternal Health Summit. Ms. Tran is also an instructor with the Colleges of Medicine for Nova Southeastern University Kiran C Patel and University of Central Florida. Her clinical specialty areas include reproductive mental health, sexual trauma, depression, intimate partner violence, relational/family therapy, and topics surrounding diversity, equity and inclusion.",
+    bio2: ""
 };
 
 let suzanneView = {
@@ -218,8 +218,8 @@ let aksharView = {
     office_location: "Minneapolis VA Healthcare System",
     office_title2: "",
     office_location2: "",
-    project: "Intergovernmental Healthcare Innovation Acceleration and Exchange",
-    bio: "Dr. Akshar Abbott is a physician-innovator who works with the Technology-based Eye Care Service to bring critical retina subspecialty services to Veterans across the rural Midwest. In addition to his primary clinical role, he is a VA-MIT Catalyst Fellow focused on healthcare innovation and a graduate student in Epidemiology at the Harvard T. H. Chan School of Public Health. He works across the disciplines of telehealth, digital health innovation, and rural health to design and deploy high-quality ophthalmic subspecialty care programs in areas of critical need. For Dr. Abbott, this work centers the core aspiration of our democracy the uncoupling of demographics and destiny, empowering all Americans to live their fullest lives independent of who they are or where they live. Dr. Abbott is passionate about public-sector health technology innovation, especially in service of VA's 5th mission: building the future of healthcare for all Veterans and all Americans. For his VHA Innovation Fellowship year, he is analyzing areas of overlap between VA's mission-critical health innovation priorities and those of our federal healthcare innovation partners. From this research, he will build a comprehensive strategy for co-innovation across the federal healthcare ecosystem, as well as constructing public-private partnerships with our partners in academia and the private sector."
+    project: "Intergovernmental Health Care Innovation Acceleration and Exchange",
+    bio: "Dr. Akshar Abbott is a physician-innovator who works with the Technology-based Eye Care Service to bring critical retina subspecialty services to Veterans across the rural Midwest. In addition to his primary clinical role, he is a graduate student in Epidemiology at the Harvard T.H. Chan School of Public Health, a National Academy of Medicine Scholar in Diagnostic Excellence, and an MIT Catalyst Fellowship faculty member. He works across the disciplines of telehealth, digital health innovation, and rural health to design and deploy high-quality ophthalmic subspecialty care programs in areas of critical need. For Dr. Abbott, this work centers the core aspiration of our democracy the uncoupling of demographics and destiny, empowering all Americans to live their fullest lives independent of who they are or where they live. Dr. Abbott is passionate about public-sector health technology innovation, especially in service of building the future of health care for all Veterans and all Americans. For his VHA Innovation Fellowship year, he is analyzing areas of overlap between VA's mission-critical health innovation priorities and those of our federal health care innovation partners. From this research, he will build a comprehensive strategy for co-innovation across the federal health care ecosystem, as well as constructing public-private partnerships with our partners in academia and the private sector."
 };
 
 let taylorView = {
@@ -257,7 +257,7 @@ let priyaView = {
     office_title: "Chief Health Informatics Officer",
     office_location: "San Francisco VA Medical Center",
     project: "Ensuring Veteran Food Security",
-    bio: "Dr. Priya Joshi is a clinician and informaticist who practices general medicine in the inpatient and outpatient setting. She serves as the Chief Health Informatics Officer and physician at the San Francisco VA Medical Center and as an Assistant Professor at the University of California, San Francisco. Dr. Joshi centers her career on leveraging digital innovation, human-centered design, and clinical interventions to synergistically improve clinical workflow and equitable patient outcomes. Dr. Joshi designs preventive care algorithms to more equitably identify patient needs and creates corresponding clinical interventions in partnership with so that they may prescribe novel medications with the highest likelihood of improving a Veteran's mortality, morbidity and quality of life. She joined the VHA Innovation Ecosystem as a 2022 Entrepreneur in Residence Fellow to advance how VHA can utilize digital and clinical innovation to prevent adverse outcomes and remediate inequities in care. Currently, Dr. Joshi is leading the strategy to identify and manage root causes of Veteran food insecurity and implement enterprise-wide solutions to improve Veteran access to food within their communities."
+    bio: "Dr. Priya Joshi is the Chief Health Informatics Officer at the San Francisco VA Medical Center. She identifies where exclusions in code become exclusions & inconvenience in care. We shouldn't have to jump through hoops to get the care and resources we need; the best care should be the path of least resistance. She started her fellowship in 2021 working on developing analytics to proactively identify missed diagnoses of kidney disease, hypertension, and diabetes to proactively provide upstream medication therapy that prevented kidney disease progression to dialysis, heart attacks, and strokes. She moved forward in 2022 building an enterprise evaluation of food security and building a grocery delivery program called Foodshare that helped get food to Veterans experiencing food insecurity and homelessness. She took the skills from the fellowship in building partnerships to get regular and artificial intelligence to the point of care, so Veterans and staff get information and support when and where they need it."
 };
 
 let stacyView = {
