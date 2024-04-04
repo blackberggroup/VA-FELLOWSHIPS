@@ -48,15 +48,13 @@ let melissaView = {
     bio_name: "Melissa Tran, PMH-C",
     title: "2023 Senior Innovation Fellow",
     job: "Marriage and Family Therapist",
-    job2: "",
+    job2: "Reproductive Health Program Manager",
     job_description: "",
-    office_title: "National Lead",
-    office_location: "PREPARe",
-    office_title2: "Reproductive Health Program Manager",
-    office_location2: "Orlando VA Healthcare System",
+    office_title: "National Lead, PREPARe",
+    office_location: "Orlando VA Healthcare System",
+    office_title2: "",
+    office_location2: "",
     project: "Project from Thrive to Perinatal Reproductive Education Planning and Resources (PREPARe)",
-    bio: "Melissa Tran is a Licensed Marriage and Family Therapist and AAMFT approved supervisor. She serves as the Reproductive Health Program Manager at Orlando VA Healthcare System. She leads Perinatal Reproductive Education Planning and Resources (PREPARe) and hosted the first national VA Maternal Health Summit. Ms. Tran is also an instructor with the Colleges of Medicine for Nova Southeastern University Kiran C Patel and University of Central Florida. Her clinical specialty areas include reproductive mental health, sexual trauma, depression, intimate partner violence, relational/family therapy, and topics surrounding diversity, equity and inclusion.",
-    bio2: ""
 };
 
 let suzanneView = {
