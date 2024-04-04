@@ -398,12 +398,17 @@ connection {
     a.button-vha {
         background: #864381 !important;
     }
+ 
 
     @media (max-width: 767px) { 
         .button-vha {
             width: auto !important;
         }
     }
+}
+
+.card__container p a{
+    color: #864381;
 }
 
 // =====================================================
