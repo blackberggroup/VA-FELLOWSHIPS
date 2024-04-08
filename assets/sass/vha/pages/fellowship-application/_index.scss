@@ -146,11 +146,16 @@ connection {
         position: absolute;
         border-width: 2px 0px 2px 2px !important;
 
-        margin-top: -70px;
+        margin-top: -80px;
         width: 100px !important;
         height: 120px !important;
-        margin-left: -150px;
+        margin-left: -180px;
+
+
+    
     }
+
+  
 
 
     connection.six-to-seven {
@@ -178,7 +183,10 @@ connection {
         margin-top: -70px;
         width: 100px !important;
         height: 120px !important;
-        margin-left: -150px;
+        margin-left: -140px;
+        margin-top: -81px;
+
+       
     }
 
     connection.eight-to-nine {
@@ -277,6 +285,8 @@ connection {
         margin-top: -65px;
         width: 33% !important;
         height: 156px !important;
+
+        margin-top: -82px;
     }
 
     connection.eight-to-nine {
@@ -296,21 +306,36 @@ connection {
 @media (max-width: 1399px) and (min-width: 1100px) { 
     connection.six-to-seven {
         margin-left: -38% !important;
+
+        margin-top: -82px;
+
+
     }
     connection.four-to-three {
         margin-left: -40% !important;
     }
+
 }
 
 @media (max-width: 1399px) and (min-width: 724px){
     connection.two-to-three, connection.four-to-three, connection.five-to-six, connection.eight-to-nine {
         min-width: 200px !important;
     }
+    connection.two-to-three {
+        margin-top: -82px;
+
+      
+    }
 }
 
 @media (max-width: 723px) and (min-width: 651px){
     connection.two-to-three, connection.four-to-three {
         min-width: 34% !important;
+    }
+
+    connection.two-to-three {
+        margin-top: -83px;
+
     }
 
     connection.five-to-six, connection.eight-to-nine {
