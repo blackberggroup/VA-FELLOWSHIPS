@@ -383,7 +383,7 @@
                     </div>
 
                     <div id="connections" class="padding-x-0 mobile-lg:padding-x-5">
-                        <div class="grid-container">
+                        <div class="grid-container position-relative">
                             <div class="grid-row grid-gap tablet:flex-justify-center">
                                 <div class="card one">
                                     <div class="card__container">
@@ -959,47 +959,57 @@
         <script src="../assets/js/vendors/lazy/jquery.lazy.min.js"></script>
         <script src="../assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
         <script src="../assets/js/functions.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery-connections@1.0.1/jquery.connections.min.js"></script>
+        <script src="../assets/js/jquery-lines.js"></script>
+
         <script>
             if(window.innerWidth > 0) {
                 $(document).ready(function() {
                     $("#connections div.card.one").connections({ 
                         to: '#connections div.card.two',
-                        'class': 'one-to-two'
+                        'class': 'one-to-two',
+                        within: '#application-process'
                     });
                     $("#connections div.card.two").connections({ 
                         to: '#connections div.card.three',
-                        'class': 'two-to-three'
+                        'class': 'two-to-three',
+                        within: '#application-process'
                     });
                     $("#connections div.card.three").connections({ 
                         to: '#connections div.card.four',
-                        'class': 'four-to-three'
+                        'class': 'four-to-three',
+                        within: '#application-process'
                     });
                     $("#connections div.card.four").connections({ 
                         to: '#connections div.card.five',
-                        'class': 'four-to-five'
+                        'class': 'four-to-five',
+                        within: '#application-process'
                     });
                     $("#connections div.card.five").connections({ 
                         to: '#connections div.card.six',
-                        'class': 'five-to-six'
+                        'class': 'five-to-six',
+                        within: '#application-process'
                     });
                     $("#connections div.card.six").connections({ 
                         to: '#connections div.card.seven',
-                        'class': 'six-to-seven'
+                        'class': 'six-to-seven',
+                        within: '#application-process'
                     });
                     $("#connections div.card.eight").connections({ 
                         to: '#connections div.card.seven',
-                        'class': 'seven-to-eight'
+                        'class': 'seven-to-eight',
+                        within: '#application-process'
                     });
                     $("#connections div.card.eight").connections({ 
                         to: '#connections div.card.nine',
-                        'class': 'eight-to-nine'
+                        'class': 'eight-to-nine',
+                        within: '#application-process'
                     });
 
                     var c = $('connection');
                         setInterval(function() {
                         c.connections('update');
                     }, 0);
+                
                 });
             } 
         </script>

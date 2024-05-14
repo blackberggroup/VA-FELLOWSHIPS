@@ -47,6 +47,7 @@ connection {
     border: 2px solid #fff;
     border-radius: 30px;
     z-index: 1 !important;
+    position: absolute;
 }    
 
 #connections div.card {
@@ -56,7 +57,7 @@ connection {
     border-radius: 8px;
     color: #864381;
     padding: 20px 20px 0px 20px;
-    z-index: 2 !important;
+    z-index: 200 !important;
 
     h2, h4 {
         color: #864381;
