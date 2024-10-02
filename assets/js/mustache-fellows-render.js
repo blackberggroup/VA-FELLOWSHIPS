@@ -280,11 +280,11 @@ let stacyView = {
     project: "Veterans Health Administration Innovation Ecosystem Optimization",
     bio: "Stacey Lewis is a Health System and Improvement Specialist at the VA New England Center for Innovation Excellence (NECIE) where she focuses on the Center's strategic operations. As a certified Lean Six Sigma Black Belt and data-driven strategic thinker, her Veterans Health Administration Innovation Ecosystem (VHA IE) Optimization project is taking a deep dive into the new VA Pathfinder program's processes and outcomes. Her ultimate goal is to examine and optimize the flow of innovative solutions throughout VHA Office of Healthcare Innovation and Learning; beginning at intake and concluding with the successful integration of those solutions into the appropriate Care Models of the healthcare delivery system, she seeks to operationalize the process so that the value of innovation can be extracted and realized. Utilizing a systematic approach to understanding performance, key areas are efficiency, effectiveness, and strategic alignment."
 };
-
+// 2024 current begin
 let kevinView = {
     id: "kevin-carroll",
     fellow_type: "erf",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/kevin-carroll.jpg",
     profileImg: "../assets/img/fellows/kevin-carroll-sq.jpg",
     alt: "Kevin Carroll, Ph.D.",
@@ -305,7 +305,7 @@ let kevinView = {
 let elizabethView = {
     id: "elizabeth-dinges",
     fellow_type: "erf",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/elizabeth-dinges.jpg",
     profileImg: "../assets/img/fellows/elizabeth-dinges-sq.jpg",
     alt: "Elizabeth Dinges, Pharm.D.",
@@ -326,7 +326,7 @@ let elizabethView = {
 let jayView = {
     id: "jay-gorman",
     fellow_type: "erf",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/jay-gorman.jpg",
     profileImg: "../assets/img/fellows/jay-gorman-sq.jpg",
     alt: "Jay Gorman, Ph.D.",
@@ -347,7 +347,7 @@ let jayView = {
 let minhView = {
     id: "minh-ho",
     fellow_type: "erf",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/minh-ho.jpg",
     profileImg: "../assets/img/fellows/minh-ho-sq.jpg",
     alt: "Minh Ho, D.O.",
@@ -368,7 +368,7 @@ let minhView = {
 let maryView = {
     id: "mary-julius",
     fellow_type: "sif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/mary-julius.jpg",
     profileImg: "../assets/img/fellows/mary-julius-sq.jpg",
     alt: "Mary Julius, RDN, LD, CDCES",
@@ -386,31 +386,133 @@ let maryView = {
     bio2: "As a Senior Innovation Fellow, Ms. Julius is working to expand the program curriculum to include continuous glucose monitoring, engage experts within and outside of VA, expand the program to multiple states, and incorporate a whole health approach to diabetes self-care and management."
 };
 
+let nathanielView = {
+    id: "nathaniel-graff",
+    fellow_type: "erf",
+    fellow_status: "current",
+    img: "assets/img/fellows/nathaniel-graff.jpg",
+    profileImg: "../assets/img/fellows/nathaniel-graff-sq.jpg",
+    alt: "Nathaniel Graff, MHSA, LBB",
+    bio_name: "Nathaniel Graff, MHSA, LBB",
+    title: "2025 Entrepreneur in Residence",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Continuous Improvement Manager",
+    office_location: "Ridgeland, MS (VISN 16 Office)",
+    office_title2: "",
+    office_location2: "",
+    project: "Automating Market Pay Review Processes for Physicians Recruitment in VISN 16 Human Resources",
+    bio: "Nate grew up in the American Midwest before serving in combat arms units of the US Army as a medic, including one tour in Iraq. Afterward, he graduated with degrees in political science and philosophy, with graduate degrees in health services administration and long-term care administration. His Veteran related work includes interning for the US House of Representatives Veterans Affairs Committee, serving in VHA clinical operations roles in Compensation & Pension, Primary Care, Surgery, Anesthesiology, Interventional Pain, and a Surgical Intensive Care Unit. Additional VHA roles include serving as a facility Systems Redesign Coordinator, membership of a facility Ethics Committee, and current service in the unique role of a VISN Human Resources Continuous Improvement Manager. When not working for Veterans, he volunteers at non-profits serving food and housing insecure persons, reads seemingly never-ending piles of books, travels, and spends time with his nieces and nephew, earning the unanimous rating of a “pretty OK uncle;” which he regards as his highest life achievement."
+};
+
+let manujView = {
+    id: "manuj-kapur",
+    fellow_type: "erf",
+    fellow_status: "current",
+    img: "assets/img/fellows/manuj-kapur.jpg",
+    profileImg: "../assets/img/fellows/manuj-kapur-sq.jpg",
+    alt: "Manuj Kapur, MD",
+    bio_name: "Manuj Kapur, MD",
+    title: "2025 Entrepreneur in Residence",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Staff Ophthalmologist, TECS Lead Physician for CAVHCS",
+    office_location: "Joseph Maxwell Cleland Atlanta VA Medical Center",
+    office_title2: "",
+    office_location2: "",
+    project: "Synchronous Tele-Retina Clinics via CVT at CAVHCS",
+    bio: "Dr. Manuj Kapur is a staff ophthalmologist at the VISN 7 Clinical Resource Hub, where he also serves as the TECS Lead Ophthalmologist for the Central Alabama Veterans Healthcare System (CAVHCS). Additionally, he holds an appointment as Clinical Faculty at the University of Texas Health Science Center at Houston. Dr. Kapur has led the expansion of mobile, face-to-face ophthalmology services and established access to subspecialty eye care across CAVHCS, including pioneering the VA's first Synchronous Tele-Glaucoma Clinic, which was selected for a national presentation at the Clinical Resource Hub strong practice symposium.",
+    bio2: "As an Entrepreneur in Residence Fellow, Dr. Kapur is now leading the development of a Synchronous Tele-Retina Clinic, with a goal to extend tele-subspecialty eye care services along with mobile deployment across VISN 7 spoke sites. His groundbreaking work leverages advanced telehealth technologies, seamlessly integrating asynchronous and synchronous care, to increase specialty care access while significantly reducing health care costs."
+};
+
+let colleenView = {
+    id: "colleen-mcquown",
+    fellow_type: "sif",
+    fellow_status: "current",
+    img: "assets/img/fellows/colleen-mcquown.jpg",
+    profileImg: "../assets/img/fellows/colleen-mcquown-sq.jpg",
+    alt: "Colleen McQuown, MD, FACEP",
+    bio_name: "Colleen McQuown, MD, FACEP",
+    title: "2025 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "SCOUTS Medical Director",
+    office_location: "VA Program Office, Office of Primary Care",
+    office_title2: "",
+    office_location2: "",
+    project: "SCOUTS (Supporting Community, Outpatient, Urgent care, and Telehealth Services)",
+    bio: "Dr. Colleen McQuown is an Emergency Medicine Physician dual boarded in Emergency Medicine and Emergency Medicine Services. She is a former president of the Academy of Geriatric Emergency Medicine with the Society for Academic Emergency Medicine. She has served on the National VHA Geriatric Emergency Medicine and National VHA Emergency Ambulance Service programs as a senior advisor. Currently she is the National Director of the VA SCOUTS (Supporting Community, Outpatient, Urgent care, and Telehealth Services) program, which is an Office of Rural Health Enterprise Wide Initiative and Shark Tank Promising Practice. She also serves the VHA Office of Primary Care as an ICT (Intermediate Care Technician) Program Senior Advisor and the Clinical Director of the Foundational ICT Course for Emergency Medicine with VA SimLEARN."
+};
+
 let loriView = {
     id: "lori-murphy",
     fellow_type: "erf",
     fellow_status: "current",
     img: "assets/img/fellows/lori-murphy.jpg",
     profileImg: "../assets/img/fellows/lori-murphy-sq.jpg",
-    alt: "Lori Murphy, MSW, LISW-S",
-    bio_name: "Lori Murphy, MSW, LISW-S",
-    title: "2024 Entrepreneur in Residence Fellow",
+    alt: "Lori Murphy, LISW-S",
+    bio_name: "Lori Murphy, LISW-S",
+    title: "2025 Senior Innovation Fellow",
     job: "",
     job2: "",
     job_description: "",
-    office_title: "Caregiver Support Program Senior Social Worker",
+    office_title: "Senior Social Worker",
     office_location: "Central Ohio VA Healthcare System",
     office_title2: "",
     office_location2: "",
-    project: "Compassionate Contact Corps",
-    bio: "Lori Murphy is the Caregiver Support Program Senior Social Worker at the Central Ohio VA Healthcare System, and has led the Compassionate Contact Corps from 2020, expanding this new approach to combatting Veteran loneliness to over 70 VA facilities within 3 years, with 450 program volunteers serving over 8,300 hours in Fiscal Year 2023. Recognized as a subject matter expert on loneliness and social connection within VA, Ms. Murphy was invited to join a coalition of federal government offices, including the Department of Health and Human Services and the Office of the Surgeon General, to coordinate the U.S. governments efforts on combatting loneliness.",
-    bio2: "As part of her fellowship year, Ms. Murphy will be representing VA as a health care industry leader in addressing loneliness and streamlining and expanding the Compassionate Contact Corps through a technology partnership. Her goal is to modernize, streamline, and expand Compassionate Contact Corps to reach more Veterans and improve the user experience."
+    project: "Shared SDOH Technology Platform Pilot",
+    bio: "Lori Murphy is a senior social worker at the Central Ohio VA. At the start of the COVID pandemic, she and 7 other voluntary service specialists and social workers developed and implemented VA's Compassionate Contact Corps social prescription program with a goal to reduce Veteran loneliness. Lori was a VA Diffusion of Excellence Shark Tank Winner in 2021 which helped her to replicate the program from its 8 original sites to 110 and growing. She was also selected for the 2024 and 2025 VA Innovation Fellowships and is a 2024 Service to the Citizen Award Recipient. Lori has been a champion for replicating Compassionate Contact Corps across VA and increasing education about loneliness, its impact on health, and social prescribing as a solution."
+};
+
+let kelseyView = {
+    id: "kelsey-shull",
+    fellow_type: "sif",
+    fellow_status: "current",
+    img: "assets/img/fellows/kelsey-shull.jpg",
+    profileImg: "../assets/img/fellows/kelsey-shull-sq.jpg",
+    alt: "Kelsey Shull, MHA, CTRS",
+    bio_name: "Kelsey Shull, MHA, CTRS",
+    title: "2025 Senior Innovation Fellow",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Innovation Specialist",
+    office_location: "Charlie Norwood Department of Veterans Affairs Medical Center, August, Georgia",
+    office_title2: "",
+    office_location2: "",
+    project: "Trailblazing Talent: Shaping a Future-Ready Federal Workforce Through Innovation Internships",
+    bio: "Kelsey Shull began her career at the VA Augusta Health Care System in 2012 as a Recreation Therapy Intern after graduating from Georgia Southern University. After working for the State of Georgia's mental health system for a year, she returned to VA Augusta as the Recreation Therapist on the psychiatric unit where she worked for 7 years.",
+    bio2: "Kelsey finished her Master of Healthcare Administration in 2020 and not long after graduation, she completed detail assignments as the Administrative Officer for the Rehabilitation service line and Program Analyst for the Chief of Staff. In April 2021, she accepted the role of Innovation Specialist when VA Augusta joined the VHA Innovators Network. From March 2022 until September 2023, Kelsey served as the Human-Centered Design Lead for the VHA Innovators Network. As HCD Lead, she trained new Innovation Specialists and created national initiatives through Human-Centered Design projects while mentoring VA Augusta innovation investees. Kelsey was voted Innovation Specialist of the Year by her peers in October 2023. During her HCD Lead tenure, Kelsey's favorite project was determining the desirability and feasibility for a graduate-level innovation internship. Now selected as a VHA Innovation Ecosystem Fellow, Kelsey looks forward to piloting the first VHA Innovation Intern as an Entrepreneur in Residence for FY25.",
+    bio3: "Kelsey has been married to her husband for 8 years and together they have two energetic toddlers. Having adventures with her family is what she enjoys most, followed closely by a good, long nap."
+};
+
+let samuelView = {
+    id: "samuel-smith",
+    fellow_type: "sif",
+    fellow_status: "current",
+    img: "assets/img/fellows/samuel-smith.jpg",
+    profileImg: "../assets/img/fellows/samuel-smith-sq.jpg",
+    alt: "Samuel Smith, MSNA, CRNA, VHA Change Practitioner",
+    bio_name: "Samuel Smith, MSNA, CRNA, VHA Change Practitioner",
+    title: "2025 Entrepreneur in Residence",
+    job: "",
+    job2: "",
+    job_description: "",
+    office_title: "Certified Registered Nurse Anesthetist",
+    office_location: "Richmond VA Medical Center",
+    office_title2: "",
+    office_location2: "",
+    project: "Less Gas More Green",
+    bio: "Samuel Smith is a Navy Veteran and a CRNA at the Richmond VA Medical Center. Sam has been an anesthesia provider for 20 years. Sam oversaw the Liver Transplant Anesthesia Team at Virginia Commonwealth University for 13 years. Sam has been heavily involved in committees, leadership positions, and presentations to the Richmond VA's Anesthesia Department and other departments system wide. Sam considers himself a work in progress, always striving to improve and do better. He is constantly seeking ways to innovate and move his department forward. He is a member and participant in the National Center for Patient Safety's collaborative effort with National Anesthesia Program to bring awareness to safety events nationwide through quarterly presentations to anesthesia leadership nationwide. Colleagues might describe him as kind, thoughtful, a novel thinker, and a capable self-starter. He recently completed a Seed Investee year in FY23 and Spread Investee Project in FY24 for iNET, where he honed his innovation skills and promoted his thought-leader abilities promoting his innovative approach to lowering greenhouse gas formation from anesthesia gases. This project led him to receive his Lean Yellow Belt and Change Management Practitioner certification. He is the humble husband to Leah, and proud father to Stella, 14, and Bodhi, 10. The Smith family has 2 goldendoodles and 2 cats. Most weekends they can be found at a pool watching Stella swim for Poseidon Swim Team or at a lacrosse field watching Bodhi playing for True RVA Lacrosse."
 };
 
 let ronaView = {
     id: "rona-relova",
     fellow_type: "sif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/rona-relova.jpg",
     profileImg: "../assets/img/fellows/rona-relova-sq.jpg",
     alt: "Rona Relova, M.D.",
@@ -431,7 +533,7 @@ let ronaView = {
 let nicholView = {
     id: "nichol-salvo",
     fellow_type: "sif",
-    fellow_status: "current",
+    fellow_status: "alumni",
     img: "assets/img/fellows/nichol-salvo.jpg",
     profileImg: "../assets/img/fellows/nichol-salvo-sq.jpg",
     alt: "Nichol Salvo, D.P.M.",
@@ -448,7 +550,7 @@ let nicholView = {
     bio: "Dr. Nichol Salvo is the Chief of Podiatry and Limb Preservation Program Director at the Atlanta VA Health Care System. She additionally serves as a faculty member in the PMSR/RRA Podiatry Residency Program at the Atlanta VA. Additionally, as Director of the High-Risk Eye and Limb Preservation Program (HELPP), she works with the VISN 7 Clinical Resource Hub, which provides eye exams, foot exams, and basic foot care services for Veteran patients at increased risk for amputation and blindness. She is recognized as a leader and coalition builder to provide easier access to these services for our nation's Veterans.",
     bio2: "As a Senior Innovation Fellow, Dr. Salvo's mission is to provide basic foot care to patients at increased risk for amputation, improve access and timeliness of care, and prevent amputation in Veterans, establishing a model of care that can be used nationally across VA. This is to be accomplished by developing a permanent program using telehealth and tele-supervision, which allows podiatrists to serve more patients than in traditional face-to-face clinical settings."
 };
-
+//  2024 current end
 let bethView = {
     id: "beth-ripley",
     fellow_type: "sif",
@@ -574,7 +676,7 @@ let coryView = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, lindsayView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, loriView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
+var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, lindsayView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, nathanielView, manujView, colleenView, loriView, kelseyView, samuelView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
 
 var tab;
 var img;
@@ -592,6 +694,7 @@ var office_location2;
 var project;
 var bio;
 var bio2;
+var bio3;
 
 for (var i = 0; i < fellowsArray.length; i++) {
     var userIndex = fellowsArray[i].id;
@@ -615,6 +718,7 @@ for (var i = 0; i < fellowsArray.length; i++) {
         project = Mustache.render("{{{project}}}", objectView);
         bio = Mustache.render("{{{bio}}}", objectView);
         bio2 = Mustache.render("{{{bio2}}}", objectView);
+        bio3 = Mustache.render("{{{bio3}}}", objectView);
 
     }
 }
@@ -636,6 +740,7 @@ $('.bio-card-attributes > p span.office_location2').text(office_location2);
 $('.bio-card-description p.project').text(project);
 $('#bio-card-about p.bio').text(bio);
 $('#bio-card-about p.bio2').text(bio2);
+$('#bio-card-about p.bio3').text(bio3);
 
 
 if ($(".office_title").text() == ',') {
