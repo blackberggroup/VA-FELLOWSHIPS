@@ -460,7 +460,7 @@ let loriView = {
     job2: "",
     job_description: "",
     office_title: "Senior Social Worker",
-    office_location: "Central Ohio VA Healthcare System",
+    office_location: "Chalmers P. Wylie Veterans Outpatient Clinic, Columbus, Ohio",
     office_title2: "",
     office_location2: "",
     project: "Shared SDOH Technology Platform Pilot",
