@@ -676,7 +676,7 @@ let coryView = {
 
 
 // Mustache render logic for individual page views | ?user="firstname-lastname"
-var fellowsArray = new Array(candisView, jacquelynView, melissaView, suzanneView, eliView, georgeView, razaView, raviView, indraView, lindsayView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, maryView, nathanielView, manujView, colleenView, loriView, kelseyView, samuelView, ronaView, nicholView, bethView, amandaView, michaelView, arashView, danielleView, coryView);
+var fellowsArray = new Array(suzanneView, eliView, georgeView, razaView, raviView, indraView, lindsayView, aksharView, taylorView, priyaView, stacyView, kevinView, elizabethView, jayView, minhView, nathanielView, manujView, samuelView, colleenView, loriView, kelseyView, bethView, amandaView, michaelView, arashView, danielleView, coryView, candisView, jacquelynView, melissaView, maryView, ronaView, nicholView);
 
 var tab;
 var img;
