@@ -789,7 +789,7 @@ currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').appen
 + current.alt + "</h2>" + "<h3 class='margin-y-0 h4'>" 
 + current.title + "</h3>" + "<p class='job'>" 
 + current.job + "</p>" + "<p class='job_description'>" 
-+ current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location2 + "</p>" + "<p class='office_title2 margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location2 margin-top-0'>" + current.office_location2 + "</p>" + "</div>" + "</a>" + "</div>")); 
++ current.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + current.office_title + "</p>" + "<p class='office_location margin-top-0'>" + current.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + current.office_title2 + "</p>" + "<p class='office_location2 margin-top-0'>" + current.office_location2 + "</p>" + "</div>" + "</a>" + "</div>")); 
 
 
 // Render dynamic owl carousel for ALUMNI SIF
