@@ -480,7 +480,7 @@ let kelseyView = {
     job2: "",
     job_description: "",
     office_title: "Innovation Specialist",
-    office_location: "Charlie Norwood Department of Veterans Affairs Medical Center, August, Georgia",
+    office_location: "VA Augusta Health Care System",
     office_title2: "",
     office_location2: "",
     project: "Trailblazing Talent: Shaping a Future-Ready Federal Workforce Through Innovation Internships",
