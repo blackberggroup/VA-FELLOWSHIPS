@@ -9,20 +9,6 @@ var newsData = {
             "description": "Taylor Hooker has been named a 2023 Service to the Citizen Award winner for her work in recreation and creative arts therapy."
         },
         {
-            "id1": "akshar-abbott",
-            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-obamafellow-2023.jpg",
-            "title": "Akshar Abbott named a 2023 Obama Foundation Fellow",
-            "url": "https://www.obama.org/programs/leaders/usa/2023/akshar-abbott/",
-            "description": "Akshar Abbott, MD, is a staff ophthalmologist and national innovation fellow with the Veterans Health Administration, leveraging health care delivery innovation to promote ophthalmic health equity for veterans living in rural communities."
-        },
-        {
-            "id1": "akshar-abbott",
-            "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-citizenaward-2023.jpg",
-            "title": "2023 Service to the Citizen Award Winners announced",
-            "url": "https://www.servicetothecitizen.org/visn23clinicalresourcehub",
-            "description": "Akshar Abbott and the Veterans Integrated Services Network 23 Clinical Resource Hub Virtual Medical Retina Clinic were recipients of the 2023 Service to the Citizen Award for their work in improving access to eye care for Veterans."
-        },
-        {
             "id1": "priya-joshi",
             "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-joshi-ucsf-171113.jpg",
             "title": "Priya Joshi, University of California, San Francisco",

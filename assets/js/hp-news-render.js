@@ -158,12 +158,6 @@ var fellowsNewsData = {
         "description": "Modern Healthcare has named Melissa Tran as a 2023 Top 25 Emerging Leader. Tran created PREPARe to connect pregnant and parenting veterans with comprehensive care, including lactation counselors, mental health medication providers, nutritionists and physical therapists."
       },
       {
-        "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-obamafellow-2023.jpg",
-        "url": "https://www.obama.org/programs/leaders/usa/2023/akshar-abbott/",
-        "title": "Akshar Abbott named a 2023 Obama Foundation Fellow",
-        "description": "Akshar Abbott, MD, is a staff ophthalmologist and national innovation fellow with the Veterans Health Administration, leveraging health care delivery innovation to promote ophthalmic health equity for veterans living in rural communities."
-      },
-      {
         "img": "https://www.innovation.va.gov/ecosystem/assets/images/IE/news-events/fellowship-abbott-citizenaward-2023.jpg",
         "url": "https://www.servicetothecitizen.org/visn23clinicalresourcehub",
         "title": "2023 Service to the Citizen Award Winners announced",
