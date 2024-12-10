@@ -459,7 +459,7 @@ var newsData = {
         
         {
             "id1": "lori-murphy",
-            "img": "../assets/img/news-events/fellowship-murphy-soc-prescribing-220329.jpg",
+            "img": "../assets/img/news-events/fellowship-murphy-soc-prescribing-220329.webp",
             "title": "Social Prescribing in The USA: On the Rise?",
             "url": "https://visiblenetworklabs.com/2022/03/29/social-prescribing-in-the-usa/",
             "description": "Social prescribing is born from the understanding that not all ailments or factors impacting an individual's health can be addressed through traditional medicine, or in the brief amount of time an individual is actually in a doctor's office."
