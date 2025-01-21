@@ -443,7 +443,7 @@ let colleenView = {
     office_location: "VHA Office of Primary Care",
     office_title2: "",
     office_location2: "",
-    project: "SCOUTS (Supporting Community, Outpatient, Urgent care, and Telehealth Services)",
+    project: "SCOUTS (Supporting Community, Outpatient, Urgent care, and Telehealth Services)<br><br><a href='https://marketplace.va.gov/innovations/scouts' target='_blank'>Learn more at Diffusion Marketplace</a>",
     bio: "Dr. Colleen McQuown is an Emergency Medicine Physician dual boarded in Emergency Medicine and Emergency Medicine Services. She is a former president of the Academy of Geriatric Emergency Medicine with the Society for Academic Emergency Medicine. Dr. McQuown has served on the National VHA Geriatric Emergency Medicine and National VHA Emergency Ambulance Service programs as a senior advisor. Currently, she is the National Director of the VA SCOUTS (Supporting Community, Outpatient, Urgent care, and Telehealth Services) program, which is an Office of Rural Health Enterprise Wide Initiative and Shark Tank Promising Practice. Dr. McQuown also serves the VHA Office of Primary Care as an Intermediate Care Technician (ICT) Program Senior Advisor and the Clinical Director of the Foundational ICT Course for Emergency Medicine with VA SimLEARN. As part of Dr. McQuown's Fellowship, she will be further developing and diffusing SCOUTS as a nationwide program."
 };
 
@@ -736,7 +736,7 @@ $('.bio-card-attributes > p span.office_title').text(office_title);
 $('.bio-card-attributes > p span.office_location').text(office_location);
 $('.bio-card-attributes > p span.office_title2').text(office_title2);
 $('.bio-card-attributes > p span.office_location2').text(office_location2);
-$('.bio-card-description p.project').text(project);
+$('.bio-card-description p.project').html(project);
 $('#bio-card-about p.bio').text(bio);
 $('#bio-card-about p.bio2').text(bio2);
 $('#bio-card-about p.bio3').text(bio3);
