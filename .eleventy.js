@@ -2,8 +2,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
 
   // Define the Fellows collection
-  eleventyConfig.addCollection("fellows", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("fellows/*.md");
+  eleventyConfig.addCollection("fellow", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("fellow/*.md");
   });
 
   let pathPrefix = "/";
