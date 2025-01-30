@@ -1,0 +1,8 @@
+layout: "fellow.njk"
+title: "Candis Connell, Psy.D."
+fellow_type: "sif"
+fellow_status: "alumni"
+img: "/assets/img/fellows/candice-connell.jpg"
+profileImg: "/assets/img/fellows/candice-connell"
+alt: "Candis Connell, Psy.D."
+bio_name: "Candis Connell, Psy.D."
