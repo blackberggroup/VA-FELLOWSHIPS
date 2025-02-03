@@ -325,7 +325,7 @@ var newsData = {
         },
         {
             "id1": "stacy-lewis",
-            "img": "../../assets/img/news-events/neFellowship-Img55-SLewis_InnovationFellows.jpg",
+            "img": "../assets/img/news-events/neFellowship-Img55-SLewis_InnovationFellows.jpg",
             "title": "VA announces 2022-2023 Innovation Fellows",
             "url": "https://news.va.gov/111460/va-announces-2022-2023-innovation-fellows/",
             "description": "Seven VA employees are joining the next cohort of VA Innovation Fellows."
