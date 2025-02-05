@@ -1,4 +1,144 @@
-<h1>{{ bio_name }}</h1>
-<h2>{{ title }}</h2>
-<img src="{{ profileImg }}" alt="{{ alt }} loading="lazy">
-<p>{{ bio }}</p>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="{% if bio_name %}{{ bio_name }} profile page for VHA Fellows {% else %}Profile page for VHA Fellows{% endif %}">
+  <meta name="keywords" content="VHA Fellowships, VA Fellows, fellowship, application">
+  
+  <title>{{ bio_name }} Profile | VHA Fellows</title>
+
+  <meta property="og:title" content="{{ bio_name }} Profile | VHA Fellows">
+  <meta property="og:url" content="https://www.innovation.va.gov/ecosystem/views/programs/fellowship/fellows/">
+  <meta property="og:description" content="{% if bio_name %}{{ bio_name }} profile page for VHA Fellows{% else %}Profile page for VHA Fellows{% endif %}">
+
+  <meta property="og:type" content="website">
+
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+  <noscript>
+      <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+          type="text/css"
+      />
+  </noscript>
+
+  <link rel="stylesheet" href="../../assets/css/styles.css">
+  
+  <link id="favicon" rel="shortcut icon" href="../../assets/img/favicon.ico">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="../../assets/uswds/js/uswds-init.min.js" async></script>
+
+
+  </head>
+
+  <body>
+
+    <!-- SITE WRAPPER - START -->
+    <div class="site-wrapper">
+      {% include "header.html" %}
+      
+        <main>
+
+            <section id="masthead-sub" class="masthead-sub">
+                <div class="masthead__angles-wrapper">
+                    <div class="masthead__angles">
+                        <div class="angle-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 956 724" width="956" height="724" fill="none" preserveAspectRatio="xMidYMax meet"><path fill="url(#a)" d="M194.754 724H0L687.966 0H956L268.029 724h-73.275Z" style="mix-blend-mode:multiply"/><defs><linearGradient id="a" x1="1288.42" x2="311.378" y1="-1365.87" y2="498.945" gradientUnits="userSpaceOnUse"><stop stop-color="#C9C9C9"/><stop offset=".04" stop-color="#CCC"/><stop offset=".42" stop-color="#E8E8E8"/><stop offset=".75" stop-color="#F9F9F9"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></svg>
+                        </div>
+                        <div class="angle-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1457 724" width="1457" height="725" fill="none" preserveAspectRatio="xMidYMax meet"><path fill="url(#a)" d="M477.301 725.001H0l684.13-725L873.301 0h582.969L767.301 725.002h-290Z" style="mix-blend-mode:multiply"/><defs><linearGradient id="a" x1="-669.887" x2="-2061.82" y1="-3602.61" y2="192.189" gradientUnits="userSpaceOnUse"><stop stop-color="#C9C9C9"/><stop offset=".04" stop-color="#CCC"/><stop offset=".42" stop-color="#E8E8E8"/><stop offset=".75" stop-color="#F9F9F9"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></svg>
+                        </div>
+                        <div class="angle-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1446 724" width="1446" height="723" fill="none" preserveAspectRatio="xMidYMax meet"><path fill="url(#a)" d="M625.945 722.5H0L681.77 0h763.61L763.609 722.5H625.945Z" style="mix-blend-mode:multiply"/><defs><linearGradient id="a" x1="254.9" x2="-1216.89" y1="-3529.43" y2="540.104" gradientUnits="userSpaceOnUse"><stop stop-color="#C9C9C9"/><stop offset=".04" stop-color="#CCC"/><stop offset=".42" stop-color="#E8E8E8"/><stop offset=".75" stop-color="#F9F9F9"/><stop offset="1" stop-color="#fff"/></linearGradient></defs></svg>
+                        </div>                
+                    </div>
+                </div>
+                <div class="masthead__border">
+                    <div class="block block-color-1"></div>
+                    <div class="block block-color-2"></div>
+                </div>
+            </section>
+
+            <section id="page--bios" class="">
+                <div class="grid-container">
+                    <div class="grid-row tablet:grid-col-12 bio-card">
+                        <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3 bio-card-img text-center">
+                            <img src="{{ profileImg }}" alt="{{ alt }}">
+                        </div>
+                        <div class="grid-col-12 tablet:grid-col-6 tablet:padding-top-6 desktop:padding-top-0 desktop:grid-col-5 bio-card-attributes text-left">
+                            <h1 class="padding-bottom-0 margin-bottom-0 bio-name">{{ bio_name }}</h1>
+                            <h2 class="padding-top-0 padding-bottom-0 margin-top-1 margin-bottom-2 h3">{{ title }}</h2>
+                            <p class="margin-top-0 margin-bottom-0">
+                                <span class="job">{{ job }}</span> <span class="job_description"></span>
+                            </p>
+                            <p class="margin-top-0 margin-bottom-0">
+                                <span class="job2">{{ job2 }}</span>
+                            </p>
+                            <p class="margin-top-2 margin-bottom-0 tablet:margin-bottom-4 desktop-lg:margin-bottom-0">
+                                <span class="office_title">{{ office_title }}, </span> <span class="office_location">{{ office_location }}</span>
+                            </p>
+                            <p class="margin-top-0 margin-bottom-0 tablet:margin-bottom-4 desktop-lg:margin-bottom-0">
+                                <span class="office_title2">{{ office_title2 }} </span> <span class="office_location2">{{ office_location2 }}</span>
+                            </p>
+                        </div>
+                        <div class="grid-col-12 tablet:grid-col-12 desktop:grid-col-4 bio-card-description tablet:margin-bottom-0 desktop-lg:margin-bottom-0">
+                            <div>
+                                <h3>Project</h3>
+                                <p class="margin-top-3 margin-bottom-1 project">{{ project }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bio-card-about" class="margin-y-4">
+                <div class="grid-container">
+                    <div class="grid-row tablet:grid-col-12">
+                        <h2>About</h2>
+                        <p class="bio">{{ bio }}</p>
+                        <p class="bio2">{{ bio2 }}</p>
+                        <p class="bio3">{{ bio3 }}</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="page--news" class="padding-y-6 margin-top-6">
+                <div class="grid-container">
+                    <div class="grid-row grid-gap">
+                        <div class="grid-col-12 tablet-lg:grid-col-12 text-center">
+                            <h1>Their Work</h1>
+                            <div class="owl-carousel profile--fellows"></div>
+                            <div class="owl-carousel news-4-3-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        {% include "footer.html" %}
+
+    </div>
+    <!-- SITE WRAPPER - END -->
+
+    <script src="../../assets/uswds/js/uswds.min.js"></script>
+    <script src="../../assets/js/vendors/lazy/jquery.lazy.min.js"></script> 
+    <script src="../../assets/js/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="../../assets/js/sticky-function.js"></script>
+    <script src="../../assets/js/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="../../assets/js/functions.js"></script>
+    <script src="../../assets/js/json-news-render.js"></script>
+        
+  </body>
+</html>
+
