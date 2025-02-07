@@ -781,7 +781,7 @@ var currentData = {
 
 currentData.data.push(newCurrentFellowsArray);  
 
-currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=fellow/index.html?fellow=" 
+currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=fellow/" 
 + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
 + current.img + "'alt='" + current.alt + "' />" + "</div>" + "</div>" 
 + "<div class='usa-card__body'>" + "<h2 class='margin-bottom-0 h3'>" 
