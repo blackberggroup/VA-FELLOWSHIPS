@@ -17,9 +17,9 @@ office_location2: ""
 project: "Mobile Prosthetic and Orthotic Care (MoPOC) Program"
 layout: "fellow.njk"
 bio: |
-  Eli Kaufman is a Certified Prosthetist/Orthotist and the National Program Manager for Mobile Prosthetic and Orthotic Care (MoPOC), an Enterprise-Wide Initiative through the VHA Office of Rural Health in partnership with Rehabilitation and Prosthetic Services.  <br><br>
+  Eli Kaufman is a Certified Prosthetist/Orthotist and the National Program Manager for Mobile Prosthetic and Orthotic Care (MoPOC), an Enterprise-Wide Initiative through the VHA Office of Rural Health in partnership with Rehabilitation and Prosthetic Services.<br><br> 
 
-  Through his work in MoPOC, Kaufman aims to increase access to care for Veterans with artificial limb and complex bracing needs by reducing or eliminating the patient burden of travel.  <br><br>
+  Through his work in MoPOC, Kaufman aims to increase access to care for Veterans with artificial limb and complex bracing needs by reducing or eliminating the patient burden of travel.<br><br> 
 
   Kaufman previously served as a Research Prosthetist at the Center for Limb Loss & MoBility (CLiMB) at VA Puget Sound Health Care System in Seattle, WA. Kaufman collaborates to research and develop emerging technologies and clinical practices to enhance mobility for individuals with limb differences and neuromusculoskeletal impairments.
 bio2: >
