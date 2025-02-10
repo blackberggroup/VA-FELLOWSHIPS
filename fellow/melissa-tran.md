@@ -16,7 +16,7 @@ office_title2: ""
 office_location2: ""
 project: "Project from Thrive to Perinatal Reproductive Education Planning and Resources (PREPARe)"
 layout: "fellow.njk"
-bio: >
+bio: |
   Melissa Tran is a Marriage and Family Therapist and the Military Sexual Trauma Coordinator at Orlando VA Healthcare System.  <br><br>
 
   She leads the Perinatal Reproductive Education Planning and Resources (PREPARe) service, which has garnered national recognition through the achievement of the 2021 Dr. Robert L. Jesse Award for Innovation.  <br><br>

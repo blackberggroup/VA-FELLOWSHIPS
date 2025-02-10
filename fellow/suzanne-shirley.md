@@ -16,7 +16,7 @@ office_title2: ""
 office_location2: ""
 project: "The Initiative to End Diabetic Limb Loss"
 layout: "fellow.njk"
-bio: >
+bio: |
   Suzanne Shirley, LCSW, is the Director of Community Engagement & Fellowships with the Veterans Health Administration Innovation Ecosystem (VHA IE) and serves in a faculty role with MIT's Catalyst Fellowship Program.  <br><br>
 
   In the role of community engagement, Shirley drives transformative innovation across the Veterans Health Administration (VHA) by engaging both internal and external collaborators in the design, testing, and scaling of mission-driven innovative solutions.  <br><br>

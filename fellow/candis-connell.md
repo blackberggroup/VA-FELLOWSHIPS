@@ -15,7 +15,7 @@ office_title2: ""
 office_location2: ""
 project: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)"
 layout: "fellow.njk"
-bio: >
+bio: |
   Candis Connell is a clinical psychologist who found her passion in health psychology and began her career as a Health Behavior Coordinator at Bay Pines VA. She currently works as a Clinical Psychologist at James A. Haley Veterans Hospital and Clinics in Tampa, FL.  
   Her work includes direct patient care and training/mentoring staff using positive psychology principles.  
 <br><br>

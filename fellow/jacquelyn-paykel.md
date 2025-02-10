@@ -15,7 +15,7 @@ office_title2: ""
 office_location2: ""
 project: "Transforming Health and Resiliency through Integration of Values-based Experiences (THRIVE)"
 layout: "fellow.njk"
-bio: >
+bio: |
   Jacquelyn Paykel, MD, MBA, has over 25 years of experience in clinical medicine and translational research with a special interest in strategy, innovation, implementation, and evaluation of holistic clinical services in academic, private, and government settings.  <br><br>
 
   She is a Navy Veteran, currently serves as the Chief of the Whole Health Service at James A. Haley Veterans Hospital in Tampa, Florida, and is an Assistant Professor in the Morsani School of Medicine at the University of South Florida.  <br><br>

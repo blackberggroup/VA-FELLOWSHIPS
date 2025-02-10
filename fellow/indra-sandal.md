@@ -16,7 +16,7 @@ office_title2: "Chief of Innovation"
 office_location2: "James A. Haley Veterans' Hospital and Clinics, Tampa, FL"
 project: "VHA-Uber Health Connect Initiative"
 layout: "fellow.njk"
-bio: >
+bio: |
   Dr. Indra Sandal served as the Innovation Specialist at the Memphis VA Medical Center from 2019 to 2022 as well as in several prominent national and local facility innovation roles with VHA Innovation Ecosystem. She currently serves as a faculty member for Massachusetts Institute of Technology's Catalyst program, a collaborative initiative accelerating innovation to benefit healthcare and technology.  <br><br>
 
   From 2020-2022, Dr. Sandal served as VHA Entrepreneur-in-Residence and Executive Management Fellow where she spearheaded the national VUHC Initiative. Through the initial pilot, 3600 Veterans received 22,000 Uber Health rides and 10 VA Medical Center (VAMC) facilities were able to achieve $25M in cost savings from faster emergency and inpatient discharges and avoidance of no-show/missed appointments. This pilot will be expanding to an additional 60 new VAMCs.<br><br>
