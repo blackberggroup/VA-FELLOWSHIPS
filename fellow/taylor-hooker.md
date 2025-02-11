@@ -16,8 +16,7 @@ office_title2: ""
 office_location2: ""
 project: "Empowering Innovation in Recreation Therapy"
 layout: "fellow.njk"
-bio: >
-  Taylor Hooker is a certified Recreation Therapist and Health Coach serving as a Health Systems Specialist for Veterans Healthcare Administration (VHA) Office of Health Equity in VA Central Office (VACO). Taylor is a 4th-year doctoral student whose studies center on nonpharmacological approaches to Veterans' lifelong health and wellness.
-
+bio: |
+  Taylor Hooker is a certified Recreation Therapist and Health Coach serving as a Health Systems Specialist for Veterans Healthcare Administration (VHA) Office of Health Equity in VA Central Office (VACO). Taylor is a 4th-year doctoral student whose studies center on nonpharmacological approaches to Veterans' lifelong health and wellness.<br><br>
   Empowering Innovation in Recreation Therapy supports the formation of an integrative research, mentorship, evidence-based practice, and dissemination program beginning at a regional, and eventually national, footprint to support the advancement of RT service provision at VHA. Through partnership with academic allies, various VHA medical centers and VACO program offices, this robust quality improvement project will lead to improved patient care, clinician & client satisfaction, and increased evidence-based practice.
 ---

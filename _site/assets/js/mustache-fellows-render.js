@@ -504,8 +504,10 @@ let samuelView = {
     office_location: "Richmond VA Medical Center",
     office_title2: "",
     office_location2: "",
-    project: "Less Gas More Green",
-    bio: "Samuel Smith is a Navy Veteran and a CRNA at the Richmond VA Medical Center. Sam has been an anesthesia provider for almost 20 years. Sam oversaw the Liver Transplant Anesthesia Team at Virginia Commonwealth University for 13 years. Sam has been heavily involved in committees, leadership positions, and presentations to the Richmond VA's Anesthesia Department and other departments system wide. Sam considers himself a work in progress, always striving to improve and do better. He is constantly seeking ways to innovate and move his department forward. He is a member and participant in the National Center for Patient Safety's collaborative effort with National Anesthesia Program to bring awareness to safety events nationwide through quarterly presentations to anesthesia leadership nationwide. Colleagues might describe him as kind, thoughtful, a novel thinker, and a capable self-starter. Smith recently completed a Seed Investee year in FY23 and Spread Investee Project in FY24 for iNET, where he honed his innovation skills and promoted his thought-leader abilities promoting his innovative approach to lowering greenhouse gas formation from anesthesia gases. This project led Smith to receive his Lean Yellow Belt and Change Management Practitioner certification."
+    project: "SmartFlow: Anesthesia Modernization",
+    bio: "Samuel Smith is a Navy Veteran and a Certified Registered Nurse Anesthetist at the Richmond VA Medical Center. Sam has been an anesthesia provider for almost 20 years. He oversaw the Liver Transplant Anesthesia Team at Virginia Commonwealth University for 13 years. Sam has been heavily involved in committees, leadership positions, and presentations to the Richmond VA's Anesthesia Department and other departments system wide. ",
+    bio2: "Now, Sam is joining the VHA Innovation Ecosystem Fellowship program to further develop his project, SmartFlow: Anesthesia Modernization. SmartFlow seeks to reduce spending on anesthesia gases throughout VA and increase patient safety during surgeries. Sam’s intention with his Fellowship year is to diffuse his project to other VA sites across the nation. <br><br>",
+    bio3: "Sam is constantly seeking ways to innovate and move his department forward. He is a member and participant in the National Center for Patient Safety's collaborative effort with National Anesthesia Program to bring awareness to safety events nationwide through quarterly presentations to anesthesia leadership nationwide. Smith recently completed a Seed Investee year in FY23 and Spread Investee Project in FY24 for iNET. This experience helped Sam hone his innovation skills as he developed his approach to lowering costs and improving patient safety when providing anesthesia. This project has led Smith to receive his Lean Yellow Belt and Change Management Practitioner certification.",
 };
 
 let ronaView = {
@@ -781,7 +783,7 @@ var currentData = {
 
 currentData.data.push(newCurrentFellowsArray);  
 
-currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=fellow/index.html?fellow=" 
+currentData.data[0].forEach(current => $('.owl-carousel.current--fellows').append("<div class='usa-card__container item'>" + "<a href=fellow/" 
 + current.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
 + current.img + "'alt='" + current.alt + "' />" + "</div>" + "</div>" 
 + "<div class='usa-card__body'>" + "<h2 class='margin-bottom-0 h3'>" 
@@ -809,7 +811,7 @@ var alumniData = {
 alumniData.data.push(newAlumniFellowsArray);  
 
 alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-senior--fellows').append("<div class='usa-card__container item'>"
-+ "<a href=../fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
++ "<a href=../fellow/" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
 + alumni.img + "'alt='" + alumni.alt + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='margin-bottom-0 h3'>" + alumni.alt + "</h2>" + "<h3 class='margin-y-0 h4'>" + alumni.title + "</h3>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_location2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
 
 
@@ -831,5 +833,5 @@ var alumniData = {
 alumniData.data.push(newAlumniFellowsArray);  
 
 alumniData.data[0].forEach(alumni => $('.owl-carousel.alumni-erf--fellows').append("<div class='usa-card__container item'>" 
-+ "<a href=../fellow/index.html?fellow=" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
++ "<a href=../fellow/" + alumni.id + " />" + "<div class='usa-card__media' >" + "<div class=''>" + "<img src='" 
 + alumni.img + "'alt='" + alumni.alt + "' />" + "</div>" + "</div>" + "<div class='usa-card__body'>" + "<h2 class='margin-bottom-0 h3'>" + alumni.alt + "</h2>" + "<h3 class='margin-y-0 h4'>" + alumni.title + "</h3>" + "<p class='job'>" + alumni.job + "</p>" + "<p class='job_description'>" + alumni.job_description + "</p>" + "<p class='office_title margin-bottom-0'>" + alumni.office_title + "</p>" + "<p class='office_location margin-top-0'>" + alumni.office_location + "</p>" + "<p class='office_title2 margin-bottom-0'>" + alumni.office_title2 + "</p>" + "<p class='office_locatio2 margin-top-0'>" + alumni.office_location2 + "</p>" + "</div>" + "</a>" + "</div>"));
