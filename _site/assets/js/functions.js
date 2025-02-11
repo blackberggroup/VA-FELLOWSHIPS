@@ -146,9 +146,11 @@ if ($('.owl-carousel.home').length > 0) {
 }
 
 
-if ($('.owl-stage').length > 0) {
-    $(".owl-stage").addClass("display-flex flex-align-stretch");
-}
+$('.owl-carousel').on('initialized.owl.carousel', function() {
+    if ($('.owl-stage').length > 0) {
+        $(".owl-stage").addClass("display-flex flex-align-stretch");
+    }
+});
 
 // Accessibility functions for owl-carousel plugin
 $( document ).ready(function() {
